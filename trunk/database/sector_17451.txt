@@ -1,0 +1,8 @@
+; sector_17451.txt
+;
+[STATION-17451]
+name=Trader's Fort
+system=Aragoth
+sector=Ragnarok
+greetings=Now arriving at Trader's Fort Station.
+launch=This is Trader's Fort Station Control... you are cleared for departure.

@@ -1,0 +1,13 @@
+; sector_4095.txt
+;
+[SECTOR-4095]
+name=Arduinne Gas Cloud (Arduinne Planet)
+system=Tau Ceti
+sector=Arduinne Gas Cloud (Arduinne Planet)
+greetings=We have entered Arduinne Gas Cloud (Arduinne Planet) (Tau Ceti System).
+
+
+
+
+
+

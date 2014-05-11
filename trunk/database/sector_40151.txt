@@ -1,0 +1,8 @@
+; sector_40151.txt
+;
+[STATION-40151]
+name=Somerled Station
+system=Tau Ceti
+sector=New Edinburgh
+greetings=Now docking at Somerled Station.
+launch=Somerled Station: You are cleared for departure.

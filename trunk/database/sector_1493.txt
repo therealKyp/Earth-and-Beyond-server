@@ -1,0 +1,11 @@
+; sector_1493.txt
+;
+[SECTOR-1493]
+name=Jagerstadt (Planet Zweihander)
+system=Alpha Centauri
+sector=Jagerstadt
+greetings=We have entered Jagerstadt Sector (Alpha Centauri System).
+
+[STATION-14931]
+station= Jagerstadt City
+dock= Jagerstadt City CONTROL: Docking clearance granted.

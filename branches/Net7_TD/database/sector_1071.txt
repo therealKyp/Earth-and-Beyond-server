@@ -1,0 +1,11 @@
+; sector_1071.txt
+;
+[SECTOR-1071]
+name=Saturn
+system=Sol
+sector=Saturn
+greetings=We have entered Saturn Sector (Sol System).
+
+[STATION-10711]
+station=Net-7 SOL
+dock=You are cleared for docking at Net-7 SOL.

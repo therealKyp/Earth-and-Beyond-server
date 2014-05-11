@@ -1,0 +1,247 @@
+Attached ClientDetours.dll to client.exe process
+Earth and Beyond
+Build: Release Tue Mar 16 2004 05:46:17 PM
+
+initializing the asset manager... 
+ok [done initializing the asset manager] (0 ms)
+initializing WW3D... 
+ok [done initializing WW3D] (241 ms)
+starting message server... 
+socket(af=AF_INET, type=SOCK_STREAM, protocol=IPPROTO_IP) returned SOCKET 1800
+ok [done starting message server] (8 ms)
+initializing input handler... 
+ShowCursor(FALSE) returned -1
+
+ok [done initializing input handler] (4 ms)
+starting winsock services... 
+ok [done starting winsock services] (0 ms)
+initializing render state class... 
+ok [done initializing render state class] (0 ms)
+initializing display handler... 
+ok [done initializing display handler] (92 ms)
+initializing options manager... 
+ok [done initializing options manager] (0 ms)
+initializing sound library... 
+ok [done initializing sound library] (316 ms)
+initializing sound manager... 
+ok [done initializing sound manager] (0 ms)
+adding message server to kernel... 
+ok [done adding message server to kernel] (0 ms)
+starting up font system... 
+ok [done starting up font system] (107 ms)
+starting up Personality manager system... 
+ok [done starting up Personality manager system] (29 ms)
+starting up Buff Database system... 
+ok [done starting up Buff Database system] (5 ms)
+starting up Tutorial Manager system... 
+Changed debug_flag from 0 to 1
+fopen("tutorial.dat", "rb") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+ok [done starting up Tutorial Manager system] (3 ms)
+initializing starbase lights manager... 
+ok [done initializing starbase lights manager] (13 ms)
+starting menu task... 
+ok [done starting menu task] (0 ms)
+MenuTask: accepting focus.
+connecting to 127.0.0.1 on port 3805... 
+gethostname(name='other', namelen='256') succeeded
+gethostbyname(name='other') succeeded, ip = 192.168.4.103
+inet_ntoa(in=0x6704a8c0) returned '192.168.4.103'
+done [done connecting to 127.0.0.1 on port 3805] (5 ms)
+socket(af=AF_INET, type=SOCK_STREAM, protocol=IPPROTO_IP) returned SOCKET 1164
+MenuTask: Starting Login Task.
+starting login task... 
+MenuTask: yielding focus.
+LoginTask: accepting focus.
+ok [done starting login task] (0 ms)
+connect(s=1164, name=0x0012e9a8, namelen=16) returned failure, error=10035
+    ip address = 127.0.0.1  port=3805
+select(nfds=n/a, readfds=0x00000000, writefds=0x0012eabc, exceptfds=0x0012e9b8, timeout=0.000) returned 1
+writefds[0] = SOCKET 1164
+>> VersionResponse { Status=0 }
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+socket(af=23, type=SOCK_DGRAM, protocol=IPPROTO_IP) returned SOCKET -1
+inet_ntoa(in=0x0100007f) returned '127.0.0.1'
+socket(af=AF_INET, type=SOCK_STREAM, protocol=IPPROTO_TCP) returned SOCKET 868
+inet_ntoa(in=0x0100007f) returned '127.0.0.1'
+connect(s=868, name=0x001d283c, namelen=16) returned success
+    ip address = 127.0.0.1  port=443
+inet_ntoa(in=0x0100007f) returned '127.0.0.1'
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+>> Avatar List
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+fopen("tutorial.dat", "rb") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+>> Global Ticket
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+LoginTask: removing self.
+LoginTask: yielding focus.
+closesocket(s=1164) successful
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+inet_ntoa(in=0x0100007f) returned '127.0.0.1'
+connecting to 127.0.0.1 on port 3801... 
+socket(af=AF_INET, type=SOCK_STREAM, protocol=IPPROTO_IP) returned SOCKET 1164
+connect(s=1164, name=0x0012e88c, namelen=16) returned failure, error=10035
+    ip address = 127.0.0.1  port=3801
+select(nfds=n/a, readfds=0x00000000, writefds=0x0012e980, exceptfds=0x00000000, timeout=15.000) returned 1
+writefds[0] = SOCKET 1164
+select(nfds=n/a, readfds=0x00000000, writefds=0x0012e9a0, exceptfds=0x0012e89c, timeout=0.000) returned 1
+writefds[0] = SOCKET 1164
+done [done connecting to 127.0.0.1 on port 3801] (110 ms)
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+>> Client_Redirect {IP=100007f Port=-21491}
+fopen("enb_client.log", "a") returned FILE * 0x00bcfb08
+fclose(f=0x00bcfb08) returned 0
+inet_ntoa(in=0x0100007f) returned '127.0.0.1'
+connecting to 127.0.0.1 on port 3500... 
+socket(af=AF_INET, type=SOCK_STREAM, protocol=IPPROTO_IP) returned SOCKET 488
+connect(s=488, name=0x0012e7e0, namelen=16) returned failure, error=10035
+    ip address = 127.0.0.1  port=3500
+select(nfds=n/a, readfds=0x00000000, writefds=0x0012e8d4, exceptfds=0x00000000, timeout=15.000) returned 1
+writefds[0] = SOCKET 488
+select(nfds=n/a, readfds=0x00000000, writefds=0x0012e8f4, exceptfds=0x0012e7f0, timeout=0.000) returned 1
+writefds[0] = SOCKET 488
+done [done connecting to 127.0.0.1 on port 3500] (66 ms)
+>> Set_Client_Time {ClientSent=19867 ServerReceived=252533765 ServerSent=252533765 ClientReceived=19877}
+>> Item_Base {ItemTemplateID=4369 Category=11 Subcategory=110 ItemType=11 Name=Elephant Hide L9 Cost=1807040 MaxStack=1 TechLevel=9 EffectUsage=0  GameBasset=623 IconBaseAsset=707 Flags=0}
+>> Item_Base {ItemTemplateID=6476 Category=10 Subcategory=100 ItemType=14 Name=Pitbull Jr. Cost=640934 MaxStack=1 TechLevel=8 EffectUsage=0  GameBasset=338 IconBaseAsset=785 Flags=0}
+>> Item_Base {ItemTemplateID=4403 Category=11 Subcategory=110 ItemType=11 Name=Leopard Spots L8 Cost=735800 MaxStack=1 TechLevel=8 EffectUsage=0  GameBasset=623 IconBaseAsset=707 Flags=0}
+>> Item_Base {ItemTemplateID=8657 Category=10 Subcategory=100 ItemType=14 Name=Prototype B 8 Cost=682500 MaxStack=1 TechLevel=8 EffectUsage=0  GameBasset=760 IconBaseAsset=772 Flags=80}
+>> Item_Base {ItemTemplateID=4765 Category=11 Subcategory=110 ItemType=11 Name=Hercules Major IESS 7 Cost=345814 MaxStack=1 TechLevel=7 EffectUsage=0  GameBasset=983 IconBaseAsset=998 Flags=0}
+>> Item_Base {ItemTemplateID=4732 Category=11 Subcategory=110 ItemType=11 Name=Sculptor Major IPS 7 Cost=328906 MaxStack=1 TechLevel=7 EffectUsage=0  GameBasset=1006 IconBaseAsset=1015 Flags=0}
+>> Item_Base {ItemTemplateID=4700 Category=11 Subcategory=110 ItemType=11 Name=Phoenix Major BTE 7 Cost=328906 MaxStack=1 TechLevel=7 EffectUsage=0  GameBasset=623 IconBaseAsset=707 Flags=0}
+>> Item_Base {ItemTemplateID=4835 Category=12 Subcategory=120 ItemType=7 Name=Veil NGC 7 Cost=301866 MaxStack=1 TechLevel=7 EffectUsage=0  GameBasset=860 IconBaseAsset=878 Flags=0}
+>> Item_Base {ItemTemplateID=4275 Category=10 Subcategory=100 ItemType=14 Name=White Tiger Cost=277979 MaxStack=1 TechLevel=7 EffectUsage=0  GameBasset=762 IconBaseAsset=774 Flags=0}
+>> Item_Base {ItemTemplateID=8656 Category=10 Subcategory=100 ItemType=14 Name=Prototype B 7 Cost=273000 MaxStack=1 TechLevel=7 EffectUsage=0  GameBasset=760 IconBaseAsset=772 Flags=80}
+>> Item_Base {ItemTemplateID=4162 Category=12 Subcategory=120 ItemType=7 Name=Draco UGC 6 Cost=134104 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=854 IconBaseAsset=872 Flags=0}
+>> Item_Base {ItemTemplateID=4063 Category=12 Subcategory=122 ItemType=2 Name=SH-X2 "Shepherd" Mk. VI Cost=172003 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=889 IconBaseAsset=910 Flags=0}
+>> Item_Base {ItemTemplateID=4731 Category=11 Subcategory=110 ItemType=11 Name=Sculptor Minor IPS 6 Cost=124582 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=1003 IconBaseAsset=1012 Flags=0}
+>> Item_Base {ItemTemplateID=4699 Category=11 Subcategory=110 ItemType=11 Name=Phoenix Minor BTE 6 Cost=120848 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=595 IconBaseAsset=679 Flags=0}
+>> Item_Base {ItemTemplateID=1130 Category=11 Subcategory=110 ItemType=11 Name=Insatiable Blood Cost=117544 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=1005 IconBaseAsset=1014 Flags=0}
+>> Item_Base {ItemTemplateID=4382 Category=11 Subcategory=110 ItemType=11 Name=Chameleon Skin L6 Cost=108794 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=595 IconBaseAsset=679 Flags=0}
+>> Item_Base {ItemTemplateID=4586 Category=11 Subcategory=110 ItemType=11 Name=DV-PR-X3 "Buckler" Mk. VI Cost=108382 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=973 IconBaseAsset=976 Flags=0}
+>> Item_Base {ItemTemplateID=4274 Category=10 Subcategory=100 ItemType=14 Name=Bengal Tiger Cost=109499 MaxStack=1 TechLevel=6 EffectUsage=0  GameBasset=762 IconBaseAsset=774 Flags=0}
+>> Item_Base {ItemTemplateID=4791 Category=11 Subcategory=110 ItemType=11 Name=Scutums Minor CSR 5 Cost=51574 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=595 IconBaseAsset=679 Flags=0}
+>> Item_Base {ItemTemplateID=4698 Category=11 Subcategory=110 ItemType=11 Name=Phoenix Minor BTE 5 Cost=47840 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=595 IconBaseAsset=679 Flags=0}
+>> Item_Base {ItemTemplateID=6270 Category=11 Subcategory=110 ItemType=11 Name=Puk's Pride Cost=62400 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=549 IconBaseAsset=651 Flags=84}
+>> Item_Base {ItemTemplateID=6273 Category=11 Subcategory=110 ItemType=11 Name=Taniwha's Pride Cost=62400 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=327 IconBaseAsset=1011 Flags=84}
+>> Item_Base {ItemTemplateID=4772 Category=11 Subcategory=110 ItemType=11 Name=Fornax Australis Minor RE 5 Cost=51574 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=595 IconBaseAsset=679 Flags=0}
+>> Item_Base {ItemTemplateID=4830 Category=11 Subcategory=110 ItemType=11 Name=Monoceros Minor RE 5 Cost=51574 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=973 IconBaseAsset=976 Flags=0}
+>> Item_Base {ItemTemplateID=4730 Category=11 Subcategory=110 ItemType=11 Name=Sculptor Minor IPS 5 Cost=51574 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=1003 IconBaseAsset=1012 Flags=0}
+>> Item_Base {ItemTemplateID=3573 Category=12 Subcategory=122 ItemType=2 Name=Beautiful Kimono Shield M5 Cost=50675 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=885 IconBaseAsset=906 Flags=0}
+>> Item_Base {ItemTemplateID=6793 Category=10 Subcategory=100 ItemType=14 Name=Advanced Drone Plasma Laser Cost=43680 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=540 IconBaseAsset=642 Flags=80}
+>> Item_Base {ItemTemplateID=4585 Category=11 Subcategory=110 ItemType=11 Name=DV-PR-X3 "Buckler" Mk. V Cost=35374 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=973 IconBaseAsset=976 Flags=0}
+>> Item_Base {ItemTemplateID=3615 Category=10 Subcategory=100 ItemType=14 Name=White Kirin EMP Laser M4 Cost=22182 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=339 IconBaseAsset=786 Flags=0}
+>> Item_Base {ItemTemplateID=4160 Category=12 Subcategory=120 ItemType=7 Name=Draco UGC 4 Cost=20680 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=854 IconBaseAsset=872 Flags=0}
+>> Item_Base {ItemTemplateID=4061 Category=12 Subcategory=122 ItemType=2 Name=SH-X2 "Shepherd" Mk. IV Cost=26402 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=889 IconBaseAsset=910 Flags=0}
+>> Item_Base {ItemTemplateID=4434 Category=11 Subcategory=110 ItemType=11 Name=aa Bahtu Na Ne Cost=24960 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=575 IconBaseAsset=733 Flags=c0}
+>> Item_Base {ItemTemplateID=2921 Category=12 Subcategory=120 ItemType=7 Name=Source of Inspiration Cost=24960 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=860 IconBaseAsset=878 Flags=85}
+>> Item_Base {ItemTemplateID=8197 Category=-1 Subcategory=-1 ItemType=13 Name=Hunk of Blubber Cost=21840 MaxStack=120 TechLevel=6 EffectUsage=0  GameBasset=1329 IconBaseAsset=2079 Flags=80}
+>> Item_Base {ItemTemplateID=1675 Category=52 Subcategory=160 ItemType=13 Name=CE3K PCX Cost=20944 MaxStack=240 TechLevel=6 EffectUsage=0  GameBasset=103 IconBaseAsset=1473 Flags=0}
+>> Item_Base {ItemTemplateID=2951 Category=11 Subcategory=110 ItemType=11 Name=Radiant Warp Kaza Cost=19964 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=327 IconBaseAsset=1011 Flags=40}
+>> Item_Base {ItemTemplateID=4181 Category=12 Subcategory=121 ItemType=6 Name=Halley DDO 40 Cost=19986 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=935 IconBaseAsset=960 Flags=0}
+>> Item_Base {ItemTemplateID=2979 Category=12 Subcategory=122 ItemType=2 Name=Black Dragonplate Cost=19320 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=884 IconBaseAsset=905 Flags=0}
+>> Item_Base {ItemTemplateID=4771 Category=11 Subcategory=110 ItemType=11 Name=Fornax Australis II RE 4 Cost=19226 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=549 IconBaseAsset=651 Flags=0}
+>> Item_Base {ItemTemplateID=4783 Category=11 Subcategory=110 ItemType=11 Name=Sextans II ISR 4 Cost=18960 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=549 IconBaseAsset=651 Flags=0}
+>> Item_Base {ItemTemplateID=4720 Category=11 Subcategory=110 ItemType=11 Name=Corona Australis II PR 4 Cost=18494 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=549 IconBaseAsset=651 Flags=0}
+>> Item_Base {ItemTemplateID=4762 Category=11 Subcategory=110 ItemType=11 Name=Hercules II IESS 4 Cost=18960 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=363 IconBaseAsset=988 Flags=0}
+>> Item_Base {ItemTemplateID=4428 Category=11 Subcategory=110 ItemType=11 Name=Cat's Paw L4 Cost=17505 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=548 IconBaseAsset=650 Flags=0}
+>> Item_Base {ItemTemplateID=6791 Category=10 Subcategory=100 ItemType=14 Name=Drone Plasma Laser Cost=17460 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=540 IconBaseAsset=642 Flags=80}
+>> Item_Base {ItemTemplateID=8662 Category=12 Subcategory=121 ItemType=6 Name=Prototype EM 4 Cost=17460 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=937 IconBaseAsset=962 Flags=80}
+>> Item_Base {ItemTemplateID=4278 Category=10 Subcategory=100 ItemType=14 Name=Ocelot L4 Cost=12472 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=338 IconBaseAsset=785 Flags=0}
+>> Item_Base {ItemTemplateID=7624 Category=-1 Subcategory=-1 ItemType=18 Name=Terminal Override v5.0 Cost=8736 MaxStack=240 TechLevel=5 EffectUsage=0  GameBasset=1004 IconBaseAsset=1013 Flags=80}
+>> Item_Base {ItemTemplateID=3564 Category=12 Subcategory=122 ItemType=2 Name=Sekiwake Sumo Shield M3 Cost=8431 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=357 IconBaseAsset=899 Flags=0}
+>> Item_Base {ItemTemplateID=4770 Category=11 Subcategory=110 ItemType=11 Name=Fornax Australis II RE 3 Cost=7826 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=549 IconBaseAsset=651 Flags=0}
+>> Item_Base {ItemTemplateID=4828 Category=11 Subcategory=110 ItemType=11 Name=Monoceros II RE 3 Cost=7826 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=335 IconBaseAsset=975 Flags=0}
+>> Item_Base {ItemTemplateID=4285 Category=10 Subcategory=100 ItemType=14 Name=Dingo L3 Cost=5694 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=338 IconBaseAsset=785 Flags=0}
+>> Item_Base {ItemTemplateID=4782 Category=11 Subcategory=110 ItemType=11 Name=Sextans II ISR 3 Cost=7560 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=549 IconBaseAsset=651 Flags=0}
+>> Item_Base {ItemTemplateID=4728 Category=11 Subcategory=110 ItemType=11 Name=Sculptor II IPS 3 Cost=7426 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=324 IconBaseAsset=1009 Flags=0}
+>> Item_Base {ItemTemplateID=4277 Category=10 Subcategory=100 ItemType=14 Name=Ocelot L3 Cost=5344 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=338 IconBaseAsset=785 Flags=0}
+>> Item_Base {ItemTemplateID=5737 Category=11 Subcategory=110 ItemType=11 Name=Novice's Ward Cost=6960 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=593 IconBaseAsset=677 Flags=80}
+>> Item_Base {ItemTemplateID=4890 Category=11 Subcategory=110 ItemType=11 Name=Harpy's Grip Cost=6105 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=324 IconBaseAsset=1009 Flags=0}
+>> Item_Base {ItemTemplateID=4599 Category=11 Subcategory=110 ItemType=11 Name=DV-WR-X1 "Lazarus" Mk. III Cost=6105 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=548 IconBaseAsset=650 Flags=0}
+>> Item_Base {ItemTemplateID=2842 Category=11 Subcategory=110 ItemType=11 Name=Advanced Drone Detector Array Cost=5624 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=548 IconBaseAsset=650 Flags=0}
+>> Item_Base {ItemTemplateID=1165 Category=11 Subcategory=110 ItemType=11 Name=DataCom Cost=2786 MaxStack=1 TechLevel=2 EffectUsage=0  GameBasset=71 IconBaseAsset=925 Flags=0}
+>> Item_Base {ItemTemplateID=1301 Category=-1 Subcategory=-1 ItemType=13 Name=Demeter's Tears Cost=2665 MaxStack=300 TechLevel=7 EffectUsage=0  GameBasset=115 IconBaseAsset=1485 Flags=80}
+>> Item_Base {ItemTemplateID=6968 Category=-1 Subcategory=-1 ItemType=13 Name=Conorite Cost=2470 MaxStack=300 TechLevel=7 EffectUsage=0  GameBasset=113 IconBaseAsset=1483 Flags=80}
+>> Item_Base {ItemTemplateID=1292 Category=-1 Subcategory=-1 ItemType=13 Name=Tantalum Ore Cost=1690 MaxStack=300 TechLevel=7 EffectUsage=0  GameBasset=113 IconBaseAsset=1483 Flags=80}
+>> Item_Base {ItemTemplateID=6797 Category=-1 Subcategory=-1 ItemType=13 Name=Chavez Herbal Remedy Cost=1392 MaxStack=20 TechLevel=3 EffectUsage=0  GameBasset=30 IconBaseAsset=148 Flags=80}
+>> Item_Base {ItemTemplateID=1289 Category=-1 Subcategory=-1 ItemType=13 Name=Discordite Cost=1300 MaxStack=300 TechLevel=6 EffectUsage=0  GameBasset=190 IconBaseAsset=191 Flags=80}
+>> Item_Base {ItemTemplateID=1281 Category=-1 Subcategory=-1 ItemType=13 Name=Platinum Ore Cost=988 MaxStack=300 TechLevel=6 EffectUsage=0  GameBasset=113 IconBaseAsset=1483 Flags=80}
+>> Item_Base {ItemTemplateID=1280 Category=-1 Subcategory=-1 ItemType=13 Name=Mirandium Ore Cost=910 MaxStack=300 TechLevel=6 EffectUsage=0  GameBasset=113 IconBaseAsset=1483 Flags=80}
+>> Item_Base {ItemTemplateID=1275 Category=-1 Subcategory=-1 ItemType=13 Name=Oxium Ore Cost=754 MaxStack=300 TechLevel=6 EffectUsage=0  GameBasset=113 IconBaseAsset=1483 Flags=80}
+>> Item_Base {ItemTemplateID=7731 Category=-1 Subcategory=-1 ItemType=13 Name=Manifesto Epilogue Cost=54 MaxStack=1 TechLevel=1 EffectUsage=0  GameBasset=973 IconBaseAsset=976 Flags=c0}
+>> Item_Base {ItemTemplateID=707 Category=-1 Subcategory=-1 ItemType=13 Name=Nitrogen Cost=8 MaxStack=300 TechLevel=1 EffectUsage=0  GameBasset=192 IconBaseAsset=193 Flags=80}
+>> Item_Base {ItemTemplateID=706 Category=-1 Subcategory=-1 ItemType=13 Name=Hydrogen Cost=7 MaxStack=300 TechLevel=1 EffectUsage=0  GameBasset=192 IconBaseAsset=193 Flags=80}
+>> Item_Base {ItemTemplateID=359 Category=-1 Subcategory=-1 ItemType=13 Name=Sand Cost=7 MaxStack=300 TechLevel=1 EffectUsage=0  GameBasset=119 IconBaseAsset=1489 Flags=80}
+>> Item_Base {ItemTemplateID=7905 Category=-1 Subcategory=-1 ItemType=13 Name=Data Fragment LL Cost=1 MaxStack=240 TechLevel=4 EffectUsage=0  GameBasset=1335 IconBaseAsset=1381 Flags=80}
+>> Item_Base {ItemTemplateID=4829 Category=11 Subcategory=110 ItemType=11 Name=Monoceros II RE 4 Cost=19226 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=335 IconBaseAsset=975 Flags=0}
+>> Item_Base {ItemTemplateID=2061 Category=10 Subcategory=100 ItemType=14 Name=Angry Blue Gaze Cost=3586 MaxStack=1 TechLevel=2 EffectUsage=0  GameBasset=70 IconBaseAsset=782 Flags=0}
+>> Item_Base {ItemTemplateID=4161 Category=12 Subcategory=120 ItemType=7 Name=Draco UGC 5 Cost=53608 MaxStack=1 TechLevel=5 EffectUsage=0  GameBasset=854 IconBaseAsset=872 Flags=0}
+>> Item_Base {ItemTemplateID=4600 Category=11 Subcategory=110 ItemType=11 Name=DV-WR-X1 "Lazarus" Mk. IV Cost=13905 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=548 IconBaseAsset=650 Flags=0}
+>> Item_Base {ItemTemplateID=4176 Category=12 Subcategory=121 ItemType=6 Name=Mercurius IC30 Cost=8831 MaxStack=1 TechLevel=3 EffectUsage=0  GameBasset=930 IconBaseAsset=955 Flags=0}
+>> Item_Base {ItemTemplateID=4729 Category=11 Subcategory=110 ItemType=11 Name=Sculptor II IPS 4 Cost=18826 MaxStack=1 TechLevel=4 EffectUsage=0  GameBasset=324 IconBaseAsset=1009 Flags=0}
+>> Manufacture Set ManufactureID = 9915820
+>> GalaxyMapPacketClass {Type=4 Size=41 Channel(PlayerID)=0 Data=}
+>> Aux_Data {GameID=0 Size=7523 Flags=2ffcf601}
+>> Create {GameID=9915801 Scale=1.000000 BaseAsset=1616 Type=1 HSV=0.000000 0.000000 0.000000}
+>> Sub Parts {GameID=9915801 Count=4}
+>> Client_Avatar {AvatarID=9915801}
+>> Client_Ship {ShipID=9915801}
+>> Avatar Description {GameID=9915801 AvatarName=Vector}
+>> Colorization {GameID=9915801 NumRegions=4}
+>> Decal {GameID=9915801 NumDecals=2}
+>> NameDecal {GameID=9915801 Name=Revenge of the Jenquai RGB=1.000000 1.000000 1.000000}
+>> Relationship {ObjectID=9915801, Reaction=Friendly, IsAttacking=false}
+>> Advanced_Positional_Update {GameID=9915801 TimeStamp=621316600 Position={-50408.269531 87756.773438 591.991089} Orientation={0.000000 0.000000 -0.381420 0.924402} CurrentSpeed=0.000000 SetSpeed=0.000000 Acceleration=0.000000 RotY=0.000000 DesiredY=-3.141593 RotZ=0.000000 DesiredZ=-1000.000000 ImpartedVelocity={0.000000 0.000000 0.000000) ImpartedSpin=0.000000 ImpartedRoll=0.000000 ImpartedPitch=0.000000 MovementID=4 UpdatePeriod=500}
+>> Aux_Data {GameID=9915801 Size=1504 Flags=efff601}
+>> Create {GameID=9915820 Scale=1.000000 BaseAsset=-1 Type=39 HSV=0.000000 0.000000 0.000000}
+>> Relationship {ObjectID=9915820, Reaction=Friendly, IsAttacking=false}
+>> Constant_Positional_Update {GameID=9915820 Position={0.000000 0.000000 0.000000}}
+>> Aux_Data {GameID=9915820 Size=820 Flags=7471f601}
+>> Message_String {String=Now docking at Nishino Research Facility, training grounds of the Sha'ha'dem. Size=78 Color=5}
+>> Starbase_Set {StarbaseID=10521 Action=0 ExitMode=SectorSpace}
+>> LoungeNPC
+>> Start {PlayerID=5150}
+>> ClientChatEventPacketClass
+>> Logoff Confirmation
+closesocket(s=1164) successful
+closesocket(s=488) successful
+shutting down kernel... 
+ok [done shutting down kernel] (15 ms)
+shutting down starbase lights manager... 
+ok [done shutting down starbase lights manager] (2 ms)
+shutting down tutorial manager system... 
+ok [done shutting down tutorial manager system] (0 ms)
+shutting down buff database system... 
+ok [done shutting down buff database system] (0 ms)
+shutting down Personality manager system... 
+ok [done shutting down Personality manager system] (0 ms)
+shutting down font system... 
+ok [done shutting down font system] (5 ms)
+shutting down sound manager... 
+ok [done shutting down sound manager] (0 ms)
+shutting down sound library... 
+ok [done shutting down sound library] (35 ms)
+shutting down options manager... 
+ok [done shutting down options manager] (0 ms)
+freeing assets... 
+ok [done freeing assets] (1 ms)
+shutting down the asset manager... 
+ok [done shutting down the asset manager] (0 ms)
+shutting down display handler... 
+ok [done shutting down display handler] (25 ms)
+shutting down render state class... 
+ok [done shutting down render state class] (0 ms)
+uninitializing input handler... 
+ok [done uninitializing input handler] (0 ms)
+shutting down winsock services... 
+ok [done shutting down winsock services] (0 ms)

@@ -1,0 +1,13 @@
+; sector_4545.txt
+;
+[SECTOR-4545]
+name=Shield
+system=Beta Hydri
+sector=Shield
+greetings=We have entered Shield Arena Sector (Beta Hydri System).
+
+
+
+
+
+

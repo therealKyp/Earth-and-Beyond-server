@@ -1,0 +1,13 @@
+; sector_4205.txt
+;
+[SECTOR-4205]
+name=Mazzaroth Maelstrom
+system=Mazzaroth Shear
+sector=Mazzaroth Maelstrom
+greetings=We have entered Mazzaroth Maelstrom Sector (Mazzaroth Shear).
+
+
+
+
+
+

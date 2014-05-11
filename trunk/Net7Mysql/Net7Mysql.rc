@@ -1,0 +1,325 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Net7Mysql.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Net7Mysql.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Net7Mysql"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Net7Mysql Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TAB1 DIALOG DISCARDABLE  0, 0, 455, 185
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "UserName:",IDC_STATIC,16,10,54,11
+    LTEXT           "Account Type:",IDC_STATIC,16,25,54,11
+    LTEXT           "Password:",IDC_STATIC,16,41,54,11
+    EDITTEXT        IDC_PASSWORD,70,41,125,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Update/Add User",IDC_ADD_USER,16,73,62,15
+    PUSHBUTTON      "Load Accounts",IDC_UPDATE_USERS,207,10,54,15
+    PUSHBUTTON      "Del User",IDC_DELETE,83,73,54,15
+    COMBOBOX        IDC_ACCOUNT_TYPE,70,25,125,88,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_USER,70,10,125,103,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_LOGIN,70,59,125,12
+    LTEXT           "LastLogin:",IDC_STATIC,16,59,54,14
+END
+
+IDD_NET7MYSQL_DIALOG DIALOGEX 0, 0, 491, 346
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_APPWINDOW
+CAPTION "Net7Mysql"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_USER,62,45,122,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,62,60,122,15,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Server:",IDC_STATIC,24,15,38,13
+    LTEXT           "Password:",IDC_STATIC,24,60,38,13
+    LTEXT           "User:",IDC_STATIC,24,45,38,13
+    PUSHBUTTON      "Connect",IDC_CONNECT,62,75,57,16
+    EDITTEXT        IDC_DATABASE,62,30,122,15,ES_AUTOHSCROLL
+    LTEXT           "Database:",IDC_STATIC,24,30,38,13
+    EDITTEXT        IDC_SQL_FILE,62,95,122,15,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Browse",IDC_BROWSE,184,95,53,14
+    PUSHBUTTON      "Dump SQL",IDC_DUMP_SQL,241,95,51,15
+    PUSHBUTTON      "Drop Table",IDC_DELETE_TABLE,12,95,50,14
+    CONTROL         "Tab1",IDC_TABS,"SysTabControl32",0x0,7,124,477,215
+    COMBOBOX        IDC_SERVER,62,15,122,160,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TAB3 DIALOG DISCARDABLE  0, 0, 455, 185
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DAT_FILE,49,6,122,15,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Browse",IDC_BROWSE,171,6,53,14
+    PUSHBUTTON      "Add to MySQL",IDC_ADD_MYSQL,67,26,53,14
+    LTEXT           "NPCs:",IDC_STATIC,49,47,27,11
+    LTEXT           "Rooms:",IDC_STATIC,49,58,27,11
+    LTEXT           "Terms:",IDC_STATIC,49,69,27,11
+    LTEXT           "",IDC_TERMS,76,69,57,12
+    LTEXT           "",IDC_NPCS,76,46,57,12
+    LTEXT           "",IDC_ROOMS,76,58,57,12
+    EDITTEXT        IDC_NPC,49,82,251,32,ES_MULTILINE | ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_VSCROLL
+END
+
+IDD_ITEMS DIALOG DISCARDABLE  0, 0, 455, 185
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,22,113,318,58
+    LTEXT           "Item Name:",IDC_STATIC,7,13,61,8
+    EDITTEXT        IDC_ITEM_NAME,68,7,166,14,ES_AUTOHSCROLL
+    LTEXT           "Description:",IDC_STATIC,7,26,61,10
+    EDITTEXT        IDC_EDIT2,68,21,338,15,ES_AUTOHSCROLL | ES_WANTRETURN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Net7Mysql MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Net7Mysql\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Net7Mysql.EXE\0"
+            VALUE "ProductName", "Net7Mysql Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TAB1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 278
+        VERTGUIDE, 16
+        VERTGUIDE, 70
+        VERTGUIDE, 195
+        BOTTOMMARGIN, 88
+        HORZGUIDE, 10
+        HORZGUIDE, 25
+        HORZGUIDE, 41
+        HORZGUIDE, 59
+        HORZGUIDE, 73
+    END
+
+    IDD_NET7MYSQL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 484
+        VERTGUIDE, 62
+        VERTGUIDE, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 339
+        HORZGUIDE, 15
+        HORZGUIDE, 30
+        HORZGUIDE, 45
+        HORZGUIDE, 60
+        HORZGUIDE, 75
+        HORZGUIDE, 95
+    END
+
+    IDD_TAB3, DIALOG
+    BEGIN
+        RIGHTMARGIN, 300
+        VERTGUIDE, 49
+        VERTGUIDE, 76
+        BOTTOMMARGIN, 114
+        HORZGUIDE, 58
+        HORZGUIDE, 69
+    END
+
+    IDD_ITEMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        VERTGUIDE, 68
+        VERTGUIDE, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+        HORZGUIDE, 21
+        HORZGUIDE, 36
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "&Dump SQL",                   IDC_MENU_DUMP_SQL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Net7Mysql..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Net7Mysql.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

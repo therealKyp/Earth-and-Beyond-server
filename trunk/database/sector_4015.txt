@@ -1,0 +1,12 @@
+; sector_4015.txt
+;
+[SECTOR-4015]
+name=New Edinburgh
+system=Tau Ceti
+sector=New Edinburgh
+greetings=We have entered New Edinburgh Sector (Tau Ceti System).
+
+
+[STATION-40151]
+station= Somerled Station
+dock= Somerled CONTROL: Docking clearance granted.

@@ -1,0 +1,11 @@
+; sector_1115.txt
+;
+[SECTOR-nr]
+name=Aganju
+system=61 Cygni
+sector=Aganju
+greetings=We have entered Aganju Sector (61 Cygni System).
+
+[STATION-11151]
+station= Kinshasa-Mbali
+dock= Kinshasa-Mbali CONTROL: Landing clearance granted.

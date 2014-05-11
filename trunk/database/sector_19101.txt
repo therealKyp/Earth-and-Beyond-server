@@ -1,0 +1,8 @@
+; sector_19101.txt
+;
+[STATION-19101]
+name=Paren Station
+system=Capella
+sector=Kailaasa
+greetings=Now docking at Paren Station.
+launch=Paren Station: You are cleared for departure.

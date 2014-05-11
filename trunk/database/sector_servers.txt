@@ -1,0 +1,18 @@
+; sector_servers.txt
+;
+; This file contains a list of all registered Sector Servers
+;
+; Fields:
+;	- IP Address
+;	- First Port
+;   - Max Number of Sectors
+;	- Username
+;   - Toon name to be listed in the credits
+;	- Email Address,
+;	- Server Description
+;
+127.0.0.1,3500,30,VectoR,VectoR.360,Vector.360@gmail.com,VectoR's single-player sector server
+192.168.1.101,3500,30,VectoR,VectoR.360,Vector.360@gmail.com,VectoR's multi-player sector server
+192.168.1.102,3500,30,VectoR,VectoR.360,Vector.360@gmail.com,VectoR's multi-player sector server
+192.168.1.102,3500,30,VectoR,VectoR.360,Vector.360@gmail.com,VectoR's multi-player sector server
+192.168.1.108,3500,30,VectoR,VectoR.360,Vector.360@gmail.com,VectoR's VMware test server

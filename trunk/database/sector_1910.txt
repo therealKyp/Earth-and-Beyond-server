@@ -1,0 +1,12 @@
+; sector_1910.txt
+;
+[SECTOR-1910]
+name=Kailaasa
+system=Capella
+sector=Kailaasa
+greetings=We have entered Kailaasa Sector (Capella System).
+
+
+[STATION-19101]
+station= Paren Station
+dock= Paren Station CONTROL: Docking clearance granted.

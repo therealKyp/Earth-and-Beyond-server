@@ -1,0 +1,2 @@
+cd \Net7\bin\
+Net7.exe /PORT:3500 /ADDRESS:127.0.0.1 /MAX_SECTORS:128

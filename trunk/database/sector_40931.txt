@@ -1,0 +1,8 @@
+; sector_40931.txt
+;
+[STATION-40931]
+name=Inverness Down
+system=Tau Ceti
+sector=Inverness Planet
+greetings=Now docking at Inverness Down.
+launch=Inverness Down: You are cleared for departure.

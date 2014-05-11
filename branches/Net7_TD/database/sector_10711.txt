@@ -1,0 +1,8 @@
+; sector_10711.txt
+;
+[STATION-10711]
+name=Net-7 SOL
+system=Sol
+sector=Net-7 SOL
+greetings=Now docking at Net-7 SOL.
+launch=Net-7 SOL: You are cleared for departure.

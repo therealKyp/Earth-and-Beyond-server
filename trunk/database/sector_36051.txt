@@ -1,0 +1,8 @@
+; sector_36051.txt
+;
+[STATION-36051]
+name=Queen Anne's Revenge
+system=Smuggler's Run
+sector=Blackbeard's Wake
+greetings=Now docking at Queen Anne's Revenge.
+launch=Queen Anne's Revenge: You are cleared for departure.

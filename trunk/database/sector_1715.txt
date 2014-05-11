@@ -1,0 +1,7 @@
+; sector_1715.txt
+;
+[SECTOR-1715]
+name=Varen's Gridle
+system=Aragoth
+sector=Varen's Gridle
+greetings=We have entered Varen's Gridle Sector (Aragoth System).

@@ -1,0 +1,13 @@
+; sector_4525.txt
+;
+[SECTOR-4525]
+name=Shepard
+system=Beta Hydri
+sector=Shepard
+greetings=We have entered Shepard Sector (Beta Hydri System).
+
+
+
+
+
+

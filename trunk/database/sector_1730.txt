@@ -1,0 +1,11 @@
+; sector_1730.txt
+;
+[SECTOR-1730]
+name=Fenris
+system=Aragoth
+sector=Fenris
+greetings=We have entered Fenris Sector (Aragoth System).
+
+[STATION-17301]
+station=Fenris Prime Observatory
+dock=Fenris Prime Observatory: You are cleared for docking.

@@ -1,0 +1,9 @@
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\bin\Debug\lib\IniFiles.dll
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\bin\Debug\EnB Ini Parser.exe
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\bin\Debug\EnB Ini Parser.pdb
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\bin\Debug\IniFiles.dll
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\obj\Debug\ResolveAssemblyReference.cache
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\obj\Debug\EnB Ini Parser.exe
+D:\My Workspace\Net7\Net7 Data Tools\EnB Ini Parser\EnB Ini Parser\obj\Debug\EnB Ini Parser.pdb
+D:\My Workspace\Net7\Net7Tools\EnB Ini Parser\obj\Debug\EnB Ini Parser.exe
+D:\My Workspace\Net7\Net7Tools\EnB Ini Parser\obj\Debug\EnB Ini Parser.pdb

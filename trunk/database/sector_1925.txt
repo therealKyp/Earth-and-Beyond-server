@@ -1,0 +1,9 @@
+; sector_1925.txt
+;
+[SECTOR-1925]
+name=Dahin
+system=Capella
+sector=Dahin
+greetings=We have entered Dahin Sector (Capella System).
+
+

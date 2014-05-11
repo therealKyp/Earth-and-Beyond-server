@@ -1,0 +1,22 @@
+; accounts.txt
+;
+; NEVER delete any records.
+; Add new records to the end.
+;
+; Fields:
+;    username
+;    password
+;    account type: U=user  $=Donor  G=GM  D=developer
+;    forum username
+;    email address
+;
+VectoR,go,D,VectoR.360,VectoR.360@gmail.com,
+RazorWing,go,D,RazorWing,-
+Imp,go,D,Imp,-
+blasti99,go,D,blasti99,-
+agfot,go,D,agfot,-
+Cyranius,go,D,Cyranius,-
+Peleus,go,D,Peleus,-
+Zanor,go,D,Zanor,-
+T3hD0gg,go,D,T3hD0gg,-
+test,test,U,-,-

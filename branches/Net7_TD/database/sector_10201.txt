@@ -1,0 +1,8 @@
+; sector_10201.txt
+;
+[STATION-10201]
+name=Loki Station
+system=Sol
+sector=High Earth
+greetings=Now arriving at Loki Station.
+launch=This is Loki Station Control... you are cleared for departure.

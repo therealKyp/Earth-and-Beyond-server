@@ -1,0 +1,2651 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Earth and Beyond universe -->
+<!-- This XML file was created by VectoR 20-Nov-2004 -->
+<!-- Updated 04-Nov-2006 with Sector IDs -->
+<universe>
+   <system name="Capella" id="5">
+      <sector name="Yokan" id="1920" rect="-300400,251500,-300400,-226540">
+         <gate to="Kailaasa" pos="-200270,0,0"/>
+         <gate to="Swooping Eagle" pos="100530,100230,0"/>
+         <planet name="Yokan" pos="-193890,130490,4820" diameter="181000"/>
+         <navpoint name="Asteroid YP-X44" pos="-231250,-81300,0"/>
+         <navpoint name="Asteroid YP-X66" pos="38790,63970,0"/>
+         <navpoint name="Asteroid YP-X67" pos="24880,75440,0"/>
+         <navpoint name="Asteroid YP-X68" pos="23940,92600,0"/>
+         <navpoint name="Asteroid YP-X69" pos="11980,104760,0"/>
+         <navpoint name="Ishi" pos="14790,-204620,0"/>
+         <navpoint name="Ksuru" pos="25100,-169570,0"/>
+         <navpoint name="Nav P1" pos="100340,14290,0"/>
+         <navpoint name="Nav P2" pos="100230,-29700,0"/>
+         <navpoint name="Nav P3" pos="99910,-76300,0"/>
+         <navpoint name="Nav P4" pos="99970,-120520,0"/>
+         <navpoint name="Nav P5" pos="-117420,-194830,0"/>
+         <navpoint name="Nav P6" pos="-166600,-194410,0"/>
+         <navpoint name="Nav P7" pos="-200640,-160360,0"/>
+         <navpoint name="Nav P8" pos="-200640,-109660,0"/>
+         <navpoint name="Nav P9" pos="-199920,-59680,0"/>
+         <navpoint name="Net-7 Beacon" pos="-52630,72930,0"/>
+         <navpoint name="Ouza" pos="90030,-205530,0"/>
+         <navpoint name="Saiseki" pos="97430,-162380,0"/>
+         <navpoint name="Shiva Beacon" pos="750,-185700,0"/>
+         <navpoint name="Southern Connector" pos="-53660,-192380,0"/>
+         <navpoint name="Yokan Beltway 1" pos="69700,70500,0"/>
+         <navpoint name="Yokan Beltway 2" pos="23300,33920,0"/>
+         <navpoint name="Yokan Beltway 3" pos="-27890,4290,0"/>
+         <navpoint name="Yokan Beltway 4" pos="-86870,780,0"/>
+         <navpoint name="Yokan Beltway 5" pos="-141800,90,0"/>
+         <navpoint name="Ketsugo's Rock" pos="-130,-97350,-190"/>
+         <navpoint type="hidden" name="Point of Contemplation" pos="-75410,225090,0"/>
+      </sector>
+      <sector name="Kailaasa" id="1910" rect="-188310,342110,-188310,-148160">
+         <gate to="Yokan" pos="187930,1150,0"/>
+         <gate to="Dahin" pos="-174570,26270,0"/>
+         <planet name="Kailaasa" pos="227520,227180,25490" diameter="181000"/>
+         <moon name="Shakti" pos="-124590,-74600,0" diameter="42400"/>
+         <moon name="Uma" pos="-42260,289100,-6700"/>
+         <station name="Paren Station" id="19101" pos="28650,190220,0" diameter="0">
+            <owner>Sha'ha'dem Explorers</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="23">Sari Manso</Weapons>
+               <Equipment level="23">Kido Arata</Equipment>
+               <Tradegoods>Majine Do'fuge</Tradegoods>
+               <Components level="2">Hishida Yujiro</Components>
+               <Components level="3">Bando Jun</Components>
+            </vendors>
+            <npcs>
+               <npc>Ariad</npc>
+               <npc>Hsing Fu'un</npc>
+               <npc>Fujiko Ohiya</npc>
+               <npc>Ayako Ravenlock</npc>
+               <npc>Nishin Si'imr</npc>
+            </npcs>
+         </station>
+         <navpoint name="Nav Kailaasa 1" pos="89950,-1320,0"/>
+         <navpoint name="Nav Kailaasa 2" pos="-5160,-970,0"/>
+         <navpoint name="Nav Kailaasa 3" pos="-98180,-670,0"/>
+         <navpoint name="Nav P10" pos="226770,-111800,0"/>
+         <navpoint name="Nav P11" pos="116190,-119070,0"/>
+         <navpoint name="Nav P12" pos="19350,-119070,0"/>
+         <navpoint name="Nav P13" pos="-78180,-117370,0"/>
+         <navpoint name="Nav P14" pos="-162890,-102930,0"/>
+         <navpoint name="Paren Ship Yard" pos="99950,150280,0"/>
+         <navpoint name="Paren's Beacon" pos="8480,126490,0"/>
+         <navpoint name="Paren's Run" pos="-43400,59330,0"/>
+         <navpoint name="Transcom Monitor" pos="-122500,298890,0"/>
+         <navpoint type="special" name="Maeldun's Weft" pos="38000,194510,0"/>
+      </sector>
+      <sector name="Dahin" id="1925" rect="-2490,205110,-2490,-78740">
+         <gate to="Kailaasa" pos="199790,-49950,0"/>
+         <gate to="Kitara's Veil" pos="40000,199470,0"/>
+         <planet type="Landable" name="Planet Dahin" fullname="Dahin Mining Interest (Planet Dahin)" id="1930" pos="8540,-70470,3800" diameter="80000">
+            <surface name="Planet Dahin" rect="-26000,26000,-26000,-26000">
+               <station name="Tokai Saikutsu" id="19301" pos="15050,-18580,3500" diameter="7900">
+                  <owner>Hyperia Explorers</owner>
+                  <terminals>
+                     <terminal>Refining</terminal>
+                     <terminal>Jobs</terminal>
+                     <terminal>Customize Avatar</terminal>
+                     <terminal>Customize Ship</terminal>
+                  </terminals>
+                  <vendors>
+                     <Weapons level="234">Ylim Tjas</Weapons>
+                     <Equipment level="234">Kylesh</Equipment>
+                     <Tradegoods>Tinidosh Othistre</Tradegoods>
+                     <Components level="2">Xe Fej</Components>
+                     <Components level="3">Yanagi Ochiyo</Components>
+                     <Components level="4">Yanagi Misa</Components>
+                  </vendors>
+                  <npcs>
+                     <npc>Oorjit Bly</npc>
+                     <npc>Loremaster Daiki-ya</npc>
+                     <npc>Zachariah Garrett</npc>
+                     <npc>Daniel Malhause</npc>
+                     <npc>Tobias Mats</npc>
+                     <npc>Yun Panang</npc>
+                  </npcs>
+               </station>
+               <navpoint name="Fallen Moon Fragment" pos="-17440,-17680,200" diameter="3100"/>
+               <navpoint name="Observation Tower" pos="5380,1770,2400" diameter="3550"/>
+               <navpoint name="Weather Station" pos="-9190,18800,1200" diameter="2900"/>
+            </surface>
+         </planet>
+         <moon name="Hau" pos="127460,44180,-200" diameter="25200"/>
+         <navpoint name="Hau Field Beacon" pos="144010,67690,0"/>
+         <navpoint name="Dahin Orbit" pos="37680,-38790,0"/>
+         <navpoint name="Dahin Skyway 1" pos="105590,-48910,0"/>
+         <navpoint name="Dahin Skyway 2" pos="56690,33350,0"/>
+         <navpoint name="Dahin Skyway 3" pos="57800,128940,0"/>
+         <navpoint name="Nav P15" pos="222120,1440,0"/>
+         <navpoint name="Nav P16" pos="222900,49680,0"/>
+         <navpoint name="Nav P17" pos="201890,94800,0"/>
+         <navpoint name="Nav P18" pos="179330,139150,0"/>
+         <navpoint type="hidden" name="Wrecked Sharim Ship" pos="102810,34480,0"/>
+         <navpoint type="hidden" name="Wrecked Sharim Ship" pos="112790,27850,0"/>
+         <navpoint type="hidden" name="Wrecked Sharim Ship" pos="105320,25900,0"/>
+      </sector>
+      <sector name="Kitara's Veil" id="1915" rect="-77110,97250,-77110,-74890">
+         <gate to="Dahin" pos="-10,-60220,0"/>
+         <gate to="Vishao's Cove" pos="75040,-51550,0"/>
+         <navpoint name="Akio" pos="-59890,-60180,0"/>
+         <navpoint name="Disa" pos="59860,50450,0"/>
+         <navpoint name="Fushi" pos="60570,-39810,0"/>
+         <navpoint name="Jushai" pos="69930,20000,0"/>
+         <navpoint name="Kitai" pos="25130,-4600,0"/>
+         <navpoint name="Lilo" pos="-59700,49040,0"/>
+         <navpoint name="Motish" pos="-57570,15010,0"/>
+         <navpoint name="Nav KV 1" pos="-530,-12420,0"/>
+         <navpoint name="Nav KV 2" pos="-48310,-13370,0"/>
+         <navpoint name="Nav KV 3" pos="49110,-13080,0"/>
+         <navpoint name="Nav KV 4" pos="110,34750,0"/>
+         <navpoint name="Nav KV 5" pos="-43160,54470,0"/>
+         <navpoint name="Nav KV 6" pos="41030,60230,0"/>
+         <navpoint name="Noila" pos="-9610,45020,0"/>
+         <navpoint name="Numi" pos="24890,-24680,0"/>
+         <navpoint name="Qial" pos="-7800,6370,0"/>
+         <navpoint name="Rakio" pos="40010,15250,0"/>
+         <navpoint name="Rioh" pos="-60410,-9090,0"/>
+         <navpoint name="Tazeron" pos="1950,-32250,0"/>
+         <navpoint name="The Veil Trader" pos="35160,-65140,0"/>
+         <navpoint name="Tishan" pos="-19870,-20140,0"/>
+         <navpoint name="Uli" pos="-30400,60380,0"/>
+         <navpoint name="Veil Trader's Beacon" pos="35160,-59820,0"/>
+         <navpoint name="Wuli" pos="29620,64870,0"/>
+         <navpoint type="hidden" name="Mordana Listening Post" pos="-510,72140,0"/>
+         <navpoint type="hidden" name="Mordana Tabernacle" pos="62640,84290,0"/>
+      </sector>
+      <sector name="Vishao's Cove" id="1935" rect="-95000,70000,-95000,-90000">
+         <gate to="Antares Frontier" pos="0,-32479,0"/>
+         <navpoint name="Defense Turret Er" pos="18880,-21630,0"/>
+         <navpoint name="Defense Turret San" pos="200,-52310,0"/>
+         <navpoint name="Defense Turret Yi" pos="-18370,-21750,0"/>
+         <navpoint name="Vishao's Plight" pos="-84360,-24310,0"/>
+         <navpoint name="Vishao's Pointer" pos="-39920,-40460,0"/>
+         <navpoint type="hidden" name="Vishao's Abadon" pos="-68240,2540,0"/>
+         <navpoint type="hidden" name="Vishao's Path 1" pos="-52760,-33090,0"/>
+         <navpoint type="hidden" name="Vishao's Path 2" pos="-43790,7140,0"/>
+         <navpoint type="hidden" name="Vishao's Path 3" pos="-52910,47380,0"/>
+         <navpoint type="hidden" name="Vishao's Path 4" pos="-17680,57260,0"/>
+         <navpoint type="hidden" name="Vishao's Path 5" pos="11910,55920,0"/>
+         <navpoint type="hidden" name="Vishao's Peril" pos="30810,59120,0"/>
+         <navpoint type="hidden" name="Belt Way 1" pos="26460,26230,0"/>
+         <navpoint type="hidden" name="Belt Way 2" pos="73980,20240,0"/>
+         <navpoint type="hidden" name="Belt Way 3" pos="67210,-26540,0"/>
+         <navpoint type="hidden" name="Belt Way 4" pos="55000,-58000,0"/>
+         <navpoint type="hidden" name="Belt Way 5" pos="38210,-75940,0"/>
+         <navpoint type="hidden" name="Belt's End" pos="69180,-74400,0"/>
+         <navpoint type="hidden" name="Belter Colony" pos="89240,-82920,0"/>
+      </sector>
+   </system>
+   <system name="Antares" id="14">
+      <sector name="Antares Frontier" id="1505" rect="-80000,120000,-80000,-13000">
+         <gate to="Vishao's Cove" pos="840,67620,0"/>
+         <station name="Antares 1 [Under Construction]" id="15051" pos="690,20030,0" diameter="0">
+            <owner>Sharim Traders</owner>
+            <npcs>
+               <npc>Shepherd Kavi</npc>
+            </npcs>
+         </station>
+         <navpoint name="Anci" pos="-34980,19820,0" diameter="6000"/>
+         <navpoint name="Cairn Rock" pos="-69660,15870,0" diameter="5450"/>
+         <navpoint name="Cairn View" pos="-64290,15510,0"/>
+         <navpoint name="Experimentation Center Alpha" pos="14220,100860,0"/>
+         <navpoint name="Experimentation Center Beta" pos="37060,97310,0"/>
+         <navpoint name="Glass Spire Point" pos="-63550,50180,0" diameter="4250"/>
+         <navpoint name="Outer Field Nav 1" pos="-50120,50340,0"/>
+         <navpoint name="Outer Field Nav 2" pos="-55740,33700,0"/>
+         <navpoint name="Outer Field Nav 3" pos="-51470,14160,0"/>
+         <navpoint name="Outer Field Nav 4" pos="-39620,8300,0"/>
+         <navpoint name="Path to Voltoi Research Area" pos="-57330,67640,0"/>
+         <navpoint name="Research Probe Frozen Whisper" pos="-29490,49580,0"/>
+         <navpoint name="Research Station Alpha" pos="63800,46670,0"/>
+         <navpoint name="Research Station Beta" pos="74380,32860,0"/>
+         <navpoint name="Research Station Gamma" pos="64680,14940,0"/>
+         <navpoint name="Sector Gate Under Construction" pos="19300,21630,0"/>
+         <navpoint name="Vio" pos="36410,62160,1230" diameter="3300"/>
+         <navpoint name="Voltoi Experimentation Path -Danger-" pos="8240,86940,0"/>
+         <navpoint name="Voltoi Observation Post B" pos="-26310,2080,0"/>
+         <navpoint name="Voltoi Research I" pos="-69900,78140,0"/>
+         <navpoint name="Voltoi Research II" pos="-64660,90300,0"/>
+         <navpoint name="Voltoi Research III" pos="-48150,91040,0"/>
+         <navpoint name="Voltoi Research Station Nav I" pos="53600,32610,0"/>
+         <navpoint name="Voltoi Research Station Nav II -CAUTION-" pos="37060,24180,0"/>
+         <navpoint type="hidden" name="1505 Master Controller" pos="94780,116230,0"/>
+         <navpoint type="hidden" name="Lansing Pocket" pos="-31780,49710,0"/>
+         <navpoint type="hidden" name="Lansing Pocket 2" pos="35670,82430,0"/>
+         <navpoint type="hidden" name="Lansing Pocket 3" pos="-17240,12710,0"/>
+         <navpoint type="hidden" name="Lansing Pocket 4" pos="-32900,83200,0"/>
+         <navpoint type="hidden" name="Voltoi Observation Post A" pos="-52320,2560,0"/>
+      </sector>
+   </system>
+   <system name="Sirius" id="9">
+      <sector name="Swooping Eagle" id="4120" rect="-100000,122000,-100000,-120000">
+         <gate to="Yokan" pos="11330,-59190,0"/>
+         <gate to="Mazzaroth Maelstrom" pos="168360,105630,0"/>
+         <gate to="Xipe Totec" pos="-59700,-99780,0"/>
+         <gate to="Europa" pos="9950,-40660,0"/>
+         <planet type="Landable" name="Planet Swooping Eagle" fullname="Yasuragi Area (Planet Swooping Eagle)" id="4195" pos="-89150,89960,0" diameter="60400">
+            <surface name="Planet Swooping Eagle" rect="-22000,25000,-22000,-25000">
+               <station name="Master Cha`han`s Dojo" id="41951" pos="-16950,-15140,6500" diameter="3000">
+                  <owner>Shinwa Warriors</owner>
+                  <npcs>
+                     <npc>Master Tetsuo Cha'Han</npc>
+                     <npc>Master Orosu</npc>
+                     <npc>Master Zenzei</npc>
+                  </npcs>
+               </station>
+               <station name="Yasuragi" id="41952" pos="-2790,12260,6200" diameter="6500">
+                  <owner>Shinwa Warriors</owner>
+                  <terminals>
+                     <terminal>Analyze</terminal>
+                     <terminal>Manufacturing</terminal>
+                     <terminal>Jobs</terminal>
+                     <terminal>Intergalactic Net</terminal>
+                     <terminal>Customize Avatar</terminal>
+                     <terminal>Customize Ship</terminal>
+                  </terminals>
+                  <vendors>
+                     <Weapons level="2345">Lharam Fharm</Weapons>
+                     <Equipment level="2345">Ylori Saavedra</Equipment>
+                     <Tradegoods>Ajit Jai</Tradegoods>
+                     <Components level="2">Saia</Components>
+                     <Components level="3">Idou Ngami</Components>
+                     <Components level="4">Kuroda Hoshi</Components>
+                     <Components level="5">Maeda Keiko</Components>
+                  </vendors>
+                  <npcs>
+                     <npc>Master Ayan</npc>
+                     <npc>Master Jhola</npc>
+                     <npc>Master Lao-Tzu</npc>
+                     <npc>Kigoshi Saruta</npc>
+                  </npcs>
+               </station>
+               <navpoint name="Shigehiro Yasuragi" pos="-8590,20650,1000" diameter="5150"/>
+               <navpoint type="hidden" name="Shinwa Meditation Focus" pos="-7570,20500,8900"/>
+               <navpoint type="hidden" name="The Evil Mushroom" pos="9440,-6870,6000"/>
+            </surface>
+         </planet>
+         <navpoint name="1DV1NC2F3RSTST1G21" pos="159910,111260,0"/>
+         <navpoint name="1DV1NC2F3RSTST1G22" pos="165260,103120,0"/>
+         <navpoint name="1DV1NC2F3RSTST1G23" pos="174810,98460,0"/>
+         <navpoint name="1DV1NC2S2C4NDST1G21" pos="146880,109170,0"/>
+         <navpoint name="1DV1NC2S2C4NDST1G22" pos="154790,94500,0"/>
+         <navpoint name="1DV1NC2S2C4NDST1G23" pos="171320,86380,0"/>
+         <navpoint name="1SS2MBL6P43NT" pos="169010,108240,0"/>
+         <navpoint name="4BS2RV2RSP4ST1" pos="118880,95160,0"/>
+         <navpoint name="4BS2RV2RSP4ST2" pos="137400,73660,0"/>
+         <navpoint name="4BS2RV2RSP4ST3" pos="161970,61110,0"/>
+         <navpoint name="4BS2RV2RSP4ST4" pos="83490,100120,0"/>
+         <navpoint name="4BS2RV2RSP4ST5" pos="101680,67700,0"/>
+         <navpoint name="4BS2RV2RSP4ST6" pos="135750,39920,0"/>
+         <navpoint name="Asteroid Quetzal" pos="-55080,10150,0"/>
+         <navpoint name="Asteroid TG-036" pos="65400,-82940,0"/>
+         <navpoint name="Asteroid TG-037" pos="80660,-83690,0"/>
+         <navpoint name="Asteroid TG-038" pos="91880,-99240,0"/>
+         <navpoint name="Asteroid TG-039" pos="111320,-95350,0"/>
+         <navpoint name="Asteroid TG-072" pos="-75730,-98690,0"/>
+         <navpoint name="Asteroid TG-073" pos="-83620,-86530,0"/>
+         <navpoint name="Asteroid TG-074" pos="-79220,-71130,0"/>
+         <navpoint name="Field of Glass Point" pos="-30120,27380,0"/>
+         <navpoint name="Hytlac Resource Point" pos="-2460,49880,-2480"/>
+         <navpoint name="Jade Yaw" pos="114920,-49190,0"/>
+         <navpoint name="Kotl Point" pos="130580,0,0"/>
+         <navpoint name="Lonyatl Resource Point" pos="-83430,-3630,1190"/>
+         <navpoint name="Main Outpost Nav" pos="0,0,0"/>
+         <navpoint name="Nexus Point" pos="0,-100000,0"/>
+         <navpoint name="Outpost Ichi" pos="-59470,61050,0"/>
+         <navpoint name="Outpost Ni" pos="-49960,-50010,0"/>
+         <navpoint name="Outpost San" pos="50080,-48490,0"/>
+         <navpoint name="Point of Tranquility" pos="105080,-49800,0"/>
+         <navpoint name="Putotl Resource Point" pos="18880,70720,1240"/>
+         <navpoint name="Triumvirate Gate Complex" pos="0,-49890,0"/>
+         <navpoint name="Typotl Maw" pos="92540,94460,0"/>
+         <navpoint name="Xipe Totec Gate" pos="-49040,-99790,0"/>
+         <navpoint type="hidden" name="Wreck of the Red Quarto" pos="-9150,-110630,0"/>
+         <navpoint type="hidden" name="Yotzyc Point" pos="170750,-49310,0"/>
+         <navpoint type="special" name="Arion' Weft" pos="35200,-3740,0"/>
+      </sector>
+      <sector name="Xipe Totec" id="4115" rect="-199850,69790,-199850,-99930">
+         <gate to="Swooping Eagle" pos="-185360,-86120,0"/>
+         <gate to="Blackbeard's Wake" pos="20080,-64930,0"/>
+         <planet name="Xipe Totec" pos="-220600,-10950,0" diameter="60400"/>
+         <station name="Prasad Station" id="41151" pos="-169840,-29930,470" diameter="0">
+            <owner>Shinwa Warriors</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="567">Vilu Si</Weapons>
+               <Equipment level="567">Zinzu Nez</Equipment>
+               <Tradegoods>Jassim Teranson</Tradegoods>
+               <Components level="5">Lio Nas</Components>
+               <Components level="6">Sekozawa Kei</Components>
+               <Components level="7">Uesugi Nacko</Components>
+            </vendors>
+            <npcs>
+               <npc>Councillor Rafa ben Erela</npc>
+               <npc>Geusau</npc>
+               <npc>Jenkin Knapp</npc>
+               <npc>Sai'li Raushna</npc>
+               <npc>Shou Shen</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid XT-129" pos="79890,35560,0"/>
+         <navpoint name="Asteroid XT-130" pos="89310,46230,0"/>
+         <navpoint name="Asteroid XT-131" pos="84280,60590,0"/>
+         <navpoint name="Asteroid XT-173" pos="39620,-90720,0"/>
+         <navpoint name="Asteroid XT-174" pos="61580,-85050,0"/>
+         <navpoint name="Asteroid XT-N14" pos="-187730,7830,0"/>
+         <navpoint name="Asteroid XT-N15" pos="-189100,21160,0"/>
+         <navpoint name="Asteroid XT-N16" pos="-193200,34460,0"/>
+         <navpoint name="Asteroid XT-N17" pos="-189270,47480,0"/>
+         <navpoint name="Dragon's Watch Alpha" pos="-14790,57040,0"/>
+         <navpoint name="Dragon's Watch Beta" pos="23820,27610,0"/>
+         <navpoint name="Dragon's Watch Gamma" pos="44800,-18510,0"/>
+         <navpoint name="Dragon's Watch Delta" pos="48390,-67150,0"/>
+         <navpoint name="Dragon's Watch Epsolin" pos="2540,-87090,0"/>
+         <navpoint name="Intzalan Line I" pos="-102770,-89810,0"/>
+         <navpoint name="Intzalan Line II" pos="-101970,-40470,0"/>
+         <navpoint name="Intzalan Line III" pos="-102390,8630,0"/>
+         <navpoint name="Intzalan Line IV" pos="-102010,58080,0"/>
+         <navpoint name="Observer Relay 1" pos="-57110,41030,0"/>
+         <navpoint name="Observer Relay 2" pos="-57300,-59760,0"/>
+         <navpoint name="Prasad Beacon" pos="-149220,-74550,820"/>
+         <navpoint name="Prasad Wreckyard" pos="-148870,50270,0"/>
+         <navpoint name="Ruined Red Dragon Outpost" pos="83090,-40860,-460"/>
+         <navpoint name="Tetl" pos="89570,18560,0"/>
+         <navpoint name="Wreck of Kyoka Maru" pos="-18920,-90420,60"/>
+         <navpoint type="hidden" name="Continuum Wrinkle" pos="96100,13510,0"/>
+         <navpoint type="hidden" name="The Prophet Unarmed Maru" pos="54350,-71070,0"/>
+         <navpoint type="hidden" name="wreckage" pos="-143720,56910,0"/>
+         <navpoint type="hidden" name="wreckage" pos="-152130,62350,0"/>
+         <navpoint type="hidden" name="wreckage" pos="-154220,67590,-1170"/>
+         <navpoint type="hidden" name="wreckage" pos="-168840,43220,-1660"/>
+      </sector>
+   </system>
+   <system name="Mazzaroth Shear" id="15">
+      <sector name="Mazzaroth Maelstrom" id="4205" rect="-310000,75000,-310000,-75000">
+         <gate to="Swooping Eagle" pos="-5350,100,0"/>
+         <navpoint name="Deep Field 1" pos="-223060,50330,1310"/>
+         <navpoint name="Deep Field 2" pos="-221250,-50760,150"/>
+         <navpoint name="Frenzy Field" pos="-154780,-50140,140"/>
+         <navpoint name="Harvest Cluster 1" pos="-82320,-33870,1850"/>
+         <navpoint name="Harvest Cluster 2" pos="-154770,39820,1850"/>
+         <navpoint name="Hive Cluster 1" pos="-43050,250,0"/>
+         <navpoint name="Hive Cluster 2" pos="-81630,250,-1850"/>
+         <navpoint name="Hive Cluster 3" pos="-129610,-250,1280"/>
+         <navpoint name="Hive Cluster 4" pos="-155330,-20030,-1000"/>
+         <navpoint name="Hive Cluster 5" pos="-155610,9320,-1560"/>
+         <navpoint name="Hive Cluster 6" pos="-183030,250,1280"/>
+         <navpoint name="Hive Cluster 7" pos="-253760,740,0"/>
+         <navpoint name="Hunter's Respite 1" pos="-222330,35760,-1470"/>
+         <navpoint name="Hunter's Respite 2" pos="-224400,-34320,1660"/>
+         <navpoint name="Mazzaroth Womb" pos="-96040,67020,0"/>
+         <navpoint name="Offal Refuge" pos="-107240,28670,0"/>
+         <navpoint name="Reapers Field" pos="-225390,510,0"/>
+         <navpoint name="Warpost 1" pos="-277990,740,0"/>
+         <navpoint name="Warpost 2" pos="-299260,19540,0"/>
+         <navpoint name="Warpost 3" pos="-299660,-18970,0"/>
+         <navpoint type="hidden" name="Unborn Mazzaroth Soul" pos="-300130,760,0"/>
+      </sector>
+   </system>
+   <system name="Beta Hydri" id="4">
+      <sector name="Carpenter" id="4520" rect="-150000,150000,-150000,-150000">
+         <gate to="New Edinburgh" pos="13800,11340,0"/>
+         <gate to="Shepard" pos="-136590,-137650,0"/>
+         <gate to="Slayton" pos="-109270,66810,0"/>
+         <gate to="Glenn" pos="-138930,138610,0"/>
+         <planet name="Carpenter" pos="132220,-450,0" diameter="60000"/>
+         <moon name="Aurora 7" pos="-137370,0,0" diameter="18350"/>
+         <station name="Orsini Mining Platform" id="45201" pos="26580,-89030,0" diameter="0">
+            <owner>InfinitiCorp Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="456">Amyli Hamston</Weapons>
+               <Equipment level="456">Daniel Yonda</Equipment>
+               <Tradegoods>Draegul McCrocker</Tradegoods>
+               <Components level="3">Mark Cyrus</Components>
+               <Components level="4">Vel Ohla</Components>
+               <Components level="5">Angelique deSaro</Components>
+               <Components level="6">Neva Anaso</Components>
+            </vendors>
+            <npcs>
+               <npc>Anusha Dayakara</npc>
+               <npc>Josher</npc>
+            </npcs>
+         </station>
+         <navpoint name="Arena Entry Point" pos="-139020,82330,0"/>
+         <navpoint name="LaGrange 4 point" pos="0,125000,0"/>
+         <navpoint name="LaGrange 5 point" pos="0,-125000,0"/>
+         <navpoint name="Nav Carpenter 1" pos="-116940,116820,0"/>
+         <navpoint name="Nav Carpenter 2" pos="-82210,89130,0"/>
+         <navpoint name="Nav Carpenter 3" pos="-62070,55410,0"/>
+         <navpoint name="Nav Carpenter 4" pos="-23310,30740,0"/>
+         <navpoint name="Nav Carpenter 5" pos="-19280,-15580,0"/>
+         <navpoint name="Nav Carpenter 6" pos="-44450,-52830,0"/>
+         <navpoint name="Nav Carpenter 7" pos="-80700,-75480,0"/>
+         <navpoint name="Nav Carpenter 8" pos="-104860,-112230,0"/>
+         <navpoint name="Nav Orsini 1" pos="-40120,106260,0"/>
+         <navpoint name="Nav Orsini 2" pos="-10740,-79920,0"/>
+         <navpoint type="special" name="Yamuna's Weft" pos="-69400,33860,0"/>
+      </sector>
+      <sector name="Glenn" id="4515" rect="-50000,50000,-50000,-150000">
+         <gate to="Swooping Eagle" pos="236110,41870,0"/>
+         <gate to="Saturn" pos="-31260,-129810,0"/>
+         <gate to="Slayton" pos="166520,-134870,0"/>
+         <planet name="Glenn" pos="111770,39450,0" diameter="33000"/>
+         <station name="Friendship 7 Recreation Port" id="45151" pos="76280,-17330,0" diameter="0">
+            <owner>Glenn Commision</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="567">Kah Rinno</Weapons>
+               <Equipment level="567">Trevor Jorst</Equipment>
+               <Tradegoods>Anveryn O'Connell</Tradegoods>
+               <Components level="2">Sara Green</Components>
+               <Components level="5">Regina Flore</Components>
+               <Components level="6">Kristin Sadler</Components>
+               <Components level="7">Ian Darson</Components>
+            </vendors>
+            <npcs>
+               <npc>Monty DuChampe</npc>
+               <npc>Portia LaPointe</npc>
+               <npc>Belulah Lee</npc>
+               <npc>Wenton Ness</npc>
+               <npc>Arno Suiliman</npc>
+            </npcs>
+         </station>
+         <navpoint name="Arena Entry Point" pos="70430,-4800,0"/>
+         <navpoint name="Asteroid GP-X18" pos="63890,-139910,0"/>
+         <navpoint name="Asteroid GP-X21" pos="116730,-141230,0"/>
+         <navpoint name="Asteroid GP-X30" pos="238220,-58340,0"/>
+         <navpoint name="Asteroid GP-X84" pos="-6940,31130,0"/>
+         <navpoint name="Asteroid GP-X88" pos="-41490,5520,0"/>
+         <navpoint name="Banzai Raceway Point" pos="55200,-35840,0"/>
+         <navpoint name="Entrace to GC Science Exhibit" pos="140090,-74270,0"/>
+         <navpoint name="Friendship 1" pos="149640,-99930,0"/>
+         <navpoint name="Friendship 2" pos="124470,-74460,0"/>
+         <navpoint name="Friendship 4" pos="81900,-34160,0"/>
+         <navpoint name="Glenn 1" pos="-2180,-115740,0"/>
+         <navpoint name="Glenn 2" pos="38160,-93220,0"/>
+         <navpoint name="Glenn 3" pos="69120,-72580,0"/>
+         <navpoint name="Glenn 4 / Friendship 3 Nexus" pos="100080,-50070,0"/>
+         <navpoint name="Glenn 5" pos="132910,-30360,0"/>
+         <navpoint name="Glenn 6" pos="173260,-3160,0"/>
+         <navpoint name="Glenn 7" pos="210780,19360,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X09" pos="-34730,-70820,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X10" pos="-21890,-78500,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X11" pos="-21100,-90560,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X12" pos="-15150,-102470,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X14" pos="14300,-125500,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X15" pos="22920,-135530,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X16" pos="36710,-138030,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X17" pos="50650,-140070,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X22" pos="131900,-138550,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X23" pos="148550,-137480,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X25" pos="187680,-108070,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X26" pos="199790,-100320,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X27" pos="216100,-97900,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X28" pos="226110,-86760,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X29" pos="232890,-72550,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X85" pos="-15540,29990,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X86" pos="-27740,26550,0"/>
+         <navpoint type="hidden" name="Asteroid GP-X87" pos="-38650,17950,0"/>
+         <navpoint type="hidden" name="Chavez Resupply Depot" pos="150300,30000,1500"/>
+      </sector>
+      <sector name="Slayton" id="4510" rect="-160000,100000,-160000,-100000">
+         <gate to="Carpenter" pos="84840,-88530,0"/>
+         <gate to="Glenn" pos="138900,5640,0"/>
+         <gate to="Glory's Orbit" pos="78940,91480,0"/>
+         <planet name="Slayton" pos="-96220,77090,-66360" diameter="179800"/>
+         <navpoint name="Arena Entry Point" pos="121220,-42440,0"/>
+         <navpoint name="Brand's Barrow" pos="-90570,-42710,2000"/>
+         <navpoint name="Brand's Remains" pos="-95260,-52860,-1520"/>
+         <navpoint name="Nav Brand 1" pos="3790,-60030,0"/>
+         <navpoint name="Nav Brand 2" pos="-39080,-65720,0"/>
+         <navpoint name="Nav Brand 3" pos="-86310,-77440,0"/>
+         <navpoint name="Nav Brand 4" pos="-129990,-86660,0"/>
+         <navpoint name="Nav Slayton 1" pos="109130,5610,0"/>
+         <navpoint name="Nav Slayton 2" pos="81620,9020,0"/>
+         <navpoint name="Nav Slayton 3" pos="61120,26470,0"/>
+         <navpoint name="Nav Slayton 4" pos="57150,53980,0"/>
+         <navpoint name="Nav Slayton 5" pos="81720,67470,0"/>
+         <navpoint name="Nav Slayton 6" pos="61970,-11400,0"/>
+         <navpoint name="Nav Slayton 7" pos="64420,-38050,0"/>
+         <navpoint name="Nav Slayton 8" pos="67460,-64720,0"/>
+         <navpoint name="Red Dragon Camp 1" pos="81380,21310,0"/>
+         <navpoint name="Red Dragon Camp 2" pos="60440,-34840,0"/>
+         <navpoint name="Red Dragon Camp 3" pos="26080,-70610,0"/>
+         <navpoint name="Red Dragon Camp 4" pos="-124750,-37920,0"/>
+         <navpoint name="Red Dragon Camp 5" pos="-4040,49930,0"/>
+         <navpoint name="Red Dragon Camp 6" pos="3700,67490,0"/>
+         <navpoint name="Red Dragon Camp 7" pos="-27230,26260,0"/>
+         <navpoint name="Red Dragon Camp 8" pos="-51430,13040,0"/>
+         <navpoint name="Red Dragon Camp 9" pos="-42400,-34740,0"/>
+         <navpoint name="Soyuz Passage 1" pos="-97000,-20220,2000"/>
+         <navpoint name="Soyuz Passage 2" pos="-84140,6920,2000"/>
+         <navpoint name="Soyuz Passage 3" pos="-68790,24770,2000"/>
+         <navpoint name="Soyuz Passage 4" pos="-49520,31900,2000"/>
+         <navpoint name="Soyuz Passage 5" pos="-27380,35830,2000"/>
+         <navpoint name="Stafford's Cairn" pos="1030,14410,0"/>
+         <navpoint name="Stafford's Remains" pos="-7660,32189,0"/>
+      </sector>
+      <sector name="Glory's Orbit" id="4505" rect="-125000,100000,-125000,-150000">
+         <gate to="Slayton" pos="231420,-58100,0"/>
+         <planet name="Schirra" pos="-42790,-83150,0" diameter="6000"/>
+         <station name="Mercury Station" id="45051" pos="205360,-40900,0" diameter="0">
+            <owner>Glenn Commision</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="567">Sadli Morn</Weapons>
+               <Equipment level="567">Hele Formin</Equipment>
+               <Tradegoods>Ralla Sertris</Tradegoods>
+               <Components level="5">Jak Grosson</Components>
+               <Components level="6">Logan Ebson</Components>
+               <Components level="7">Andy Tall</Components>
+            </vendors>
+            <npcs>
+               <npc>Science Officer Sharik</npc>
+               <npc>Curator Whitley</npc>
+            </npcs>
+         </station>
+         <navpoint name="Apollo 7" pos="43720,-46870,0"/>
+         <navpoint name="Crystal Vantage" pos="192790,43540,640"/>
+         <navpoint name="Crystal View" pos="31750,-120460,800"/>
+         <navpoint name="Gahaarn's Rock" pos="156410,-122780,350"/>
+         <navpoint name="Gemini 7" pos="9400,-72770,0"/>
+         <navpoint name="Nav Glory's Orbit 1" pos="76700,-12970,0"/>
+         <navpoint name="Nav Glory's Orbit 2" pos="150,29290,0"/>
+         <navpoint name="Nav Glory's Orbit 3" pos="-12330,-13660,0"/>
+         <navpoint name="Nav Mercury Station" pos="195500,-50000,0"/>
+         <navpoint name="Red Dragon Training Facility" pos="-94980,-119990,0"/>
+         <navpoint name="Resource Field 1" pos="75680,17780,0"/>
+         <navpoint name="Sigma 7" pos="-26360,-93660,0"/>
+         <navpoint name="The Jenquai Path" pos="166030,-3180,0"/>
+         <navpoint name="The Launching Point" pos="34780,-2990,0"/>
+         <navpoint name="The Path of Shared Memory" pos="123590,-24170,0"/>
+         <navpoint name="The Progen Path" pos="96410,-53870,0"/>
+         <navpoint name="The Terran Path" pos="152340,14060,0"/>
+         <navpoint type="hidden" name="Data Setellite I" pos="-34570,59290,0"/>
+         <navpoint type="hidden" name="Data Satellite II" pos="-71050,87500,0"/>
+         <navpoint type="hidden" name="Data Setellite III" pos="-57510,-24190,0"/>
+         <navpoint type="hidden" name="Data Satellite IV" pos="-105270,-30210,0"/>
+      </sector>
+      <sector name="Shepard" id="4525" rect="-250000,200000,-250000,-150000">
+         <gate to="Carpenter" pos="-76400,176340,0"/>
+         <gate to="Grissom" pos="62520,-66310,0"/>
+         <planet name="Shepard" pos="-279710,-42330,-1710" diameter="47900"/>
+         <navpoint name="Frontier Buoy" pos="-32470,142340,-1460"/>
+         <navpoint name="Frontier Field Alpha" pos="-9890,-92510,1560"/>
+         <navpoint name="Frontier Field Beta" pos="-136330,130570,1560"/>
+         <navpoint name="Frontier Field Delta" pos="-182560,141810,1560"/>
+         <navpoint name="Geezer Rock" pos="23840,145230,0"/>
+         <navpoint name="Lucre Resource Filed" pos="-3110,19470,0"/>
+         <navpoint name="Lucre Trail" pos="-23710,1620,0"/>
+         <navpoint name="Nav Shepard 1" pos="-92190,141600,0"/>
+         <navpoint name="Nav Shepard 2" pos="-99390,99920,-550"/>
+         <navpoint name="Nav Shepard 3" pos="-100000,60860,-1460"/>
+         <navpoint name="Nav Shepard 4" pos="-75750,23860,-550"/>
+         <navpoint name="Nav Shepard 5" pos="-49110,-8620,0"/>
+         <navpoint name="Nav Shepard 6" pos="-10670,-35760,0"/>
+         <navpoint name="Nav Shepard 7" pos="24950,-56110,0"/>
+         <navpoint name="Particle Ring 1" pos="-145700,26990,-1460"/>
+         <navpoint name="Particle Ring 2" pos="-171630,-12140,-1460"/>
+         <navpoint name="Particle Ring 3" pos="-206420,-38700,-1460"/>
+         <navpoint type="hidden" name="Pax Swift Star" pos="-225090,146710,0"/>
+      </sector>
+      <sector name="Grissom" id="4530" rect="-450000,125000,-450000,-525000">
+         <gate to="Cooper" pos="-202800,17210,0"/>
+         <gate to="Blackbeard's Wake" pos="22670,-416420,0"/>
+         <planet type="Landable" name="Planet Grissom" fullname="Grissom Meteorological Site" id="4595" pos="33410,-42500,0" diameter="184600">
+            <surface name="Planet Grissom" rect="-59980,54930,-59980,-4420">
+               <navpoint name="Charibdis 1" pos="-29450,29810,-150"/>
+               <navpoint name="Charibdis Storm Zone" pos="-34170,34960,-1500"/>
+               <navpoint name="Grissom 1" pos="-44380,24140,1390"/>
+               <navpoint name="Grissom 2" pos="-38200,25100,1550"/>
+               <navpoint name="Grissom 3" pos="-31740,25540,1470"/>
+               <navpoint name="Grissom Meteorological 1" pos="-18280,26940,580"/>
+               <navpoint name="Grissom Meteorological 2" pos="-15220,32500,490"/>
+               <navpoint name="Grissom Meteorological Observatory" pos="-9640,39940,770" diameter="4350"/>
+               <navpoint name="Grissom Prime" pos="-25220,25280,940"/>
+               <navpoint name="Scylla 1" pos="-30020,20980,-1250"/>
+               <navpoint name="Scylla Storm Zone" pos="-35040,16970,-2150"/>
+               <navpoint type="hidden" name="Charibdis Monitor" pos="-38010,36870,-1720"/>
+               <navpoint type="hidden" name="Scylla Monitor" pos="-39760,12590,-2150"/>
+               <navpoint type="hidden" name="Takashi Maru" pos="-12430,8380,1650"/>
+            </surface>
+         </planet>
+         <moon name="Apollo I" pos="-296490,26250,2270" diameter="29300"/>
+         <moon name="Liberty Bell" pos="-362900,-253230,-1330" diameter="61300"/>
+         <moon name="Molly Brown" pos="-90880,-142230,1830" diameter="22200"/>
+         <navpoint name="Baikonur Resource Field" pos="-47030,-206970,0"/>
+         <navpoint name="Cape Canaveral Resource Field" pos="-108990,-418880,0"/>
+         <navpoint name="Dzurai Hunting Ground Alpha" pos="-380400,-165000,0"/>
+         <navpoint name="Dzurai Hunting Ground Beta" pos="-38470,-314790,0"/>
+         <navpoint name="Dzurai Hunting Ground Gamma" pos="-180890,-149590,0"/>
+         <navpoint name="Dzurai Hunting Ground Delta" pos="-44030,94930,0"/>
+         <navpoint name="Houston Resource Field" pos="-350830,-5250,0"/>
+         <navpoint name="Liberty Path 1" pos="-267520,-262040,0"/>
+         <navpoint name="Liberty Path 2" pos="-299170,-260430,0"/>
+         <navpoint name="Liberty Resource Field" pos="-331860,-257360,0"/>
+         <navpoint name="Nav Baikonur 1" pos="-87590,-197960,0"/>
+         <navpoint name="Nav Canaveral 1" pos="-173310,-302950,0"/>
+         <navpoint name="Nav Canaveral 2" pos="-151870,-344240,0"/>
+         <navpoint name="Nav Canaveral 3" pos="-121700,-376000,0"/>
+         <navpoint name="Nav Dzurai Alpha 1" pos="-300610,-168740,0"/>
+         <navpoint name="Nav Dzurai Alpha 2" pos="-339260,-167490,0"/>
+         <navpoint name="Nav Dzurai Beta 1" pos="-120750,-273650,0"/>
+         <navpoint name="Nav Dzurai Beta 2" pos="-80240,-295460,0"/>
+         <navpoint name="Nav Dzurai Gamma 1" pos="-218960,-217980,0"/>
+         <navpoint name="Nav Dzurai Gamma 2" pos="-197760,-184320,0"/>
+         <navpoint name="Nav Dzurai Delta 1" pos="-60000,27620,0"/>
+         <navpoint name="Nav Dzurai Delta 2" pos="-47210,59990,0"/>
+         <navpoint name="Nav Grissom Hub" pos="-247080,-252950,0"/>
+         <navpoint name="Nav Grissom Prime 1" pos="-294210,-460310,0"/>
+         <navpoint name="Nav Grissom Prime 2" pos="-277500,-383060,0"/>
+         <navpoint name="Nav Grissom Prime 3" pos="-258709,-303710,0"/>
+         <navpoint name="Nav Grissom Prime 4" pos="-260510,-183430,0"/>
+         <navpoint name="Nav Grissom Prime 5" pos="-244560,-97630,0"/>
+         <navpoint name="Nav Grissom Prime 6" pos="-240380,-12020,-310"/>
+         <navpoint name="Nav Grissom Secundus 1" pos="-164100,-258500,0"/>
+         <navpoint name="Nav Grissom Secundus 2" pos="-121370,-180110,0"/>
+         <navpoint name="Nav Grissom Secundus 3" pos="-101200,-111520,0"/>
+         <navpoint name="Nav Grissom Secundus 4" pos="-73220,-66110,0"/>
+         <navpoint name="Nav Grissom Secundus 5" pos="-64540,-6300,-310"/>
+         <navpoint name="Nav Houston 1" pos="-281290,-17310,-570"/>
+         <navpoint name="Nav Houston 2" pos="-317730,-18000,-10"/>
+      </sector>
+      <sector name="Cooper" id="4535" rect="-255000,100000,-255000,-150000">
+         <gate to="Grissom" pos="-159350,-15700,0"/>
+         <planet name="Cooper" pos="-440,100880,0" diameter="59800"/>
+         <navpoint name="Bran's View" pos="-23670,66670,0"/>
+         <navpoint name="Destroyed Research Lab" pos="-220530,-14000,0"/>
+         <navpoint name="Faith" pos="177330,-30870,0" diameter="18300"/>
+         <navpoint name="Hulk of Fast Big Ship 1" pos="-195640,29560,0"/>
+         <navpoint name="Hulk of Research Ship Tet" pos="-203120,-132310,0"/>
+         <navpoint name="Inner Ring 1" pos="-66170,81940,0"/>
+         <navpoint name="Inner Ring 2" pos="-50980,42390,0"/>
+         <navpoint name="Inner Ring 3" pos="24930,35180,0"/>
+         <navpoint name="Inner Ring 4" pos="63880,75220,0"/>
+         <navpoint name="Misery Point" pos="94380,-32189,0"/>
+         <navpoint name="Research Field 1" pos="-73400,-78410,0"/>
+         <navpoint name="Research Field 2" pos="-19970,-75850,0"/>
+         <navpoint name="Research Field 3 - Destroyed -" pos="-4500,-120130,0"/>
+         <navpoint name="Research Nav 1 (Very Danger!)" pos="-47780,-42910,0"/>
+         <navpoint name="RS 1" pos="-99950,89820,0"/>
+         <navpoint name="RS 2" pos="-101000,49770,0"/>
+         <navpoint name="RS 3" pos="-80190,20110,0"/>
+         <navpoint name="RS 4" pos="-30240,-180,0"/>
+         <navpoint name="RS 5" pos="29580,-180,0"/>
+         <navpoint name="RS 6" pos="80040,19590,0"/>
+         <navpoint name="RS 7" pos="100330,50290,0"/>
+         <navpoint name="RS 8" pos="100300,90340,0"/>
+         <navpoint name="Tado-O Complex" pos="-202450,-85640,0"/>
+         <navpoint name="Tada-O Gate" pos="-191190,-103160,0" diameter="13100"/>
+         <navpoint name="Tada-O Nav 1" pos="-198660,-32340,0"/>
+         <navpoint name="Tada-O Nav 2" pos="-202660,-62460,0"/>
+         <navpoint name="Ten-Gu Observation Nav 1" pos="-222930,-84730,0"/>
+         <navpoint name="Ten-Gu Observation Nav 2" pos="-231890,-112870,0"/>
+         <navpoint name="Ten-Gu Observation Nav 3" pos="-155210,-109420,0"/>
+         <navpoint name="Wreckage of Alliance 7" pos="159620,67540,0"/>
+      </sector>
+   </system>
+   <system name="Sol" id="11">
+      <sector name="Saturn" id="1071" rect="48000,-190000,48000,-511740">
+         <gate to="Glenn" pos="89610,-467280,0"/>
+         <gate to="Asteroid Belt Alpha" pos="199110,-321590,0"/>
+         <gate to="Asteroid Belt Beta" pos="129150,-489960,0"/>
+         <gate to="Asteroid Belt Gamma" pos="68680,-415260,0"/>
+         <gate to="Jupiter" pos="352050,-303690,0"/>
+         <gate to="Akeron's Gate" pos="366300,-226730,0"/>
+         <planet name="Saturn" pos="-7970,-101110,-183820" diameter="448700"/>
+         <station name="Net-7 SOL" id="10711" pos="313640,-425050,0" diameter="0">
+            <owner>Net-7</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="34">Lalsa Moore</Weapons>
+               <Equipment level="34">Bryce Witherin</Equipment>
+               <Tradegoods>Esther McCabe</Tradegoods>
+               <Components level="3">Kent Larkin</Components>
+               <Components level="4">Illian Presuda</Components>
+            </vendors>
+            <npcs>
+               <npc>Jan Blather</npc>
+               <npc>Heracles Gravel</npc>
+               <npc>Vip Hardy</npc>
+               <npc>Zona Mason</npc>
+               <npc>Philippe</npc>
+               <npc>Ikousei Saito</npc>
+               <npc>Shelton Smoot</npc>
+            </npcs>
+         </station>
+         <navpoint name="Abandoned Pathway" pos="282740,-264600,0"/>
+         <navpoint name="Abandoned Pathway" pos="233780,-262660,0"/>
+         <navpoint name="Abandoned Pathway" pos="212960,-432540,0"/>
+         <navpoint name="Abandoned Pathway" pos="229760,-479720,0"/>
+         <navpoint name="Abandoned Starbase" pos="238550,-488970,0"/>
+         <navpoint name="Defunct Star Gate" pos="203530,-249980,-920"/>
+         <navpoint name="Nav Ringway One" pos="118920,-443220,0"/>
+         <navpoint name="Nav Ringway Two" pos="167440,-407140,0"/>
+         <navpoint name="Nav Ringway Three" pos="213470,-372310,0"/>
+         <navpoint name="Nav Ringway Four" pos="257230,-338420,0"/>
+         <navpoint name="Nav Ringway Five" pos="299390,-302860,0"/>
+         <navpoint name="Nav Ringway Six" pos="331550,-265110,0"/>
+         <navpoint name="Net-7 SOL! Beacon" pos="272010,-386830,0"/>
+         <navpoint name="Saturn 3" pos="141370,-402720,0"/>
+      </sector>
+      <sector name="Asteroid Belt Alpha" id="1076" rect="-200000,200000,-200000,-170000">
+         <gate to="Saturn" pos="184140,-16340,0"/>
+         <gate to="Earth" pos="-134600,138600,0"/>
+         <gate to="Asteroid Belt Beta" pos="-123130,-160490,0"/>
+         <station name="ECS Dauntless" id="10761" pos="49390,-146520,0" diameter="0">
+            <owner>EarthCorps Warriors</owner>
+            <terminals>
+               <terminal>Manufacturing</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="3">Genia Portman</Weapons>
+               <Equipment level="3">Roger Overton</Equipment>
+            </vendors>
+            <npcs>
+               <npc>Stephanie Baird</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid AA-244" pos="-11310,12290,0"/>
+         <navpoint name="Asteroid AA-374" pos="164620,-61860,0"/>
+         <navpoint name="Bedrock Cluster" pos="54980,-54730,640"/>
+         <navpoint name="Beltway Junction" pos="-101630,101850,0"/>
+         <navpoint name="Cresson Pit" pos="-58240,142060,0"/>
+         <navpoint name="Dutch Flat" pos="81330,-73630,-990"/>
+         <navpoint name="EarthCorps Checkpoint" pos="47970,-106950,0"/>
+         <navpoint name="InfinitiCorp Beltway 1" pos="-119730,59170,0"/>
+         <navpoint name="InfinitiCorp Beltway 2" pos="-129430,16490,0"/>
+         <navpoint name="InfinitiCorp Beltway 3" pos="-124900,-28120,0"/>
+         <navpoint name="InfinitiCorp Beltway 4" pos="-112620,-73390,0"/>
+         <navpoint name="InfinitiCorp Beltway 5" pos="-88690,-114770,0"/>
+         <navpoint name="InfinitiCorp Beltway 6" pos="-44720,-135460,0"/>
+         <navpoint name="InfinitiCorp Beltway 7" pos="-100,-141930,0"/>
+         <navpoint name="InfinitiCorp Sector Headquarters" pos="-99960,340,0"/>
+         <navpoint name="Jackson Clump" pos="103830,-84380,-710"/>
+         <navpoint name="Klondike Circle" pos="42550,-83040,1430"/>
+         <navpoint name="Klondike Pit" pos="139000,-113640,0"/>
+         <navpoint name="Lower Fields Checkpoint" pos="95840,-144070,0"/>
+         <navpoint name="No-Man's Land" pos="56530,-65860,0"/>
+         <navpoint name="Sado Pit" pos="-152740,-63860,0"/>
+         <navpoint name="Saturn Beltway 1" pos="-52480,105730,0"/>
+         <navpoint name="Saturn Beltway 2" pos="-4380,112220,0"/>
+         <navpoint name="Saturn Beltway 3" pos="48390,107670,0"/>
+         <navpoint name="Saturn Beltway 4" pos="87190,88920,0"/>
+         <navpoint name="Saturn Beltway 5" pos="122140,48430,0"/>
+         <navpoint name="Saturn Beltway 6" pos="153440,21150,0"/>
+         <navpoint name="Sonora Formation" pos="64970,-62260,0"/>
+         <navpoint name="Techatticup Pit" pos="17860,158990,0"/>
+         <navpoint name="Toughnut Pit" pos="-171970,-13610,0"/>
+      </sector>
+      <sector name="Asteroid Belt Beta" id="1077" rect="-175000,175000,-175000,-175000">
+         <gate to="Asteroid Belt Alpha" pos="-129039,138870,0"/>
+         <gate to="Asteroid Belt Gamma" pos="-130490,-136050,0"/>
+         <gate to="Saturn" pos="139600,-11740,0"/>
+         <navpoint name="Alpha-Gamma Beltway 1" pos="-102880,103810,0"/>
+         <navpoint name="Alpha-Gamma Beltway 2" pos="-82530,64140,0"/>
+         <navpoint name="Alpha-Gamma Beltway 3" pos="-74860,18720,0"/>
+         <navpoint name="Alpha-Gamma Beltway 4" pos="-76250,-30740,0"/>
+         <navpoint name="Alpha-Gamma Beltway 5" pos="-89040,-74670,0"/>
+         <navpoint name="Alpha-Gamma Beltway 6" pos="-113770,-117290,0"/>
+         <navpoint name="Asteroid BA-299" pos="-60710,-104520,0"/>
+         <navpoint name="Asteroid BA-482" pos="-51550,72530,0"/>
+         <navpoint name="Jenquai Listening Post 1" pos="71500,3470,0"/>
+         <navpoint name="Jenquai Listening Post 2" pos="90970,-48740,0"/>
+         <navpoint name="Lower Saturn 1" pos="-19560,-26900,0"/>
+         <navpoint name="Lower Saturn 2" pos="-38700,-42190,0"/>
+         <navpoint name="Lower Saturn 3" pos="-58080,-57480,0"/>
+         <navpoint name="Mining Marker 1" pos="-125180,62270,0"/>
+         <navpoint name="Mining Marker 2" pos="-117310,1690,0"/>
+         <navpoint name="Mining Marker 3" pos="-124330,-61290,0"/>
+         <navpoint name="Mining Marker 4" pos="125860,-45370,0"/>
+         <navpoint name="Saturn 1" pos="114010,-17660,0"/>
+         <navpoint name="Saturn 2" pos="90130,-20180,0"/>
+         <navpoint name="Saturn 3" pos="66910,-21550,0"/>
+         <navpoint name="Upper Saturn 1" pos="-58130,42080,0"/>
+         <navpoint name="Upper Saturn 2" pos="-39710,21390,0"/>
+         <navpoint name="Upper Saturn 3" pos="-16100,7030,0"/>
+         <navpoint name="Gate War Hulk" pos="84200,-30360,0"/>
+         <navpoint type="hidden" name="Gravity Generator" pos="21790,-19550,0"/>
+         <navpoint type="hidden" name="Rimenshi Rock" pos="82190,14250,0"/>
+         <navpoint type="special" name="Helios Weft" pos="-28430,43600,0"/>
+      </sector>
+      <sector name="Asteroid Belt Gamma" id="1079" rect="-50000,50000,-50000,-200000">
+         <gate to="Asteroid Belt Beta" pos="-25660,15190,0"/>
+         <gate to="Saturn" pos="334220,-83420,0"/>
+         <gate to="Mars" pos="69940,-114950,0"/>
+         <station name="Detention Center Onorom" id="10791" pos="150350,-176760,890" diameter="20500">
+            <owner>Centuriata Warriors</owner>
+            <terminals>
+               <terminal>Manufacturing</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Components level="3">Tal Savage</Components>
+            </vendors>
+            <npcs>
+               <npc>Warden Orphant</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid Marin34" pos="1960,-144390,0"/>
+         <navpoint name="Beta Gamma Beltway 1" pos="-28130,-2680,0"/>
+         <navpoint name="Beta Gamma Beltway 2" pos="-22280,-20320,0"/>
+         <navpoint name="Beta Gamma Beltway 3" pos="-11060,-32360,0"/>
+         <navpoint name="Beta Gamma Beltway 4" pos="13840,-43220,0"/>
+         <navpoint name="Beta Gamma Beltway 5" pos="39440,-58990,0"/>
+         <navpoint name="Beta Gamma Beltway 6" pos="69990,-70580,0"/>
+         <navpoint name="Beta Saturn Junction" pos="94010,-67320,0"/>
+         <navpoint name="Cent's Field" pos="103530,-41210,0"/>
+         <navpoint name="Comm Junction 1" pos="121560,-26930,0"/>
+         <navpoint name="Easten's Field" pos="289910,-53830,0"/>
+         <navpoint name="Mars Junction" pos="69990,-91740,0"/>
+         <navpoint name="Mier's Path" pos="-33090,-30800,0"/>
+         <navpoint name="Mier's Perch" pos="-36790,-61540,0"/>
+         <navpoint name="Nav Comm" pos="135530,-12360,0"/>
+         <navpoint name="Nav Vela" pos="59600,-26040,2000"/>
+         <navpoint name="Nort's Field" pos="65600,-2070,0"/>
+         <navpoint name="Onorom Checkpoint" pos="154040,-158170,0"/>
+         <navpoint name="Saturn Gamma Navway 1" pos="284200,-84010,0"/>
+         <navpoint name="Saturn Gamma Navway 2" pos="247190,-66250,0"/>
+         <navpoint name="Saturn Gamma Navway 3" pos="207620,-46030,0"/>
+         <navpoint name="Saturn Gamma Navway 4" pos="172680,-47980,0"/>
+         <navpoint name="Saturn Gamma Navway 5" pos="145640,-52790,0"/>
+         <navpoint name="Saturn Gamma Navway 6" pos="118440,-60390,0"/>
+         <navpoint name="Thern's Field" pos="38870,-70120,0"/>
+         <navpoint type="hidden" name="Asteroid Marin31" pos="54120,-127720,0"/>
+         <navpoint type="hidden" name="Asteroid Marin32" pos="37910,-137140,0"/>
+         <navpoint type="hidden" name="Asteroid Marin33" pos="24180,-141300,0"/>
+         <navpoint type="special" name="Mutation Viability Field Lab" pos="117110,-185260,0"/>
+      </sector>
+      <sector name="Jupiter" id="1070" rect="-10000,175000,-10000,-250000">
+         <gate to="Saturn" pos="100840,-217740,0"/>
+         <gate to="Io" pos="354470,-154520,-1950"/>
+         <gate to="Europa" pos="301780,127700,300"/>
+         <planet name="Jupiter" pos="-41330,1050,90000" diameter="364800"/>
+         <station name="Jove's Fury" id="10701" pos="118070,-223500,0" diameter="0">
+            <owner>Sharim Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+               <terminal>Customize Avatar</terminal>
+               <terminal>Customize Ship</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="23489">Alahr Joi</Weapons>
+               <Equipment level="23489">Vila Mosj</Equipment>
+               <Components level="1">Narita Fujiko</Components>
+               <Components level="2">Ota Denbe</Components>
+               <Components level="3">Miyoshi Basho</Components>
+               <Components level="4">Inoue Akane</Components>
+               <Components level="8">Genji Ume</Components>
+               <Components level="9">Deguchi Nobuo</Components>
+            </vendors>
+            <npcs>
+               <npc>Ze'ev Azifi</npc>
+               <npc>P1625</npc>
+               <npc>Masaaki Rosanjin</npc>
+               <npc>Master Sevti</npc>
+               <npc>Councillor Uje'da</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid JP-R10" pos="23260,-196480,0"/>
+         <navpoint name="Asteroid JP-R28" pos="124180,113800,0"/>
+         <navpoint name="Asteroid JP-X21" pos="279110,-213470,0"/>
+         <navpoint name="Asteroid JP-X30" pos="360630,-67970,0"/>
+         <navpoint name="Asteroid JP-X42" pos="354260,124440,0"/>
+         <navpoint name="Red Dragon Outpost" pos="351840,29650,-1370"/>
+         <navpoint name="Gas Field Deep 1" pos="160160,-26870,930"/>
+         <navpoint name="Gas Field Deep 2" pos="145500,-67250,930"/>
+         <navpoint name="Gas Field Deep 3" pos="121820,-105650,930"/>
+         <navpoint name="Jupiter Path the First" pos="177340,-206740,0"/>
+         <navpoint name="Jupiter Path the Second" pos="285170,-146960,0"/>
+         <navpoint name="Jupiter Path the Third" pos="262210,-44270,-2410"/>
+         <navpoint name="Jupiter Path the Fourth" pos="198730,24840,0"/>
+         <navpoint name="Jupiter Path the Fifth" pos="268150,90260,0"/>
+         <navpoint name="Nav Group Shrine" pos="124910,-219910,0"/>
+         <navpoint name="Ngozi Maru Memorium" pos="180590,-227820,110"/>
+         <navpoint name="Ruins of Jove City" pos="169460,25860,-1170" diameter="29600"/>
+         <navpoint name="Sha'ryun's Tear" pos="251700,104470,-1870"/>
+         <navpoint name="The Mourning Circle" pos="239820,-53740,470"/>
+         <navpoint name="Vasen'or Prospect Memorium" pos="296670,-166010,1450"/>
+         <navpoint type="hidden" name="Asteroid JP-R11" pos="35260,-184730,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R12" pos="52060,-173130,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R13" pos="67850,-167050,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R14" pos="81300,-156720,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R15" pos="90480,-146550,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R16" pos="102450,-135240,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R17" pos="111310,-124410,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R25" pos="146860,71280,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R26" pos="140340,87010,0"/>
+         <navpoint type="hidden" name="Asteroid JP-R27" pos="132400,99910,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X22" pos="288790,-202240,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X23" pos="293630,-187720,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X25" pos="324010,-132730,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X26" pos="337860,-123050,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X27" pos="335770,-105790,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X28" pos="341130,-91340,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X29" pos="352140,-81370,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X39" pos="357720,77200,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X40" pos="357720,93190,0"/>
+         <navpoint type="hidden" name="Asteroid JP-X41" pos="354550,110180,0"/>
+         <navpoint type="special" name="Virgil's Weft" pos="247840,48560,0"/>
+      </sector>
+      <sector name="Io" id="1052" rect="-100000,150000,-100000,0">
+         <gate to="Jupiter" pos="-51030,10090,0"/>
+         <gate to="Kailaasa" pos="-78150,11080,0"/>
+         <moon name="Io" pos="49440,-1040,0" diameter="120500"/>
+         <station name="Nishino Research Facility" id="10521" pos="-53070,90400,0" diameter="0">
+            <owner>Sha'ha'dem Explorers</owner>
+            <terminals>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="2">Chiba Naho</Weapons>
+               <Equipment level="12">Ayugai Chieko</Equipment>
+               <Components level="1">Korash Sera</Components>
+            </vendors>
+            <npcs>
+               <npc>Kalas ben Joseph</npc>
+               <npc>Shin-Tzu Li</npc>
+               <npc>Sai Siddhun</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid NR-107" pos="41740,134260,0"/>
+         <navpoint name="Asteroid NR-108" pos="27640,138580,0"/>
+         <navpoint name="Asteroid NR-124" pos="-31720,27600,0"/>
+         <navpoint name="Decomissioned Transport" pos="-88100,133780,0"/>
+         <navpoint name="Destroyed Wreck" pos="-70300,139490,-850"/>
+         <navpoint name="Nav Capella Gateway" pos="-75050,15990,0"/>
+         <navpoint name="Nav Gateways" pos="-59170,51330,0"/>
+         <navpoint name="Nav Jupiter Gateway" pos="-52150,16020,0"/>
+         <navpoint name="Pylon Alpha" pos="-24920,60030,0"/>
+         <navpoint name="Pylon Beta" pos="-22150,58400,0"/>
+         <navpoint name="Refuse Area" pos="-79900,110010,0"/>
+         <navpoint name="Tempest Fringe" pos="25120,120020,-500"/>
+         <navpoint type="hidden" name="Asteroid NR-125" pos="-25170,34150,0"/>
+         <navpoint type="hidden" name="Asteroid NR-126" pos="-29910,41950,0"/>
+         <navpoint type="hidden" name="Asteroid NR-127" pos="-27680,50590,0"/>
+         <navpoint type="hidden" name="Asteroid NR-143" pos="-20320,67730,0"/>
+         <navpoint type="hidden" name="Asteroid NR-144" pos="-4500,74530,0"/>
+         <navpoint type="hidden" name="Asteroid NR-145" pos="4770,72830,0"/>
+         <navpoint type="hidden" name="Wrecked Hauler" pos="-84520,112990,-1360"/>
+      </sector>
+      <sector name="Europa" id="1055" rect="-60000,65000,-60000,-55000">
+         <gate to="Jupiter" pos="59990,-14880,0"/>
+         <gate to="Swooping Eagle" pos="-43580,19440,380"/>
+         <moon name="Europa" pos="2770,750,260" diameter="36400"/>
+         <station name="Ashanti Maru" id="10551" pos="-31320,21110,0" diameter="0">
+            <owner>Shinwa Warriors</owner>
+            <terminals>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="2">Isha Fars</Weapons>
+               <Equipment level="12">Tetsuo Ravenlock</Equipment>
+            </vendors>
+            <npcs>
+               <npc>Ten'Shao Anala</npc>
+            </npcs>
+         </station>
+         <navpoint name="First Steps of the Shinwa" pos="-49970,33210,0"/>
+         <navpoint name="First Steps of the Shinwa" pos="-50400,32600,0"/>
+         <navpoint name="Realm of the Daevas" pos="40390,-24210,10"/>
+         <navpoint name="Start" pos="-25500,-33500,260"/>
+         <navpoint name="The End of the Hunt" pos="57100,50840,10"/>
+         <navpoint name="The Fiery Aspect" pos="8830,-35650,10"/>
+         <navpoint name="The Final Step of the Shinwa" pos="41370,-2280,10"/>
+         <navpoint name="The Hunting Grounds" pos="41370,31470,10"/>
+         <navpoint name="The Lotus Opens" pos="-23000,-31000,10"/>
+         <navpoint name="The Place of the Void" pos="130,39850,10"/>
+         <navpoint name="The Presence Overwhelms" pos="29570,-23860,10"/>
+         <navpoint name="The Sun at Noon" pos="-30090,11590,250"/>
+         <navpoint name="The Trial of the Horde" pos="-32439,-10040,250"/>
+         <navpoint name="The Unruly Horde" pos="-39970,-17520,120"/>
+         <navpoint name="The Way of the Hunt" pos="33760,22210,10"/>
+         <navpoint name="Trial by Fire" pos="13320,-47040,10"/>
+         <navpoint name="Vishaari Upgrade Yard" pos="52910,5330,760"/>
+         <navpoint type="hidden" name="The Lotus" pos="-28000,-36000,110"/>
+      </sector>
+      <sector name="Mars" id="1065" rect="-150000,150000,-150000,-75000">
+         <gate to="Asteroid Belt Gamma" pos="135000,140000,0"/>
+         <gate to="Mars Alpha" pos="-127590,141790,0"/>
+         <gate to="Mars Beta" pos="-122280,141790,0"/>
+         <planet name="Mars" pos="230,-57630,0" diameter="144100"/>
+         <station name="Arx Magister" id="10651" pos="1000,90000,0" diameter="18500">
+            <owner>Collegia Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+               <terminal>Customize Avatar</terminal>
+               <terminal>Customize Ship</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="23489">Korr Pohr</Weapons>
+               <Equipment level="23489">Aldus Centir</Equipment>
+               <Components level="1">Ignis Sacca</Components>
+               <Components level="2">Juterna Gratus</Components>
+               <Components level="3">Justus Flavius</Components>
+               <Components level="4">Pietus Tuccius</Components>
+               <Components level="8">Adrian Valgus</Components>
+               <Components level="9">Selene Gavius</Components>
+            </vendors>
+            <npcs>
+               <npc>Drusus Cauponius</npc>
+               <npc>Proconsul Dionysius Kerr</npc>
+               <npc>Reclaimer Nayol Wat</npc>
+               <npc>Zieg</npc>
+            </npcs>
+         </station>
+         <navpoint name="Remus" pos="-129000,1000,0" diameter="58900"/>
+         <navpoint name="Romulus" pos="130000,1000,0" diameter="58900"/>
+         <navpoint name="Alpha Beta 1" pos="-119000,126000,0"/>
+         <navpoint name="Alpha Beta 2" pos="-82000,96000,0"/>
+         <navpoint name="Asteroid Belt 1" pos="123990,120160,0"/>
+         <navpoint name="Asteroid Belt 2" pos="82000,96000,0"/>
+         <navpoint name="Construction Site" pos="50000,100000,0"/>
+         <navpoint name="Hunting Grounds" pos="1000,50000,0"/>
+         <navpoint name="Magister Prime" pos="1000,74000,1000"/>
+         <navpoint name="Magister Remus" pos="-18000,90000,1000"/>
+         <navpoint name="Magister Romulus" pos="20000,90000,1000"/>
+         <navpoint name="Menace Trial" pos="0,124000,0"/>
+         <navpoint name="Menace Way" pos="1000,110000,1000"/>
+         <navpoint name="Missile Trial" pos="-65580,118470,0"/>
+         <navpoint name="Nav Group Shrine" pos="-39880,100120,0"/>
+         <navpoint name="Remus Back" pos="-123000,-34000,-2000"/>
+         <navpoint name="Remus Way 1" pos="-37000,81000,1000"/>
+         <navpoint name="Remus Way 2" pos="-75000,51000,0"/>
+         <navpoint name="Remus Way 3" pos="-92000,10100,2500"/>
+         <navpoint name="Remus Way 4" pos="-91000,-32000,2500"/>
+         <navpoint name="Romulus Back" pos="125000,-34000,-2000"/>
+         <navpoint name="Romulus Way 1" pos="39000,81000,1000"/>
+         <navpoint name="Romulus Way 2" pos="77000,51000,0"/>
+         <navpoint name="Romulus Way 3" pos="94000,10100,2500"/>
+         <navpoint name="Romulus Way 4" pos="94000,-32000,-2500"/>
+         <navpoint name="Asteroid Remus 557" pos="-83430,58060,0"/>
+         <navpoint name="Asteroid Remus 558" pos="-96990,65810,0"/>
+         <navpoint name="Asteroid Remus 559" pos="-110740,72200,0"/>
+         <navpoint name="Asteroid Remus 560" pos="-122170,83240,0"/>
+         <navpoint name="Asteroid Romulus 577" pos="86310,57940,0"/>
+         <navpoint name="Asteroid Romulus 578" pos="99260,66430,0"/>
+         <navpoint name="Asteroid Romulus 579" pos="109930,75760,0"/>
+         <navpoint name="Asteroid Romulus 580" pos="120780,83500,0"/>
+         <navpoint type="hidden" name="Remus Thrust" pos="-129000,-27000,-3700"/>
+         <navpoint type="hidden" name="Romulus Thrust" pos="130000,-27000,-3700"/>
+         <navpoint type="hidden" name="Araxia Hunting Ground" pos="27000,35000,0"/>
+         <navpoint type="hidden" name="Dzurai Hunting Ground" pos="1000,20000,0"/>
+         <navpoint type="hidden" name="Mars Back Listening Satellite" pos="1440,-63500,0"/>
+         <navpoint type="hidden" name="Kraken Hunting Ground" pos="-25000,35000,0"/>
+      </sector>
+      <sector name="Mars Alpha" id="1036" rect="-150000,125000,-150000,-190000">
+         <gate to="Mars" pos="68280,-14440,0"/>
+         <gate to="Tarsis" pos="-137410,5180,0"/>
+         <asteroid name="Forgestone Alpha" pos="-47730,-144160,-1050" diameter="40500"/>
+         <asteroid name="White Fire Alpha" pos="137040,-71900,2090" diameter="80400"/>
+         <station name="Arx Forgus" id="10361" pos="200,10,-10230" diameter="21000">
+            <owner>Centuriata Warriors</owner>
+            <terminals>
+               <terminal>Manufacturing</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="2">Marius Crelion</Weapons>
+               <Equipment level="12">Senorix Rufus</Equipment>
+            </vendors>
+            <npcs>
+               <npc>Flavius Grachhus</npc>
+               <npc>Pedagogue Kluu</npc>
+               <npc>Sub-Commander Trask</npc>
+            </npcs>
+         </station>
+         <navpoint name="Achilles Warrior Ground" pos="-48340,69400,0"/>
+         <navpoint name="Centuriata Way 1" pos="-44730,5210,0"/>
+         <navpoint name="Centuriata Way 2" pos="-84670,5210,0"/>
+         <navpoint name="Centuriata Way 3" pos="-124620,5210,0"/>
+         <navpoint name="Docking Buoy" pos="-38860,-66840,0"/>
+         <navpoint name="Hercules Warrior Ground" pos="-78070,99590,0"/>
+         <navpoint name="Mactor Combat Course Alpha" pos="15860,57450,0"/>
+         <navpoint name="Mactor Combat Course Beta" pos="40730,44590,0"/>
+         <navpoint name="Mercury Warrior Ground" pos="-25110,35490,0"/>
+         <navpoint name="Nav Combat Course 1" pos="16250,31980,0"/>
+         <navpoint name="Nav Search and Destroy 1" pos="18040,-31700,0"/>
+         <navpoint name="Nav Search and Destroy 2" pos="24010,-71740,0"/>
+         <navpoint name="Nav Survey 1" pos="33250,11980,0"/>
+         <navpoint name="Nav Survey 2" pos="80060,7150,0"/>
+         <navpoint name="Nav Trade Fire 1" pos="-22520,-40680,20"/>
+         <navpoint name="Nav Trade Fire 2" pos="-32759,-61280,380"/>
+         <navpoint name="Nav Warrior Training 1" pos="-14060,36120,0"/>
+         <navpoint name="Nav Warrior Training 2" pos="-38980,68870,0"/>
+         <navpoint name="Nav Warrior Training 3" pos="-67530,99870,0"/>
+         <navpoint name="Progen Cargo Tug" pos="-35430,-48470,0"/>
+         <navpoint name="Progen Survey Satellite" pos="86610,7300,0"/>
+         <navpoint name="Search and Destroy Grounds" pos="29810,-116300,0"/>
+         <navpoint name="Trade Dock Fire 1" pos="-41380,-70470,0"/>
+      </sector>
+      <sector name="Mars Beta" id="1030" rect="-350000,225000,-350000,-350000">
+         <gate to="Mars" pos="-97070,-174460,-630"/>
+         <gate to="Lagarto" pos="-6770,-113890,-420"/>
+         <station name="Arx Prima" id="10301" pos="-101090,-9980,-570" diameter="0">
+            <owner>Sabine Explorers</owner>
+            <terminals>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="2">Shir Tibress</Weapons>
+               <Equipment level="12">Camilla Rufus</Equipment>
+            </vendors>
+            <npcs>
+               <npc>Tovar Maxe</npc>
+               <npc>Centurion Minda</npc>
+               <npc>Reclaimer Orgus</npc>
+               <npc>Fet Rastian</npc>
+            </npcs>
+         </station>
+         <navpoint name="Debris Area Alpha" pos="-91430,36780,0"/>
+         <navpoint name="Debris Area Beta" pos="-51030,72350,0"/>
+         <navpoint name="Debris Area Gamma" pos="-43000,124990,0"/>
+         <navpoint name="Debris Area Epsilon" pos="-164170,18180,0"/>
+         <navpoint name="Debris Area Zeta" pos="-188200,61560,0"/>
+         <navpoint name="Debris Area Eta" pos="-238500,90090,0"/>
+         <navpoint name="Nav Darkside 1" pos="-57340,-93840,0"/>
+         <navpoint name="Nav Darkside 2" pos="-94410,-131870,130"/>
+         <navpoint name="Nav Equinox" pos="-62460,-43050,0"/>
+         <navpoint name="Psionic Emitter 1" pos="-27000,-16320,0"/>
+         <navpoint name="Psionic Emitter 2" pos="16860,-10080,2800"/>
+         <navpoint name="Psionic Emitter 3" pos="62190,18940,3500"/>
+         <navpoint name="Psionic Emitter 4" pos="111220,6940,4500"/>
+         <navpoint name="Ringway A" pos="-103710,-29480,0"/>
+         <navpoint name="Ringway B" pos="-120390,570,0"/>
+         <navpoint name="Ringway C" pos="-81250,-2370,0"/>
+         <navpoint name="Nav Brightside 1" pos="-148580,-27130,0"/>
+         <navpoint name="Nav Brightside 2" pos="-175620,-69020,0"/>
+         <navpoint name="Nav Brightside 3" pos="-201570,-105250,0"/>
+         <navpoint name="Nav Brightside 4" pos="-231030,-141120,0"/>
+         <navpoint name="Nav Brightside 5" pos="-258570,-178130,0"/>
+         <navpoint name="Nav Brightside 6" pos="-305810,-199970,0"/>
+         <navpoint name="Nav Oubliette" pos="-251270,-209720,0"/>
+         <navpoint type="hidden" name="Derelict Reclaimer" pos="-55710,136100,1400"/>
+      </sector>
+      <sector name="Earth" id="1060" rect="-115000,75000,-115000,-70000">
+         <gate to="Asteroid Belt Alpha" pos="-46300,66130,0"/>
+         <gate to="High Earth" pos="41480,-11550,3000"/>
+         <gate to="Luna" pos="5360,52720,2500"/>
+         <planet name="Earth" pos="-39330,-102690,-5000" diameter="180000"/>
+         <station name="Earth Station" id="10601" pos="15160,15160,-880" diameter="22000">
+            <owner>InfinitiCorp Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Intergalactic Net</terminal>
+               <terminal>Customize Avatar</terminal>
+               <terminal>Customize Ship</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="23489">Eweyn Smither</Weapons>
+               <Equipment level="23489">Jorge Montez</Equipment>
+               <Tradegoods>Sondra Benen|Lenorn Listor</Tradegoods>
+               <Components level="1">Robert Tagger</Components>
+               <Components level="2">Mar Talison</Components>
+               <Components level="3">Josephine Bloom</Components>
+               <Components level="4">Kath Wilson</Components>
+               <Components level="8">Ann Betts</Components>
+               <Components level="9">Sable</Components>
+            </vendors>
+            <npcs>
+               <npc>Julie Bristol</npc>
+               <npc>Javier Domingue</npc>
+               <npc>Executive Cailleach MacKellan</npc>
+               <npc>Sander Pauls</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid ED5614" pos="-86510,66080,0"/>
+         <navpoint name="Asteroid ED5615" pos="-67350,67540,0"/>
+         <navpoint name="Corporate Park" pos="-20000,20000,0"/>
+         <navpoint name="Earth Station 1" pos="24940,30140,0"/>
+         <navpoint name="Earth Station 2" pos="34990,15240,0"/>
+         <navpoint name="Earth Station 3" pos="-4130,24990,0"/>
+         <navpoint name="GETCo 1" pos="-47500,12790,-2000"/>
+         <navpoint name="GETCo 2" pos="-70010,9000,-3000"/>
+         <navpoint name="GETCo Campus" pos="-92530,2029,-5000"/>
+         <navpoint name="Infiniti Way 1" pos="-44420,24880,2000"/>
+         <navpoint name="Infiniti Way 2" pos="-70720,26060,3000"/>
+         <navpoint name="Infiniti Campus" pos="-92500,37500,5000"/>
+         <navpoint name="InterSol Asteroid Belt 1" pos="-12870,50840,0"/>
+         <navpoint name="InterSol Asteroid Belt 2" pos="-30030,61520,0"/>
+         <navpoint name="InterSol Luna 1" pos="9290,34010,1000"/>
+         <navpoint name="InterSol Luna 2" pos="7660,42020,1500"/>
+         <navpoint name="Nav Group Shrine" pos="-22120,37610,0"/>
+         <navpoint name="Nav High Earth 1" pos="28940,1080,1000"/>
+         <navpoint name="Nav High Earth 2" pos="33980,-4050,2000"/>
+         <navpoint name="System Express 1" pos="-45370,35300,0"/>
+         <navpoint name="System Express 2" pos="-45100,49740,0"/>
+         <navpoint type="hidden" name="Asteroid ED5611" pos="-108240,17960,0"/>
+         <navpoint type="hidden" name="Asteroid ED5612" pos="-90080,20380,0"/>
+         <navpoint type="hidden" name="Asteroid ED5613" pos="-105920,59580,0"/>
+         <navpoint type="hidden" name="Asteroid EN4121" pos="-3160,67430,0"/>
+         <navpoint type="hidden" name="Asteroid EN4122" pos="13440,63860,0"/>
+         <navpoint type="hidden" name="Asteroid EN4123" pos="32650,61730,0"/>
+         <navpoint type="hidden" name="Asteroid EN4124" pos="38600,44680,0"/>
+         <navpoint type="hidden" name="Asteroid EN4125" pos="40900,30350,0"/>
+         <navpoint type="hidden" name="Asteroid EN4126" pos="42830,9270,0"/>
+      </sector>
+      <sector name="High Earth" id="1020" rect="-90000,-10000,-90000,-80000">
+         <gate to="Earth" pos="-23470,-15860,0"/>
+         <gate to="New Edinburgh" pos="-69410,-76100,0"/>
+         <station name="Loki Station" id="10201" pos="-73080,-21600,0" diameter="0">
+            <owner>InfinitiCorp Traders</owner>
+            <terminals>
+               <terminal>Manufacturing</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="2">Eagan Monroe</Weapons>
+               <Equipment level="12">Fiona MacLachlan</Equipment>
+               <Tradegoods>Eddie DuChampe</Tradegoods>
+               <Components level="1">Seamus Davidson</Components>
+            </vendors>
+            <npcs>
+               <npc>Holly Flanders</npc>
+               <npc>Louden MacEwen</npc>
+            </npcs>
+         </station>
+         <navpoint name="Earth Beltway 1" pos="-65209,-23660,0"/>
+         <navpoint name="Earth Beltway 2" pos="-45760,-34960,0"/>
+         <navpoint name="Earth Beltway 3" pos="-27160,-23700,0"/>
+         <navpoint name="EarthCorps Sector Command" pos="-4780,-28340,0" diameter="4600"/>
+         <navpoint name="Solar Array" pos="8039,-27230,0"/>
+         <navpoint name="Salvage Station 1" pos="-75760,-41210,-990"/>
+         <navpoint name="Salvage Station 2" pos="-65990,-61770,0"/>
+         <navpoint name="Salvage Station 3" pos="-58580,-57690,0"/>
+         <navpoint name="Salvage Station 4" pos="-50010,-56170,0"/>
+         <navpoint name="Salvage Station 5" pos="-41570,-57000,0"/>
+         <navpoint name="Salvage Station 6" pos="-36870,-63360,0"/>
+         <navpoint name="Salvage Station 7" pos="-41160,-69020,0"/>
+         <navpoint name="Salvage Station 8" pos="-48900,-70130,0"/>
+         <navpoint name="Salvage Station 9" pos="-58580,-66120,0"/>
+         <navpoint type="hidden" name="Caithan Solar Array" pos="5890,-13580,0"/>
+         <navpoint type="hidden" name="Crispen Solar Array" pos="10170,-13620,0"/>
+         <navpoint type="hidden" name="Volatile Ship" pos="-85080,-39680,0"/>
+         <navpoint type="hidden" name="Waste Disposal Station" pos="-69100,-42860,0"/>
+      </sector>
+      <sector name="Luna" id="1015" rect="-220000,120000,-220000,30000">
+         <gate to="Earth" pos="-85930,32350,-710"/>
+         <gate to="Zweihander" pos="-65850,47840,0"/>
+         <moon name="Luna" pos="-99370,124940,-20180" diameter="59600"/>
+         <station name="Luna Station" id="10151" pos="-90130,105770,0" diameter="6660">
+            <owner>EarthCorps Warriors</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="12">Olisi Valtz</Weapons>
+               <Equipment level="2">Charles Tesser</Equipment>
+               <Components level="1">Johnny Watt</Components>
+            </vendors>
+            <npcs>
+               <npc>Lieutenant Raine</npc>
+               <npc>Sergeant Trias</npc>
+            </npcs>
+         </station>
+         <navpoint name="Abandoned Scrap Yard" pos="-22050,72320,90"/>
+         <navpoint name="Basic Shooting Range Alpha" pos="-130690,74810,0"/>
+         <navpoint name="Basic Shooting Range Bravo" pos="-130400,47260,0"/>
+         <navpoint name="Basic Shooting Range Charlie" pos="-79310,73360,0"/>
+         <navpoint name="Desolate Scrap Yard" pos="-16970,69820,1080"/>
+         <navpoint name="Nav Advanced Combat Training" pos="-173600,60410,0"/>
+         <navpoint name="Nav Centauri Gate" pos="-69690,46840,0"/>
+         <navpoint name="Nav Combat Alpha" pos="-181040,53370,0"/>
+         <navpoint name="Nav Combat Beta" pos="-188780,59240,0"/>
+         <navpoint name="Nav Combat Charlie" pos="-181150,67410,0"/>
+         <navpoint name="Nav Combat Delta" pos="-201470,59100,0"/>
+         <navpoint name="Nav Combat Training 1" pos="-135280,60750,0"/>
+         <navpoint name="Nav Earth Gate" pos="-88220,32920,0"/>
+         <navpoint name="Nav Luna Hub" pos="-98270,67920,0"/>
+         <navpoint name="Nav Shipyards" pos="-57230,101900,300"/>
+         <navpoint name="Nav Yeager Shipyards" pos="-30690,96470,300"/>
+         <navpoint name="Scrap Yard" pos="-21100,85020,-1160"/>
+         <navpoint name="Yeager Shipyards" pos="-26210,98670,-1180"/>
+      </sector>
+      <sector name="Akeron's Gate" id="1075" rect="-100000,150000,-100000,50000">
+         <gate to="Saturn" pos="-90,60600,0"/>
+         <gate to="Freya" pos="0,129699,0"/>
+         <navpoint name="Astis" pos="34560,94000,0"/>
+         <navpoint name="EarthCorps Warning Beacon Alpha" pos="-80080,142340,0"/>
+         <navpoint name="EarthCorps Warning Beacon Beta" pos="-61770,134260,0"/>
+         <navpoint name="EarthCorps Warning Beacon Gamma" pos="-46890,123150,0"/>
+         <navpoint name="EarthCorps Warning Beacon Delta" pos="-41570,107820,0"/>
+         <navpoint name="EarthCorps Warning Beacon Epsilon" pos="-41230,94820,0"/>
+         <navpoint name="EarthCorps Warning Beacon Zeta" pos="-47290,77130,0"/>
+         <navpoint name="EarthCorps Warning Beacon Eta" pos="-59590,64430,0"/>
+         <navpoint name="EarthCorps Warning Beacon Theta" pos="-80580,57470,0"/>
+         <navpoint name="ECS Colossus" pos="-1170,142630,0"/>
+         <navpoint name="Ekobi Maru" pos="43980,79620,0"/>
+         <navpoint name="Jyn" pos="-31670,97670,0"/>
+         <navpoint name="Krakow" pos="-73800,100310,0"/>
+         <navpoint name="Lono" pos="-34420,117880,270"/>
+         <navpoint name="Markham" pos="30540,70580,0"/>
+         <navpoint name="Peat" pos="-31140,67610,0"/>
+         <navpoint name="Trin" pos="30250,120790,0"/>
+         <navpoint type="hidden" name="Amah's Ship" pos="29620,127700,0"/>
+         <navpoint type="hidden" name="2624FG4D" pos="-85080,100070,0"/>
+      </sector>
+   </system>
+   <system name="Tau Ceti" id="12">
+      <sector name="New Edinburgh" id="4015" rect="-260000,95000,-260000,-125000">
+         <gate to="Carpenter" pos="108250,-3710,0"/>
+         <gate to="Inverness" pos="92040,74510,0"/>
+         <gate to="High Earth" pos="-117470,-108270,0"/>
+         <planet name="New Edinburgh" pos="-124780,-12670,0" diameter="60000"/>
+         <moon name="Loch Brae" pos="21350,-50830,0" diameter="11000"/>
+         <moon name="Loch Mar" pos="-243000,-56900,0" diameter="15300"/>
+         <station name="Somerled Station" id="40151" pos="-63770,-99230,0" diameter="0">
+            <owner>InfinitiCorp Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="2345">Anli Sover</Weapons>
+               <Equipment level="2345">Angus MacAllister</Equipment>
+               <Tradegoods>Jess Edarte</Tradegoods>
+               <Components level="2">Bonnie MacCallum</Components>
+               <Components level="3">Ina MacGregor</Components>
+               <Components level="4">Anselm Ville</Components>
+               <Components level="5">Lachlan MacNab</Components>
+            </vendors>
+            <npcs>
+               <npc>Moire Archer</npc>
+               <npc>Lady Isabel deWinter</npc>
+               <npc>Mettan Gunderson</npc>
+               <npc>Jurgen Hook</npc>
+               <npc>Fergus MacGregor</npc>
+               <npc>Davius Persaud</npc>
+               <npc>Spetsky</npc>
+               <npc>Katlyn Walsh</npc>
+            </npcs>
+         </station>
+         <navpoint name="Danger! Greks" pos="21660,-12460,0"/>
+         <navpoint name="InfinitiCorp Construction Yard" pos="-21460,85770,-1000" diameter="14100"/>
+         <navpoint name="Nav Edinburgh 1" pos="-44930,-57650,0"/>
+         <navpoint name="Nav Edinburgh 2" pos="-25910,-13960,0"/>
+         <navpoint name="Nav Edinburgh 3" pos="-21920,38390,0"/>
+         <navpoint name="Nav Edinburgh 4" pos="21910,8039,0"/>
+         <navpoint name="Nav Edinburgh 5" pos="68780,39600,0"/>
+         <navpoint name="Nav Edinburgh 6" pos="62090,-950,0"/>
+         <navpoint name="Nav Edinburgh 7" pos="66880,-45560,0"/>
+         <navpoint name="Nav Edinburgh 8" pos="68600,-82580,0"/>
+         <navpoint name="Nav Edinburgh 9" pos="33950,-109950,0"/>
+         <navpoint name="Obsolete Nav 1" pos="-121050,44290,0"/>
+         <navpoint name="Obsolete Nav 2" pos="-168290,31300,0"/>
+         <navpoint type="hidden" name="Hulk of Satis 6" pos="-78320,65690,0"/>
+         <navpoint type="hidden" name="Red Dragon Stronghold" pos="-244750,4970,-400"/>
+      </sector>
+      <sector name="Inverness" id="4025" rect="-250000,220000,-250000,-200000">
+         <gate to="New Edinburgh" pos="-91370,-43540,0"/>
+         <gate to="Blackbeard's Wake" pos="174360,109170,0"/>
+         <gate to="Arduinne" pos="19860,83850,0"/>
+         <gate to="Aganju" pos="103210,-153240,0"/>
+         <planet type="Landable" name="Inverness Planet" fullname="Inverness Down" id="4093" pos="-137390,92180,0" diameter="150000">
+            <surface name="Inverness Planet" rect="-43790,49940,-43790,-15310">
+               <station name="Inverness Down" id="40931" pos="-130,17990,1540" diameter="2120">
+                  <owner>InfinitiCorp Traders</owner>
+                  <terminals>
+                     <terminal>Analyze</terminal>
+                     <terminal>Manufacturing</terminal>
+                     <terminal>Refining</terminal>
+                     <terminal>Jobs</terminal>
+                     <terminal>Customize Avatar</terminal>
+                     <terminal>Customize Ship</terminal>
+                  </terminals>
+                  <vendors>
+                     <Weapons level="234">Wend Vinder</Weapons>
+                     <Equipment level="234">Salma Bluse</Equipment>
+                     <Tradegoods>Hakem Omaor|Dinh Thi Anh</Tradegoods>
+                     <Components level="2">Trey Nister</Components>
+                     <Components level="3">Ross Davidson</Components>
+                     <Components level="4">Clyde MacRae</Components>
+                  </vendors>
+                  <npcs>
+                     <npc>Maks Babin</npc>
+                     <npc>LaMotte</npc>
+                     <npc>Tuli Valno</npc>
+                  </npcs>
+               </station>
+               <navpoint name="Gas Field Alpha" pos="15270,16540,0"/>
+               <navpoint name="Gas Field Beta" pos="-14280,16560,0"/>
+               <navpoint name="Nav Gas Field Alpha" pos="8820,16550,0"/>
+               <navpoint name="Nav Gas Field Beta" pos="-8310,16430,0"/>
+               <navpoint name="Nav Inverness Down 1" pos="250,4190,0"/>
+               <navpoint name="Nav Inverness Down 2" pos="130,10030,0"/>
+               <navpoint name="Nav Scrapyard 1" pos="-1420,18990,0"/>
+               <navpoint name="Nav Scrapyard 2" pos="-4380,24620,0"/>
+               <navpoint name="Nav Scrapyard 3" pos="-8550,28350,0"/>
+               <navpoint name="Nav Stirling 1" pos="1500,19270,0"/>
+               <navpoint name="Nav Stirling 2" pos="6780,21990,0"/>
+               <navpoint name="Nav Stirling 3" pos="11790,25140,0"/>
+               <navpoint name="Nav Stirling 4" pos="17320,28460,0"/>
+               <navpoint type="hidden" name="Gas Pocken 1A" pos="-11330,-7610,0"/>
+               <navpoint type="hidden" name="Gas Pocken 1B" pos="11620,-7610,0"/>
+               <navpoint type="hidden" name="Gas Pocken 2A" pos="-22670,-4240,0"/>
+               <navpoint type="hidden" name="Gas Pocken 2B" pos="23010,-5720,0"/>
+               <navpoint type="hidden" name="Gas Pocken 3A" pos="-30630,2380,0"/>
+               <navpoint type="hidden" name="Gas Pocken 3B" pos="30380,1700,0"/>
+               <navpoint type="hidden" name="Gas Pocken 4A" pos="-37780,12370,0"/>
+               <navpoint type="hidden" name="Gas Pocken 4B" pos="34970,10070,0"/>
+               <navpoint type="hidden" name="ECS Beowulf" pos="-10160,32430,0"/>
+               <navpoint type="hidden" name="ECS Indomitable" pos="-13050,32920,0"/>
+               <navpoint type="hidden" name="ECS Lucky Dog" pos="-13680,30230,-130"/>
+               <navpoint type="hidden" name="ECS Speculator" pos="-8980,29840,380"/>
+               <navpoint type="hidden" name="Scrappyard Anti-Grav Generator" pos="-11480,30530,0"/>
+               <navpoint type="hidden" name="Stirling" pos="21700,31600,0"/>
+            </surface>
+         </planet>
+         <navpoint name="Bai Leung Red Dragon Lair Docking Buoy" pos="160590,92730,180"/>
+         <navpoint name="Nav Inverness 1" pos="-69520,-81480,0"/>
+         <navpoint name="Nav Inverness 2" pos="-24740,-87630,0"/>
+         <navpoint name="Nav Inverness 3" pos="10200,-58510,0"/>
+         <navpoint name="Nav Inverness 4" pos="18570,-105660,0"/>
+         <navpoint name="Nav Inverness 5" pos="63520,-124540,0"/>
+         <navpoint name="Nav Inverness 6" pos="106430,-104720,0"/>
+         <navpoint name="Nav Inverness 7" pos="14350,-10840,0"/>
+         <navpoint name="Nav Inverness 8" pos="19860,36120,0"/>
+         <navpoint name="Nav Inverness 9" pos="66660,32189,0"/>
+         <navpoint name="Nav Sunside 1" pos="-136080,-32150,0"/>
+         <navpoint name="Nav Sunside 2" pos="-186190,-19120,0"/>
+         <navpoint type="hidden" name="Haster's End" pos="-202880,-125870,0"/>
+         <navpoint type="hidden" name="Haster's Point" pos="-197610,-75420,0"/>
+      </sector>
+      <sector name="Arduinne" id="4030" rect="-300000,250000,-300000,-300000">
+         <gate to="Inverness" pos="69130,-154570,0"/>
+         <planet type="Landable" name="Planet Arduinne" fullname="Arduinne Gas Cloud" id="4095" pos="-80620,72970,380" diameter="149400">
+            <surface name="Planet Arduinne" rect="-10000,42500,-10000,-6000">
+               <navpoint name="Nav Arduinne Core 1" pos="6080,6590,0"/>
+               <navpoint name="Nav Arduinne Core 2" pos="10100,10520,0"/>
+               <navpoint name="Nav Arduinne Core 3" pos="13260,13040,0"/>
+               <navpoint name="Nav Arduinne Core 4" pos="15950,15770,0"/>
+               <navpoint name="Nav Arduinne Core 5" pos="20610,15770,0"/>
+               <navpoint name="Nav Arduinne Core 6" pos="24500,11900,0"/>
+               <navpoint name="Nav Arduinne Gas 1" pos="4960,11360,0"/>
+               <navpoint name="Nav Arduinne Gas 2" pos="4640,15460,0"/>
+               <navpoint name="Nav Arduinne Gas 3" pos="4540,19450,0"/>
+               <navpoint type="hidden" name="Gas Pocket Arduinne F0" pos="7970,39780,0"/>
+               <navpoint type="hidden" name="Gas Pocket Arduinne F1" pos="34940,4800,0"/>
+               <navpoint type="hidden" name="Gas Pocket Arduinne F2" pos="36610,14570,0"/>
+               <navpoint type="hidden" name="Gas Pocket Arduinne F7" pos="-6970,19160,0"/>
+               <navpoint type="hidden" name="Gas Pocket Arduinne F8" pos="-7220,28180,0"/>
+               <navpoint type="hidden" name="Gas Pocket Arduinne F9" pos="-5460,35690,0"/>
+               <navpoint type="hidden" name="Temple Interface" pos="28910,34020,-320"/>
+            </surface>
+         </planet>
+         <moon name="Glasgow" pos="-230120,-223990,0" diameter="20000"/>
+         <moon name="Lomond" pos="176430,113530,0" diameter="31200"/>
+         <moon name="Shetland" pos="200210,-203990,380" diameter="21550"/>
+         <navpoint name="Arduinne Asteroid AA710" pos="-261750,135640,0"/>
+         <navpoint name="Destroyed Moon Core" pos="182190,-4370,0"/>
+         <navpoint name="Glendochart" pos="-140490,-160560,0"/>
+         <navpoint name="Nav Arduinne 1" pos="110470,-174600,0"/>
+         <navpoint name="Nav Arduinne 2" pos="26460,-163210,0"/>
+         <navpoint name="Nav Arduinne 3" pos="6880,-204140,0"/>
+         <navpoint name="Nav Arduinne 4" pos="-3130,-246370,0"/>
+         <navpoint name="Nav Arduinne 5" pos="-10390,-136680,0"/>
+         <navpoint name="Nav Arduinne 6" pos="-54500,-128009,0"/>
+         <navpoint name="Nav Arduinne 7" pos="-98270,-141640,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA701" pos="-169930,-106210,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA702" pos="-200420,-83100,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA703" pos="-226760,-50300,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA704" pos="-241540,-18880,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA705" pos="-251710,16690,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA706" pos="-261870,51810,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA707" pos="-263720,86460,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA708" pos="-262790,120650,0"/>
+         <navpoint type="hidden" name="Arduinne Asteroid AA709" pos="-261750,142940,0"/>
+      </sector>
+   </system>
+   <system name="61 Cygni" id="1">
+      <sector name="Aganju" id="1115" rect="-45000,35000,-45000,-75000">
+         <gate to="Inverness" pos="26600,29800,0"/>
+         <planet name="Aganju" pos="-38440,-450,-14990" diameter="60100"/>
+         <station name="Kinshasa-Mbali" id="11151" pos="8680,20690,0" diameter="18150">
+            <owner>InfinitiCorp Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="345">Newton Peterson</Weapons>
+               <Equipment level="345">Stephanie Dillion</Equipment>
+               <Tradegoods>Nduka Diya</Tradegoods>
+               <Components level="4">Tom Cherry</Components>
+               <Components level="5">Joan Kurts</Components>
+            </vendors>
+            <npcs>
+               <npc>Maricio Idane</npc>
+               <npc>Jerriv Kivok-Vechina</npc>
+               <npc>Orkael Lazarra</npc>
+               <npc>Nostradamus Smythe</npc>
+            </npcs>
+         </station>
+         <navpoint name="Forgotten Point" pos="52320,-53550,0"/>
+         <navpoint name="Landauer Point 1" pos="-5080,-54950,0"/>
+         <navpoint name="Landauer Point 2" pos="14970,-64849,0"/>
+         <navpoint name="Landauer Point 3" pos="35150,-70050,0"/>
+         <navpoint name="Landauer Point 4" pos="60030,-70050,0"/>
+         <navpoint name="Landauer Point 5" pos="77040,-69900,0"/>
+         <navpoint name="Lost Point" pos="59960,-33330,0" diameter="3850"/>
+         <navpoint name="Nommos Point" pos="50690,5820,-100" diameter="1550"/>
+         <navpoint name="Path of Atonement 1" pos="4860,-10180,0"/>
+         <navpoint name="Path of Atonement 2" pos="-3950,-26140,0"/>
+         <navpoint name="Path of Atonement 3" pos="-18090,-37320,0"/>
+         <navpoint name="Sector Gate to Thelugi Rift" pos="3860,6730,-3230"/>
+         <navpoint name="Sector Gate to Xango" pos="65510,-54280,0"/>
+         <navpoint name="Warship Genesis" pos="-5170,-41630,0" diameter="9100"/>
+         <navpoint name="Xai Xai Station" pos="-35480,-42690,0" diameter="7150"/>
+         <navpoint type="hidden" name="Bernal Diaz" pos="36750,21770,0"/>
+         <navpoint type="hidden" name="HEAL Research Vessel" pos="64040,370,0"/>
+      </sector>
+   </system>
+   <system name="Alpha Centauri" id="2">
+      <sector name="Zweihander" id="1425" rect="-250000,250000,-250000,-125000">
+         <gate to="Luna" pos="-203250,174610,0"/>
+         <gate to="Witberg" pos="213620,-78570,0"/>
+         <planet type="Landable" name="Planet Zweihander" fullname="Jagerstadt (Planet Zweihander)" id="1493" pos="6390,-10380,0" diameter="196800">
+            <surface name="Planet Zweihander" rect="-25000,25000,-25000,-25000">
+               <station name="Jagerstadt City" id="14931" pos="-10510,-10210,500" diameter="16800">
+                  <owner>Hyperia Explorers</owner>
+                  <terminals>
+                     <terminal>Analyze</terminal>
+                     <terminal>Manufacturing</terminal>
+                     <terminal>Jobs</terminal>
+                     <terminal>Intergalactic Net</terminal>
+                     <terminal>Customize Avatar</terminal>
+                     <terminal>Customize Ship</terminal>
+                  </terminals>
+                  <vendors>
+                     <Weapons level="234">Brody Walken</Weapons>
+                     <Equipment level="234">Lillian Othello</Equipment>
+                     <Tradegoods>Holden Maxweller</Tradegoods>
+                     <Components level="2">Harrison Eatlin</Components>
+                     <Components level="3">Sam Iyolo</Components>
+                     <Components level="4">Hellen Patterson</Components>
+                  </vendors>
+                  <npcs>
+                     <npc>Maxi Bubumpa</npc>
+                     <npc>Senator Avila DeVries</npc>
+                     <npc>Mister Fleer</npc>
+                     <npc>Admiral Diego Herrera</npc>
+                     <npc>Doctor Sacha Ileiko</npc>
+                     <npc>Jed Raster</npc>
+                  </npcs>
+               </station>
+               <navpoint name="EarthCorps Research Station" pos="16900,3720,1400" diameter="2000"/>
+               <navpoint name="ECS Titan" pos="14530,18840,600" diameter="4000"/>
+               <navpoint name="Meteorological Tower" pos="14740,8710,2400" diameter="1000"/>
+               <navpoint name="Nav Jagerstadt 1" pos="-12350,13240,2500"/>
+               <navpoint name="Nav Jagerstadt 2" pos="-9550,9930,2200"/>
+               <navpoint name="Nav Jagerstadt 3" pos="-7090,6330,1900"/>
+               <navpoint name="Nav Jagerstadt 4" pos="-4370,2800,1600"/>
+               <navpoint name="Nav Jagerstadt 5" pos="-2720,-580,1400"/>
+            </surface>
+         </planet>
+         <station name="Earthcorps High Command" id="14251" pos="-151150,117600,0" diameter="50500">
+            <owner>Neutral</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="234">Wilt Vergas</Weapons>
+               <Equipment level="234">Mani Ulpro</Equipment>
+               <Tradegoods>Luis Santiago</Tradegoods>
+               <Components level="2">Erin Genung</Components>
+               <Components level="3">Anna Peres</Components>
+               <Components level="4">Cameron Kilgore</Components>
+            </vendors>
+            <npcs>
+               <npc>Captain Gerard Braun</npc>
+               <npc>Sergeant Jones</npc>
+               <npc>Alexa Richter</npc>
+            </npcs>
+         </station>
+         <navpoint name="Asteroid Z81" pos="-103360,84100,0"/>
+         <navpoint name="Asteroid Z82" pos="-116350,70690,0"/>
+         <navpoint name="Asteroid Z83" pos="-126830,59660,0"/>
+         <navpoint name="Asteroid Z84" pos="-138140,48480,0"/>
+         <navpoint name="Asteroid Z85" pos="-145540,33960,0"/>
+         <navpoint name="Asteroid Z86" pos="-153650,20410,0"/>
+         <navpoint name="Asteroid Z87" pos="-158250,3510,0"/>
+         <navpoint name="Asteroid Z88" pos="-160360,-14370,0"/>
+         <navpoint name="Asteroid Z89" pos="-160910,-29040,0"/>
+         <navpoint name="Asteroid Z90" pos="-157000,-48730,0"/>
+         <navpoint name="Asteroid Z91" pos="-149040,-68290,0"/>
+         <navpoint name="Asteroid Z92" pos="-137860,-88260,0"/>
+         <navpoint name="Asteroid Z93" pos="-129900,-104740,0"/>
+         <navpoint name="ECS Paper Tiger" pos="-71670,181220,-1350"/>
+         <navpoint name="Incapacitated Cap Ship" pos="-81870,99900,0"/>
+         <navpoint name="Witberg Solbahn 1" pos="-151270,159750,0"/>
+         <navpoint name="Witberg Solbahn 2" pos="-99490,152830,0"/>
+         <navpoint name="Witberg Solbahn 3" pos="-56360,142030,0"/>
+         <navpoint name="Witberg Solbahn 4" pos="-3630,129660,0"/>
+         <navpoint name="Witberg Solbahn 5" pos="45790,108710,0"/>
+         <navpoint name="Witberg Solbahn 6" pos="86210,84470,0"/>
+         <navpoint name="Witberg Solbahn 7" pos="120600,50880,0"/>
+         <navpoint name="Witberg Solbahn 8" pos="159290,9030,0"/>
+         <navpoint name="Witberg Solbahn 9" pos="185990,-30040,0"/>
+         <navpoint type="hidden" name="ECS Augsburg (Drydock)" pos="123360,59250,0"/>
+         <navpoint type="hidden" name="ECS Eminescu (Drydock)" pos="182040,-43850,0"/>
+         <navpoint type="hidden" name="ECS Leija (Drydock)" pos="15810,111340,0"/>
+         <navpoint type="hidden" name="ECS Munich (Drydock)" pos="72890,81920,0"/>
+         <navpoint type="hidden" name="ECS Robert P Wills" pos="195540,-74760,-1350"/>
+         <navpoint type="hidden" name="ECS Stefan Cel Mare (Drydock)" pos="153800,-1210,0"/>
+         <navpoint type="hidden" name="ECS Vercingetorix (Drydock)" pos="-49570,150180,0"/>
+         <navpoint type="hidden" name="Motor Pool" pos="52560,110640,0"/>
+      </sector>
+      <sector name="Witberg" id="1430" rect="-70000,150000,-70000,-110000">
+         <gate to="Zweihander" pos="147490,-100950,0"/>
+         <gate to="der Todesengel" pos="231290,-8960,0"/>
+         <gate to="Ardus" pos="142570,-23380,0"/>
+         <planet name="Witberg" pos="12850,-10800,0" diameter="60400"/>
+         <moon name="Othman" pos="-32049,119550,4950" diameter="36300"/>
+         <navpoint name="ACBN Relay" pos="77000,11480,0"/>
+         <navpoint name="Bogeril Camp" pos="222630,13970,-860"/>
+         <navpoint name="Bogeril Marker 1" pos="182290,41830,0"/>
+         <navpoint name="Bogeril Marker 2" pos="196360,31510,0"/>
+         <navpoint name="Bogeril Marker 3" pos="210440,22120,0"/>
+         <navpoint name="Bogeril Marker 4" pos="214600,-1840,0"/>
+         <navpoint name="Bogeril Marker 5" pos="221460,-17570,0"/>
+         <navpoint name="Bogeril Marker 6" pos="227500,-35670,0"/>
+         <navpoint name="Bogeril Negotiation Vessel" pos="210030,60630,0"/>
+         <navpoint name="ESC Deutschland" pos="57960,-25810,0"/>
+         <navpoint name="Nav ACBN 1" pos="43790,40910,0"/>
+         <navpoint name="Nav ACBN 2" pos="12620,70000,0"/>
+         <navpoint name="Nav Witberg 1" pos="113980,-75810,0"/>
+         <navpoint name="Nav Witberg 2" pos="82230,-50510,0"/>
+         <navpoint name="Nav Witberg 3" pos="74960,10780,0"/>
+         <navpoint name="Nav Witberg 4" pos="107050,42730,0"/>
+         <navpoint name="Nav Witberg 5" pos="142480,69090,0"/>
+         <navpoint name="Net 7 Affiliate ACBN" pos="-6080,99920,-570"/>
+         <navpoint type="hidden" name="The Indigo Homestead" pos="3050,127300,200"/>
+         <navpoint type="special" name="Ezekial Garrett" pos="63360,20890,0"/>
+         <navpoint type="special" name="Cousin Cletus" pos="-29570,7030,0"/>
+      </sector>
+      <sector name="der Todesengel" id="1440" rect="-3000,220000,-3000,-110000">
+         <gate to="Witberg" pos="96800,-96490,0"/>
+         <station name="Grand Ole Homestead" id="14401" pos="153100,-47720,0" diameter="20650">
+            <owner>Bogeril</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="234">Emma June Nivens</Weapons>
+               <Equipment level="23">Beau Jenkins</Equipment>
+               <Components level="23">Junior Malik</Components>
+               <Components level="456">Derice Huldah</Components>
+               <Components level="1789">Conner Kincaid</Components>
+            </vendors>
+            <npcs>
+               <npc>Marsh Idee</npc>
+               <npc>Lyle McDonald</npc>
+               <npc>Myla Pitt</npc>
+            </npcs>
+         </station>
+         <navpoint name="Crystal Eye" pos="95830,124580,0"/>
+         <navpoint name="Crystal Heart" pos="56070,134520,0"/>
+         <navpoint name="Edge of No Place" pos="70420,207370,0"/>
+         <navpoint name="Feud Rock" pos="87010,28320,0"/>
+         <navpoint name="Glowin' Rock" pos="80970,-33860,0"/>
+         <navpoint name="Odd Graveyard" pos="134920,149370,0"/>
+         <navpoint name="Old Greentooth's is that way --&gt;" pos="138990,80850,0"/>
+         <navpoint name="Old Greentooth's Thinkin' Spot" pos="162400,110020,0"/>
+         <navpoint name="Pearl's View" pos="117510,50500,0"/>
+         <navpoint name="Seth's Perch" pos="34690,172650,0"/>
+         <navpoint name="Shootin' Range" pos="33620,-53470,0"/>
+         <navpoint name="The Tradin' Post" pos="103140,-6700,0"/>
+         <navpoint name="Wreck of the Jedd" pos="82010,-59370,0"/>
+         <navpoint name="The Roost" pos="11210,95300,0" diameter="10950"/>
+      </sector>
+   </system>
+   <system name="Aquitaine" id="16">
+      <sector name="Ardus" id="3705" rect="-155000,155000,-155000,-155000">
+         <gate to="Witberg" pos="-135150,-11820,1850"/>
+         <planet name="Ardus" pos="-3260,7710,-1700" diameter="120500"/>
+         <moon name="Ardus Delta" pos="-45360,-86590,-11090" diameter="15900"/>
+         <moon name="Ardus Epsilon" pos="46070,-59110,7020" diameter="15950"/>
+         <moon name="Ardus Gamma" pos="90040,115760,-11400" diameter="24150"/>
+         <moon name="Ardus Omega" pos="122260,-89760,2970" diameter="7800"/>
+         <moon name="Ardus Zeta" pos="86540,-30130,12280" diameter="16000"/>
+         <navpoint name="AC 96" pos="-129800,-64430,-7550"/>
+         <navpoint name="AC 116" pos="-38930,-107440,-4800"/>
+         <navpoint name="AC 117" pos="10970,-137380,-2190"/>
+         <navpoint name="AC 118" pos="-10750,-127240,-2190"/>
+         <navpoint name="AC 119" pos="-17990,-105230,-2190"/>
+         <navpoint name="AC 122" pos="-92140,-870,0"/>
+         <navpoint name="AC 123" pos="-87170,-19990,-1600"/>
+         <navpoint name="AC 124" pos="-94730,-43190,-2060"/>
+         <navpoint name="AC 125" pos="-75840,-54360,-4800"/>
+         <navpoint name="AC 126" pos="-128800,-111570,2520"/>
+         <navpoint name="AC 127" pos="-117810,-84110,-4350"/>
+         <navpoint name="AC 128" pos="-105820,-103780,3890"/>
+         <navpoint name="AC 129" pos="-86330,-94630,-230"/>
+         <navpoint name="AC 130" pos="-66630,-80780,-2740"/>
+         <navpoint name="AC 131" pos="-55490,-60440,-6630"/>
+         <navpoint name="AC 132" pos="-34640,-66040,-4690"/>
+         <navpoint name="AC 133" pos="-14880,-81360,-2520"/>
+         <navpoint name="AC 134" pos="7100,-72670,-1600"/>
+         <navpoint name="AC 137" pos="118920,-131380,-7090"/>
+         <navpoint name="AC 138" pos="132150,-109900,-3890"/>
+         <navpoint name="AC 139" pos="140090,-89350,-2060"/>
+         <navpoint name="AC 140" pos="120320,-79080,4800"/>
+         <navpoint name="AC 141" pos="97750,-95890,4350"/>
+         <navpoint name="AC 142" pos="77200,-105070,6630"/>
+         <navpoint name="AC 143" pos="55720,-109120,880"/>
+         <navpoint name="AC 144" pos="31170,-106030,3510"/>
+         <navpoint name="AC 145" pos="27030,-81540,2000"/>
+         <navpoint name="AC 146" pos="49070,-75600,4820"/>
+         <navpoint name="AC 147" pos="65060,-61110,4820"/>
+         <navpoint name="AC 148" pos="63560,-35630,3430"/>
+         <navpoint name="AC 149" pos="68550,-14560,5260"/>
+         <navpoint name="AC 150" pos="111460,-13220,2520"/>
+         <navpoint name="AC 151" pos="90040,-2650,8330"/>
+         <navpoint name="AC 152" pos="87540,18640,4660"/>
+         <navpoint name="AC 153" pos="79050,41310,8330"/>
+         <navpoint name="AC 154" pos="71050,63300,8330"/>
+         <navpoint name="AC 155" pos="52570,80280,2630"/>
+         <navpoint name="AC 156" pos="113970,129560,-3330"/>
+         <navpoint name="AC 157" pos="89800,130850,-300"/>
+         <navpoint name="AC 158" pos="71550,119960,-4350"/>
+         <navpoint name="AC 159" pos="53570,110810,-2520"/>
+         <navpoint name="AC 160" pos="37580,99270,2970"/>
+         <navpoint name="AC 161" pos="14910,96230,2520"/>
+         <navpoint name="AC 162" pos="-7890,95140,-2009"/>
+         <navpoint name="AC 163" pos="-30840,95550,2970"/>
+         <navpoint name="AC 164" pos="-52090,84570,4650"/>
+         <navpoint name="AC 165" pos="-109000,135490,7090"/>
+         <navpoint name="AC 166" pos="-130330,104160,5720"/>
+         <navpoint name="AC 167" pos="-109320,113210,7090"/>
+         <navpoint name="AC 168" pos="-69550,98520,-590"/>
+         <navpoint name="AC 169" pos="-93500,97460,-440"/>
+         <navpoint name="AC 170" pos="-95620,70090,6630"/>
+         <navpoint name="AC 171" pos="-97820,49500,5260"/>
+         <navpoint name="AC 172" pos="-113910,6890,2520"/>
+         <navpoint name="AC 173" pos="-103040,29080,3990"/>
+         <navpoint name="AC 199" pos="-57850,-121620,-4800"/>
+         <navpoint name="AC 227" pos="-136070,85510,6180"/>
+         <navpoint name="AC 251" pos="132530,4080,-4350"/>
+         <navpoint name="AC 271" pos="121540,76210,-5700"/>
+         <navpoint name="AC 273" pos="-133300,-134900,8620"/>
+         <navpoint name="AC 282" pos="-124300,142380,4800"/>
+         <navpoint name="AC 285" pos="102660,-141950,0"/>
+         <navpoint name="AC 296" pos="135000,118590,-7090"/>
+         <navpoint name="Antile" pos="64810,-78150,8010"/>
+      </sector>
+   </system>
+   <system name="Smuggler's Run" id="10">
+      <sector name="Blackbeard's Wake" id="3605" rect="-100000,250000,-100000,-100000">
+         <gate to="Xipe Totec" pos="-14680,14860,0"/>
+         <gate to="Grissom" pos="14800,-14510,0"/>
+         <gate to="Inverness" pos="15140,14860,0"/>
+         <gate to="Muspelheim" pos="-14220,-14510,0"/>
+         <station name="Queen Anne's Revenge" id="36051" pos="208180,-6240,70" diameter="0">
+            <owner>The Red Dragon</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="34567">Julius Ortega</Weapons>
+               <Equipment level="234567">Ivanna</Equipment>
+               <Components level="67">Leila Endora</Components>
+            </vendors>
+            <npcs>
+               <npc>Shang Li Chun</npc>
+            </npcs>
+         </station>
+         <navpoint name="Advanced Training Nav Hub" pos="-300,50410,0"/>
+         <navpoint name="Advanced Training Nav Sahn" pos="18420,59990,0"/>
+         <navpoint name="Advanced Training Nav Uhr" pos="410,71320,0"/>
+         <navpoint name="Advanced Training Nav Yee" pos="-22390,59180,0"/>
+         <navpoint name="Dragon's Flight at Dawn" pos="-35380,-20080,0"/>
+         <navpoint name="Dragon's Flight at Evening" pos="35190,20180,0"/>
+         <navpoint name="Dragon's Flight at Midnight" pos="-230,-30080,0"/>
+         <navpoint name="Dragon's Flight at Morning" pos="-34990,19980,0"/>
+         <navpoint name="Dragon's Flight at Noon" pos="-90,30040,0"/>
+         <navpoint name="Dragon's Flight at Twilight" pos="35440,-21080,0"/>
+         <navpoint name="Dragon's View" pos="-89340,87350,0"/>
+         <navpoint name="Drone Fabrication Plant" pos="213110,71650,0"/>
+         <navpoint name="Drone Fabrication Plant Uhr" pos="222750,47020,0"/>
+         <navpoint name="Drone Fabrication Plant Yee" pos="222210,20780,0"/>
+         <navpoint name="Hulk of the Battle Cruiser Ing Zi Wong" pos="108810,-44720,0"/>
+         <navpoint name="Initiate Training Nav Hub" pos="-620,-42170,0"/>
+         <navpoint name="Initiate Training Nav Uhr" pos="17240,-52240,0"/>
+         <navpoint name="Initiate Training Nav Yee" pos="-6790,-63610,0"/>
+         <navpoint name="Nathan Zhao Memorium" pos="142320,32369,0"/>
+         <navpoint name="Novice Training Nav Hub" pos="-53250,-29500,0"/>
+         <navpoint name="Novice Training Nav Uhr" pos="-67210,-52890,0"/>
+         <navpoint name="Novice Training Nav Yee" pos="-81180,-31130,0"/>
+         <navpoint name="Path of Memorium Uhr" pos="141370,4900,0"/>
+         <navpoint name="Path of Memorium Yee" pos="144110,-21290,0"/>
+         <navpoint name="Path of the Dragon Lyo" pos="182710,-36660,0"/>
+         <navpoint name="Path of the Dragon Sahn" pos="153500,-56230,0"/>
+         <navpoint name="Path of the Dragon Suh" pos="131009,-68210,0"/>
+         <navpoint name="Path of the Dragon Uhr" pos="108880,-68400,0"/>
+         <navpoint name="Path of the Dragon Yee" pos="87360,-64989,0"/>
+         <navpoint name="Twilight Path Sahn" pos="73060,-55030,0"/>
+         <navpoint name="Twilight Path Uhr" pos="58380,-44480,0"/>
+         <navpoint name="Twilight Path Yee" pos="45070,-34840,0"/>
+         <navpoint name="Veteran Training Nav Hub" pos="52320,31570,0"/>
+         <navpoint name="Veteran Training Nav Sahn" pos="75060,20520,0"/>
+         <navpoint name="Veteran Training Nav Uhr" pos="76360,40990,0"/>
+         <navpoint name="Veteran Training Nav Yee" pos="63690,58530,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Bah" pos="187400,223210,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Chee" pos="186110,201200,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Lyo" pos="225960,218920,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Sahn" pos="226500,162690,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Suh" pos="224890,186260,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Uhr" pos="231320,133770,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Woo" pos="208820,202320,0"/>
+         <navpoint type="hidden" name="Belly of the Dragon Yee" pos="235070,105390,0"/>
+         <navpoint type="hidden" name="Caution! Authorized Access Only!" pos="-83770,120780,0"/>
+         <navpoint type="hidden" name="Destroyed Drone Fabrication Plant" pos="-31790,201030,0"/>
+         <navpoint type="hidden" name="Destroyed Drone Fabrication Plant Nav Uhr" pos="-54610,179060,0"/>
+         <navpoint type="hidden" name="Destroyed Drone Fabrication Plant Nav Yee" pos="-72030,150280,0"/>
+      </sector>
+   </system>
+   <system name="Vega" id="13">
+      <sector name="Tarsis" id="3530" rect="-100000,160000,-100000,-160000">
+         <gate to="Mars Alpha" pos="-93260,-9630,0"/>
+         <gate to="Mondara Maelstrom" pos="-28470,155700,0"/>
+         <planet name="Tarsis" pos="-152290,-321550,100000" diameter="483700"/>
+         <moon name="Brattus" pos="29180,-25930,-6150" diameter="45300"/>
+         <moon name="Leviticus" pos="-58560,103540,3000" diameter="8029"/>
+         <station name="Arx Tiberius" id="35301" pos="-76580,-65740,-2250" diameter="0">
+            <owner>Centuriata Warriors</owner>
+            <terminals>
+               <terminal>Manufacturing</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="234">Zaneda Lyro</Weapons>
+               <Equipment level="234">Ormos Mentis</Equipment>
+               <Components level="1">Lucuis Valgus</Components>
+               <Components level="2">Ceanatis Plotius</Components>
+               <Components level="3">Celia Lusius</Components>
+               <Components level="4">Bazyli Curius</Components>
+            </vendors>
+            <npcs>
+               <npc>Lancearate Fortunatis</npc>
+               <npc>Praefect Hadrin Gurk</npc>
+               <npc>Trainer Helos</npc>
+               <npc>Markus Kahn</npc>
+               <npc>Hugo Mecklen</npc>
+               <npc>Gatekeeper Memnon</npc>
+            </npcs>
+         </station>
+         <navpoint name="Arx Promethicus" pos="-55370,91000,-760"/>
+         <navpoint name="Brutus' Hand" pos="102360,-79590,-510"/>
+         <navpoint name="Casca's Vault" pos="122080,-21550,360"/>
+         <navpoint name="Cassius' Will" pos="109380,6390,510"/>
+         <navpoint name="Cimber's Threat" pos="122850,55430,-510"/>
+         <navpoint name="Ide's Roc" pos="111040,-51070,600"/>
+         <navpoint name="Lan Leung Dan" pos="107550,79820,-1910"/>
+         <navpoint name="Nav Brattus 1" pos="19910,-59510,0"/>
+         <navpoint name="Nav Primus Gate 1" pos="65370,-133370,0"/>
+         <navpoint name="Nav Primus Gate 2" pos="104670,-144030,0"/>
+         <navpoint name="Nav Promethicus 1" pos="-44450,-18220,0"/>
+         <navpoint name="Nav Promethicus 2" pos="-36990,16020,0"/>
+         <navpoint name="Nav Promethicus 3" pos="-48320,52840,0"/>
+         <navpoint name="Nav Sabinus 1" pos="-34480,77500,0"/>
+         <navpoint name="Nav Sabinus 2" pos="-26820,119350,0"/>
+         <navpoint name="Nav Tarsis 1" pos="-61210,-37150,0"/>
+         <navpoint name="Nav Tarsis 2" pos="-32780,-78210,0"/>
+         <navpoint name="Nav Tarsis 3" pos="3350,-100840,0"/>
+         <navpoint name="Nav Tarsis 4" pos="28460,-119380,0"/>
+         <navpoint name="Octavius' Rise" pos="102360,34090,620"/>
+         <navpoint name="Red Dragon Camp" pos="122530,-16540,540"/>
+         <navpoint name="Red Dragon Hideout" pos="109840,35880,450"/>
+         <navpoint name="Tarsis Resource Belt" pos="85410,-110830,0"/>
+      </sector>
+      <sector name="Primus" id="3515" rect="-450000,390000,-450000,200000">
+         <gate to="Tarsis" pos="-446750,306330,0"/>
+         <gate to="Endriago" pos="-189060,250630,0"/>
+         <planet type="Landable" name="Planet Primus" fullname="Praetorium Mons Area (Planet Primus)" id="3595" pos="-304190,201000,0" diameter="60500">
+            <surface name="Planet Primus" rect="-15000,15000,-15000,-15000">
+               <station name="1C4615H" id="35951" pos="-10880,7250,1190" diameter="5660">
+                  <owner>V'rix</owner>
+                  <npcs>
+                     <npc>T2ZC1TL3P4C1 (Tezcatlipoca)</npc>
+                  </npcs>
+               </station>
+               <navpoint name="Ancient Ruins" pos="11190,-11500,3200" diameter="2880"/>
+               <navpoint type="hidden" name="Marker Unus" pos="11690,10280,2800"/>
+               <navpoint type="hidden" name="Marker Duo" pos="12670,3510,4800"/>
+               <navpoint type="hidden" name="Marker Tria" pos="8189,-5180,5200"/>
+               <navpoint type="hidden" name="Centuriata Escort Wreckage" pos="-13080,2840,2890"/>
+               <navpoint type="hidden" name="Hidden Centuriata Refuge" pos="580,-6870,3300"/>
+            </surface>
+         </planet>
+         <asteroid name="Corpus Hades" pos="-329760,358670,5670" diameter="37440"/>
+         <navpoint name="Augustus' Pride" pos="-283300,308940,-1710"/>
+         <navpoint name="Dagger of Brutus" pos="-238500,306140,-1710"/>
+         <navpoint name="Field of Tarterus" pos="-329420,341540,0"/>
+         <navpoint name="Gaius Point" pos="-307310,311570,-1710"/>
+         <navpoint name="Legions Entry" pos="-371240,312410,-100"/>
+         <navpoint name="Maxus Arena" pos="-262260,304930,-1710"/>
+         <navpoint name="Nav Construction Project" pos="-256800,318110,0"/>
+         <navpoint name="Nav Primus 1" pos="-419160,303460,0"/>
+         <navpoint name="Nav Primus 2" pos="-368250,298530,0"/>
+         <navpoint name="Nav Primus 3" pos="-320090,288930,0"/>
+         <navpoint name="Nav Primus 4" pos="-268650,287320,0"/>
+         <navpoint name="Nav Primus 5" pos="-249690,250350,0"/>
+         <navpoint name="Nav Primus 6" pos="-201440,250800,0"/>
+         <navpoint name="Net-7 Beacon" pos="-210090,261240,0"/>
+         <navpoint name="Octavian's Field" pos="-329720,317010,-1710"/>
+         <navpoint name="Primus Asteroid 13178E" pos="-206730,370910,0"/>
+         <navpoint name="Soul of Julius" pos="-219970,293750,-770"/>
+         <navpoint name="Stone of Carthage" pos="-351330,322620,-1710"/>
+         <navpoint name="Tiberius Shipyards" pos="-271600,271750,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 121577" pos="-336300,279800,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 121577B" pos="-349320,262340,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 121577C" pos="-363810,247110,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 121577D" pos="-381560,236310,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 121577E" pos="-397240,231430,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 121577F" pos="-424600,225810,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 13178" pos="-292220,336300,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 13178B" pos="-273290,356710,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 13178C" pos="-250960,367660,0"/>
+         <navpoint type="hidden" name="Primus Asteroid 13178D" pos="-230840,372240,0"/>
+         <navpoint type="hidden" name="Progen Construction Project" pos="-250820,323510,0"/>
+      </sector>
+   </system>
+   <system name="Mondara Shear" id="8">
+      <sector name="Mondara Maelstrom" id="2505" rect="8000,50000,8000,-50000">
+         <gate to="Tarsis" pos="19150,-1780,0"/>
+         <navpoint name="Domice" pos="48000,-680,0" diameter="9220"/>
+         <navpoint name="Hunting Point Cosmos" pos="49720,-38030,330"/>
+         <navpoint name="Hunting Point Euxodus" pos="36460,-22100,-280"/>
+         <navpoint name="Hunting Point Gallus" pos="48140,28300,-340"/>
+         <navpoint name="Hunting Point Hippalus" pos="27550,13670,-280"/>
+         <navpoint name="Hunting Point Nero" pos="18520,33780,250"/>
+         <navpoint name="Maelstrom Entry Point" pos="18970,-15060,0"/>
+         <navpoint name="Pathway Nexus" pos="36810,-3470,330"/>
+         <navpoint type="hidden" name="Missing Progen Squadron" pos="30210,-10330,0"/>
+         <navpoint type="hidden" name="Pax Invictis" pos="56150,-46380,0"/>
+      </sector>
+   </system>
+   <system name="Gallina" id="7">
+      <sector name="Endriago" id="2210" rect="-125000,275000,-125000,0">
+         <gate to="Primus" pos="50760,117550,0"/>
+         <gate to="Lagarto" pos="-260,39020,0"/>
+         <planet type="Landable" name="Planet Endriago" fullname="Porvenir Mons Area (Planet Endriago)" id="2295" pos="-1900,174360,0" diameter="59800">
+            <surface name="Planet Endriago" rect="-25000,25000,-25000,-25000">
+               <station name="Ponvenir Mons" id="22951" pos="-10000,910,600" diameter="11930">
+                  <owner>Sabine Explorers</owner>
+                  <terminals>
+                     <terminal>Analyze</terminal>
+                     <terminal>Manufacturing</terminal>
+                     <terminal>Refining</terminal>
+                     <terminal>Jobs</terminal>
+                     <terminal>Customize Avatar</terminal>
+                     <terminal>Customize Ship</terminal>
+                  </terminals>
+                  <vendors>
+                     <Weapons level="345">Handol Mer</Weapons>
+                     <Equipment level="345">Ardos Klor</Equipment>
+                     <Tradegoods>Didymus Jin</Tradegoods>
+                     <Components level="3">Jyna Venlor</Components>
+                     <Components level="4">Aurelia Seius</Components>
+                     <Components level="5">Enestinus Titius</Components>
+                  </vendors>
+                  <npcs>
+                     <npc>Magister Constantius</npc>
+                     <npc>Jenya Erelius</npc>
+                     <npc>Ioanna-J Deinon</npc>
+                     <npc>Vinda</npc>
+                  </npcs>
+               </station>
+               <navpoint name="Alien Force Wall 2" pos="13230,8080,4910"/>
+               <navpoint name="Fumar Trench" pos="-3310,15280,3510"/>
+               <navpoint name="Sabura Compound" pos="19290,-9350,1520" diameter="3530"/>
+               <navpoint name="Vale of Fumar" pos="-360,-5460,3640"/>
+               <navpoint name="Vale of Fumar (Mid-Point)" pos="-470,-19500,3640"/>
+               <navpoint name="Vale of Fumar (End-Point)" pos="8940,-13620,3640"/>
+               <navpoint name="Ancient Ruins" pos="18770,14510,1480" diameter="3990"/>
+               <navpoint type="hidden" name="Progen Hulk" pos="9440,6050,3210"/>
+               <navpoint type="hidden" name="Progen Hulk" pos="11840,5680,3350"/>
+            </surface>
+         </planet>
+         <station name="Arx Spartoi" id=" 22101" pos="13320,130259,0" diameter="24000">
+            <owner>Sabine Explorers</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="234">Ulley Nirom</Weapons>
+               <Equipment level="234">Petra Blanca</Equipment>
+               <Tradegoods>Alix Idris|Ulpia Adilla</Tradegoods>
+               <Components level="2">Truffeni Petilius</Components>
+               <Components level="3">Carcellus Volusensus</Components>
+               <Components level="4">Verica Aulus</Components>
+            </vendors>
+            <npcs>
+               <npc>Theodoric Cassel</npc>
+               <npc>Calliope Gans</npc>
+               <npc>Reclaimer Ort</npc>
+               <npc>Laurel Provum</npc>
+               <npc>Cestum Talus</npc>
+               <npc>Andronicus Tyr</npc>
+            </npcs>
+         </station>
+         <navpoint name="Anti-Spinward Belt Point 1" pos="-78130,124610,0"/>
+         <navpoint name="Anti-Spinward Belt Point 2" pos="-80370,156310,0"/>
+         <navpoint name="Anti-Spinward Belt Point 3" pos="-76800,189240,0"/>
+         <navpoint name="Asteroid EG9723" pos="52920,261040,0"/>
+         <navpoint name="Genetic Repository" pos="6350,69570,0"/>
+         <navpoint name="Outer Endriago 1" pos="31840,102290,0"/>
+         <navpoint name="Outer Endriago 2" pos="62360,112060,0"/>
+         <navpoint name="Outer Endriago 3" pos="-32950,102370,0"/>
+         <navpoint name="Outer Endriago 4" pos="-62470,107080,0"/>
+         <navpoint name="Path to Sabine 1" pos="30,69280,0"/>
+         <navpoint name="Path to Sabine 2" pos="-80,102230,0"/>
+         <navpoint name="Spinward Belt Point 1" pos="66710,68510,0"/>
+         <navpoint name="Spinward Belt Point 2" pos="82370,93190,0"/>
+         <navpoint name="Spinward Belt Point 3" pos="89290,127190,0"/>
+         <navpoint name="Spinward Belt Point 4" pos="93120,156000,0"/>
+         <navpoint name="Spinward Belt Point 5" pos="91320,186170,0"/>
+         <navpoint type="hidden" name="Alien Core" pos="113740,99800,-660"/>
+         <navpoint type="hidden" name="Asteroid EG9721" pos="-18060,251460,0"/>
+         <navpoint type="hidden" name="Asteroid EG9722" pos="17150,261040,0"/>
+         <navpoint type="hidden" name="Comet Buster 1" pos="-10520,38740,0"/>
+         <navpoint type="hidden" name="Comet Buster 2" pos="10750,38280,0"/>
+         <navpoint type="hidden" name="Comet Buster 3" pos="-27050,116530,0"/>
+         <navpoint type="hidden" name="Comet Buster 4" pos="27700,116910,0"/>
+         <navpoint type="hidden" name="Comet Buster 5" pos="-54000,127170,0"/>
+         <navpoint type="hidden" name="Comet Buster 6" pos="57440,125140,0"/>
+         <navpoint type="hidden" name="Dux Agitus Security" pos="-4250,47330,0"/>
+         <navpoint type="special" name="Brendan's Weft" pos="75320,47070,0"/>
+      </sector>
+      <sector name="Lagarto" id="2215" rect="-550000,450000,-550000,-150000">
+         <gate to="Endriago" pos="-95150,-24480,0"/>
+         <gate to="Mars Beta" pos="25020,-23210,0"/>
+         <gate to="Roc" pos="-40000,400000,0"/>
+         <gate to="Odin's Belt" pos="-99250,15860,0"/>
+         <moon name="Guijo" pos="-41850,-37060,2000" diameter="4800"/>
+         <planet name="Lagarto" pos="-21250,-88610,0" diameter="60500"/>
+         <moon type="Landable" name="Risco Moon" fullname="GETCo Ruins (Risco, Moon of Lagarto)" id="2290" pos="-61770,-54060,-1500" diameter="8000">
+            <surface name="Risco Moon" rect="-25000,25000,-25000,-25000">
+               <navpoint name="Ancient Ruins" pos="-20870,11830,8600" diameter="7710"/>
+               <navpoint name="Comm Tower" pos="-16300,-16260,11000"/>
+               <navpoint name="GETCo Sleeper Ship" pos="-15520,-6510,9360"/>
+               <navpoint name="Ruined Tower" pos="12850,8800,14480"/>
+               <navpoint type="hidden" name="Tower 1 Interface" pos="-17660,-9960,9800"/>
+               <navpoint type="hidden" name="Tower 2 Interface" pos="-11030,-20350,10000"/>
+               <navpoint type="hidden" name="Tower 3 Interface" pos="-20200,-20080,10000"/>
+            </surface>
+         </moon>
+         <navpoint name="Arrojar Array" pos="-40000,40000,0"/>
+         <navpoint name="Asteroid Lamos2526" pos="-133970,177890,0"/>
+         <navpoint name="Destroyed Probe Ship" pos="-506840,-121930,0"/>
+         <navpoint name="Hyperia Gate Staging Area" pos="-188530,380850,0"/>
+         <navpoint name="Lagarto Observatory" pos="4330,2070,1500" diameter="23500"/>
+         <navpoint name="Nav Hyperia 1" pos="-92840,382120,0"/>
+         <navpoint name="Nav Hyperia 2" pos="-141160,379890,0"/>
+         <navpoint name="Nav Lagarto Center" pos="-44190,-400,0"/>
+         <navpoint name="Nav Lagarto Gates" pos="-85110,320,0"/>
+         <navpoint name="Nav Lagarto Moons" pos="-60950,-35390,0"/>
+         <navpoint name="Nav Observatory Ojera Side" pos="20000,5190,0"/>
+         <navpoint name="Nav Observatory Ojo Side" pos="-9680,20190,0"/>
+         <navpoint name="Roque Progen Outpost" pos="39760,19720,0"/>
+         <navpoint name="Ruins of the ECS Sierpe" pos="-84200,57620,140"/>
+         <navpoint name="Way of the Rogue Progen" pos="31840,20050,0"/>
+         <navpoint type="hidden" name="Asteroid Lamos2521" pos="-65470,76340,0"/>
+         <navpoint type="hidden" name="Asteroid Lamos2522" pos="-64870,106080,0"/>
+         <navpoint type="hidden" name="Asteroid Lamos2523" pos="-70580,134020,0"/>
+         <navpoint type="hidden" name="Asteroid Lamos2524" pos="-86800,153250,0"/>
+         <navpoint type="hidden" name="Asteroid Lamos2525" pos="-108130,168270,0"/>
+         <navpoint type="hidden" name="Deneb Path 1" pos="-9100,169140,0"/>
+         <navpoint type="hidden" name="Deneb Path 2" pos="78490,210390,0"/>
+         <navpoint type="hidden" name="Deneb Path 3" pos="41010,299980,0"/>
+         <navpoint type="hidden" name="Deneb Path 4" pos="-54580,316850,0"/>
+         <navpoint type="hidden" name="Pax Aprender" pos="-30220,392260,0"/>
+      </sector>
+   </system>
+   <system name="Deneb" id="6">
+      <sector name="Roc" id="2130" rect="-180230,130690,-180230,-122050">
+         <gate to="Lagarto" pos="-169060,66690,-240"/>
+         <navpoint name="13SN2R3V2R" pos="-144800,65770,0"/>
+         <navpoint name="1NTW2RP" pos="-127300,72950,0"/>
+         <navpoint name="1RD2NN2S" pos="-109680,81770,0"/>
+         <navpoint name="1RT43S" pos="-86770,-58030,0"/>
+         <navpoint name="CH1RL2R243" pos="-156960,49190,0"/>
+         <navpoint name="G53S2" pos="-153650,29840,0"/>
+         <navpoint name="H12L2N" pos="-151430,11050,0"/>
+         <navpoint name="J1D1RR3V2R" pos="-150650,-7700,0"/>
+         <navpoint name="L2C1T215" pos="-148400,-26110,0"/>
+         <navpoint name="L32G2" pos="-149150,-44140,0"/>
+         <navpoint name="L4RR13N2" pos="-150650,-62930,0"/>
+         <navpoint name="M1RN2R3V2R" pos="-57480,-38880,0"/>
+         <navpoint name="M4NS" pos="-148120,-79030,0"/>
+         <navpoint name="M4S2LL2R3V2R" pos="-131490,-81340,0"/>
+         <navpoint name="M5LH45S2" pos="-114410,-78480,0"/>
+         <navpoint name="N1M5R" pos="-101810,-66690,0"/>
+         <navpoint name="6PR2S" pos="-72950,-46430,0"/>
+         <navpoint type="hidden" name="1M32NS" pos="15720,-36470,0"/>
+         <navpoint type="hidden" name="1RR1S" pos="57470,19900,0"/>
+         <navpoint type="hidden" name="1RT43S-L44S" pos="1390,16590,0"/>
+         <navpoint type="hidden" name="B2LL215W44D" pos="32610,-60240,0"/>
+         <navpoint type="hidden" name="C1MBR13" pos="87550,22630,0"/>
+         <navpoint type="hidden" name="C1NT3GN6" pos="51280,-78880,0"/>
+         <navpoint type="hidden" name="CH1MP1GN2" pos="-44330,-15970,0"/>
+         <navpoint type="hidden" name="CH1MP1GN2-M1RN2R3V2R" pos="87910,-92550,0"/>
+         <navpoint type="hidden" name="CH1T215-TH32RR6" pos="127000,-98130,0"/>
+         <navpoint type="hidden" name="F4RTD2V15X" pos="87740,112340,0"/>
+         <navpoint type="hidden" name="F4RTD4515M4NT" pos="126830,118510,0"/>
+         <navpoint type="hidden" name="G1LL3P4L3" pos="25350,97940,0"/>
+         <navpoint type="hidden" name="L6SR3V2R" pos="166080,-96080,0"/>
+         <navpoint type="hidden" name="M2SS3N2S" pos="116530,22630,0"/>
+         <navpoint type="hidden" name="M25S2-1RG4NN2" pos="174090,12610,0"/>
+         <navpoint type="hidden" name="N25V2CH1P2LL2" pos="3320,45640,0"/>
+         <navpoint type="hidden" name="P1SSCH2ND12L2" pos="144960,13330,0"/>
+         <navpoint type="hidden" name="S1L4N3K1" pos="56160,110460,0"/>
+         <navpoint type="hidden" name="S1R3K1M3S" pos="-23290,2440,0"/>
+         <navpoint type="hidden" name="S2RB31" pos="14940,72360,0"/>
+         <navpoint type="hidden" name="S4MM2R3V2R" pos="28780,22520,0"/>
+         <navpoint type="hidden" name="V2RD5N" pos="165910,110280,0"/>
+         <navpoint type="hidden" name="V3M6R3DG2" pos="12620,-11690,0"/>
+         <navpoint type="hidden" name="Destroyed Alien Internment Shield" pos="-96040,91370,0"/>
+         <navpoint type="hidden" name="Pax Inviticus" pos="-161670,57340,-360"/>
+         <navpoint type="special" name="EarthCorps Scout Wreckage" pos="60900,-86190,0"/>
+      </sector>
+   </system>
+   <system name="Aragoth" id="3">
+      <sector name="Freya" id="1750" rect="-125000,125000,-125000,-125000">
+         <gate to="Akeron's Gate" pos="-115840,-116540,0"/>
+         <gate to="Nifleheim Cloud" pos="239030,-115240,0"/>
+         <gate to="Ragnarok" pos="197340,117130,50"/>
+         <gate to="Jotunheim" pos="-3480,-48560,0"/>
+         <planet name="Freya" pos="0,86720,-160" diameter="60300"/>
+         <moon name="Brising" pos="-52400,7710,-1560" diameter="12400"/>
+         <moon name="Falk" pos="165310,-89230,2040" diameter="8600"/>
+         <moon name="Folkvang" pos="-90290,87570,2280" diameter="8000"/>
+         <moon name="Seidr" pos="90290,103380,-1200" diameter="5500"/>
+         <navpoint name="Asteroid FP-X16" pos="26180,-52170,0"/>
+         <navpoint name="Asteroid FP-X17" pos="29130,-35500,0"/>
+         <navpoint name="Asteroid FP-X18" pos="23680,-19770,0"/>
+         <navpoint name="Asteroid FP-X19" pos="8990,-11800,0"/>
+         <navpoint name="Asteroid FP-X20" pos="-5270,-7600,0"/>
+         <navpoint name="Asteroid FP-X21" pos="-18700,-4250,0"/>
+         <navpoint name="Asteroid FP-X23" pos="-17020,19460,0"/>
+         <navpoint name="Asteroid FP-X24" pos="-11350,33510,0"/>
+         <navpoint name="Asteroid FP-X25" pos="-1290,43580,0"/>
+         <navpoint name="Asteroid RF-100" pos="227450,60640,0"/>
+         <navpoint name="Asteroid RF-101" pos="233210,54040,0"/>
+         <navpoint name="Asteroid RF-102" pos="229210,45530,0"/>
+         <navpoint name="Asteroid RF-103" pos="221280,46450,0"/>
+         <navpoint name="Asteroid RF-104" pos="220280,54460,0"/>
+         <navpoint name="Freya Field 1" pos="-97690,-92120,-300"/>
+         <navpoint name="Freya Field 2" pos="-12420,-76620,790"/>
+         <navpoint name="Freya Field 3" pos="75230,-66130,0"/>
+         <navpoint name="Freya Field 4" pos="-28250,10440,1060"/>
+         <navpoint name="Freya Planetary 1" pos="100050,34910,0"/>
+         <navpoint name="Freya Planetary 2" pos="70060,57410,0"/>
+         <navpoint name="Gaius Wreck" pos="-69000,80610,0"/>
+         <navpoint name="Listening Post Gladius" pos="30230,118560,-800"/>
+         <navpoint name="Nav Freya 1" pos="176440,80370,0"/>
+         <navpoint name="Nav Freya 2" pos="164720,35850,0"/>
+         <navpoint name="Nav Freya 3" pos="122550,13360,0"/>
+         <navpoint name="Nav Freya 4" pos="100990,-26010,0"/>
+         <navpoint name="Nav Freya 5" pos="58810,-47100,0"/>
+         <navpoint name="Nav Freya 6" pos="25560,-66310,0"/>
+         <navpoint name="Nav Gateway 1" pos="-77090,-108020,0"/>
+         <navpoint name="Nav Gateway 2" pos="-38660,-105210,0"/>
+         <navpoint name="Nav Gateway 3" pos="-4920,-90680,0"/>
+         <navpoint name="Nifleheim Cloud 1" pos="146280,-19710,0"/>
+         <navpoint name="Nifleheim Cloud 2" pos="180720,-50700,0"/>
+         <navpoint name="Nifleheim Cloud 3" pos="206640,-86340,0"/>
+         <navpoint name="Nishara Maru" pos="42880,76150,1500"/>
+      </sector>
+      <sector name="Ragnarok" id="1745" rect="-120000,150000,-120000,-130000">
+         <gate to="Freya" pos="-49900,-127570,0"/>
+         <gate to="Jotunheim" pos="-116410,43370,0"/>
+         <moon name="Calamity" pos="0,640,-4630" diameter="40400"/>
+         <asteroid name="Dolor" pos="-21130,119970,-2000" diameter="16100"/>
+         <asteroid name="Smerte" pos="96060,-114640,3030" diameter="8600"/>
+         <station name="Trader's Fort" id="17451" pos="46250,-58960,0" diameter="0">
+            <owner>Free Spacers</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="34">Cleri Maste</Weapons>
+               <Equipment level="34">Burgen Lorensal</Equipment>
+               <Tradegoods>Hessen Grundmeier|Mannion Bly</Tradegoods>
+               <Components level="3">Chester Ludwigin</Components>
+               <Components level="4">Len Garing</Components>
+            </vendors>
+            <npcs>
+               <npc>Tarnish McHollis</npc>
+               <npc>Arinyl Nairda</npc>
+               <npc>Sturmer</npc>
+               <npc>Feng Yonghong</npc>
+            </npcs>
+         </station>
+         <navpoint name="Calamity's Bargain" pos="-7860,65930,0"/>
+         <navpoint name="Calamity's Downfall" pos="21090,32229,0"/>
+         <navpoint name="Dolor Chasm 1" pos="-78810,91040,0"/>
+         <navpoint name="Dolor Chasm 2" pos="-70090,120130,0"/>
+         <navpoint name="Dolor Chasm 3" pos="-52050,139320,0"/>
+         <navpoint name="Dolor's Bluff" pos="-15430,100240,0"/>
+         <navpoint name="Farthen Camp" pos="-65040,-54170,3360"/>
+         <navpoint name="Herlinsenn Camp" pos="-220,-67790,2560"/>
+         <navpoint name="Nav Ragnarok 1" pos="-39700,-75530,0"/>
+         <navpoint name="Nav Ragnarok 2" pos="6540,-57050,0"/>
+         <navpoint name="Nav Ragnarok 3" pos="-45250,-30430,0"/>
+         <navpoint name="Nav Ragnarok 4" pos="-77680,6410,0"/>
+         <navpoint name="Nav Ragnarok 5" pos="-75570,45800,0"/>
+         <navpoint name="Net-7 Relay" pos="-39540,-87860,0"/>
+         <navpoint name="Ragnarok's Mistake" pos="62870,74000,0"/>
+         <navpoint name="Ragnarok's Path" pos="42930,53110,0"/>
+         <navpoint name="Ragnarok's Terminal" pos="92770,94890,0"/>
+         <navpoint name="Rassmussen Camp" pos="91600,-109940,3360"/>
+         <navpoint type="hidden" name="Chavez Battlefrigate" pos="-19580,142100,0"/>
+         <navpoint type="hidden" name="Infiniti-Orsini Ragnarok Scoop" pos="99280,100750,0"/>
+      </sector>
+      <sector name="Jotunheim" id="1740" rect="-165000,145000,-165000,-153000">
+         <gate to="Freya" pos="4990,139450,0"/>
+         <gate to="Ragnarok" pos="-4860,139340,0"/>
+         <gate to="Odin Rex" pos="1270,-148970,0"/>
+         <planet name="Jotunheim" pos="0,0,0" diameter="24140"/>
+         <station name="Arx Ymir" id="17401" pos="-13780,125030,0" diameter="0">
+            <owner>Collegia Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="345">Relma Certo</Weapons>
+               <Equipment level="345">Andros Illyuctas</Equipment>
+               <Tradegoods>Santin Sauls</Tradegoods>
+               <Components level="3">Polini Martas</Components>
+               <Components level="4">Prokop Murrius</Components>
+               <Components level="5">Flavia Metilius</Components>
+            </vendors>
+            <npcs>
+               <npc>Havyair Amen-Tol</npc>
+               <npc>Shou Tzu</npc>
+            </npcs>
+         </station>
+         <navpoint name="Chavez Camp 1" pos="-150410,27350,0"/>
+         <navpoint name="Chavez Camp 2" pos="149950,-30180,0"/>
+         <navpoint name="Deep Jotunheim 1" pos="98450,0,0"/>
+         <navpoint name="Deep Jotunheim 2" pos="133110,-790,0"/>
+         <navpoint name="Deep Jotunheim Spinward 1" pos="-100030,-790,0"/>
+         <navpoint name="Deep Jotunheim Spinward 2" pos="-131480,-1460,0"/>
+         <navpoint name="Free Spacer Void Moot" pos="72560,-57390,0"/>
+         <navpoint name="Nav Jotunheim 1" pos="1270,-99250,0"/>
+         <navpoint name="Nav Jotunheim 2" pos="44890,-72460,0"/>
+         <navpoint name="Nav Jotunheim 3" pos="70880,-29930,0"/>
+         <navpoint name="Nav Jotunheim 4" pos="72460,29930,0"/>
+         <navpoint name="Nav Jotunheim 5" pos="42530,68520,0"/>
+         <navpoint name="Nav Jotunheim 6" pos="790,96880,0"/>
+         <navpoint name="Jotunheim Ring Entry Point 1" pos="-140,-63390,0"/>
+         <navpoint name="Jotunheim Ring Entry Point 2" pos="62020,-3800,0"/>
+         <navpoint name="Jotunheim Ring Entry Point 3" pos="-230,66010,0"/>
+         <navpoint name="Jotunheim Ring Entry Point 4" pos="-62900,-2610,0"/>
+         <navpoint name="Jotunheim Spinward 1" pos="-44110,-74030,0"/>
+         <navpoint name="Jotunheim Spinward 2" pos="-70880,-29140,0"/>
+         <navpoint name="Jotunheim Spinward 3" pos="-72460,29140,0"/>
+         <navpoint name="Jotunheim Spinward 4" pos="-42530,67730,0"/>
+         <navpoint type="hidden" name="Drake Graveyard Fandral" pos="-29380,-41210,1240"/>
+         <navpoint type="hidden" name="Drake Graveyard Volstagg" pos="53200,21380,-2050"/>
+         <navpoint type="hidden" name="Pax Enigmus" pos="-40,144060,0"/>
+         <navpoint type="hidden" name="Progen Outpost Frigga" pos="16050,-126340,0"/>
+      </sector>
+      <sector name="Odin Rex" id="1735" rect="-300000,310000,-300000,-40000">
+         <gate to="Jotunheim" pos="-100850,300500,0"/>
+         <gate to="Odin's Belt" pos="-274630,78210,0"/>
+         <planet name="Odin Rex" pos="-11530,-35900,100000" diameter="206100"/>
+         <moon name="Balder" pos="-235540,246860,0" diameter="15300"/>
+         <moon name="Hodr" pos="-6540,268970,0" diameter="17600"/>
+         <asteroid name="Vali" pos="-163200,-20780,0" diameter="6500"/>
+         <navpoint name="Destroyed Mining Facility" pos="-154310,-23620,0"/>
+         <navpoint name="Focus" pos="-270340,222050,0"/>
+         <navpoint name="Nav Odin Rex 1" pos="-128110,265470,0"/>
+         <navpoint name="Nav Odin Rex 2" pos="-155990,226870,0"/>
+         <navpoint name="Nav Odin Rex 3" pos="-185650,188990,0"/>
+         <navpoint name="Nav Odin Rex 4" pos="-216380,151470,0"/>
+         <navpoint name="Nav Odin Rex 5" pos="-245690,114300,0"/>
+         <navpoint name="Navbouy V1" pos="-192250,10140,0"/>
+         <navpoint name="Navbouy V2" pos="-211830,51550,0"/>
+         <navpoint name="Navbouy V3" pos="-220260,75840,0"/>
+         <navpoint name="Sight" pos="-262120,195250,0"/>
+         <navpoint name="The Hook" pos="-74020,204960,0"/>
+         <navpoint name="The Line" pos="-58740,165590,0"/>
+         <navpoint name="The Path" pos="-62290,250030,0"/>
+         <navpoint name="The Sinker" pos="-41700,126810,0"/>
+         <navpoint type="hidden" name="Chavez Camp" pos="-277640,249050,0"/>
+         <navpoint type="hidden" name="Chavez Mining Facility" pos="-23490,91550,0"/>
+         <navpoint type="hidden" name="Chavez Outpost" pos="29490,265600,0"/>
+         <navpoint type="hidden" name="Communication Satellite" pos="-89810,250080,30"/>
+      </sector>
+      <sector name="Odin's Belt" id="1720" rect="-75000,75000,-75000,-75000">
+         <gate to="Odin Rex" pos="-56850,-56260,0"/>
+         <gate to="Muspelheim" pos="23320,66120,0"/>
+         <gate to="Lagarto" pos="51550,-47810,0"/>
+         <navpoint name="Nav Beltway 1" pos="9860,-15790,0"/>
+         <navpoint name="Nav Beltway 2" pos="-37290,-1080,0"/>
+         <navpoint name="Nav Beltway 3" pos="-4890,29940,0"/>
+         <navpoint name="Nav Odin's Belt 1" pos="54750,35300,0"/>
+         <navpoint name="Nav Odin's Belt 2" pos="51950,-13400,0"/>
+         <navpoint name="Nav Odin's Belt 3" pos="12740,-41220,0"/>
+         <navpoint name="Nav Odin's Belt 4" pos="-34480,-49510,0"/>
+         <navpoint type="hidden" name="Balder's Tear" pos="-46790,29200,0"/>
+         <navpoint type="hidden" name="Bragi" pos="32840,3990,0"/>
+         <navpoint type="hidden" name="Forseti" pos="-10580,10180,0"/>
+         <navpoint type="hidden" name="Gunnlod" pos="-53230,-7230,0"/>
+         <navpoint type="hidden" name="Grid" pos="-11310,60020,0"/>
+         <navpoint type="hidden" name="Hel" pos="-28740,-38690,0"/>
+         <navpoint type="hidden" name="Hodr" pos="63490,12300,0"/>
+         <navpoint type="hidden" name="Idun" pos="-8980,-19500,0"/>
+         <navpoint type="hidden" name="Nanna" pos="23100,32630,0"/>
+         <navpoint type="hidden" name="Vali" pos="31200,-18860,0"/>
+         <navpoint type="hidden" name="Vidar" pos="17950,-49000,0"/>
+      </sector>
+      <sector name="Muspelheim" id="1725" rect="-80000,60000,-80000,-125000">
+         <gate to="Odin's Belt" pos="152870,-82670,0"/>
+         <gate to="Blackbeard's Wake" pos="63720,48130,0"/>
+         <gate to="Aragoth Prime" pos="-74380,-111580,0"/>
+         <planet name="Muspelheim" pos="-98120,75720,0" diameter="153600"/>
+         <moon name="Surti Alpha" pos="175760,51410,0" diameter="60600"/>
+         <navpoint name="Asteroid MP-124" pos="-11620,47890,0"/>
+         <navpoint name="Asteroid MP-125" pos="1290,52250,0"/>
+         <navpoint name="Asteroid MP-297" pos="186740,-103220,0"/>
+         <navpoint name="Asteroid MP-298" pos="170460,-111960,0"/>
+         <navpoint name="Jormund Mining Station (Abandoned)" pos="-54580,-7360,0"/>
+         <navpoint name="Jormund Path 1" pos="10490,-69960,0"/>
+         <navpoint name="Jormund Path 2" pos="-20730,-44180,0"/>
+         <navpoint name="Jormund Path 3" pos="-47480,-15210,0"/>
+         <navpoint name="Modi Mining Station (Abandoned)" pos="57090,26680,0"/>
+         <navpoint name="Modi Path 1" pos="69970,-32770,0"/>
+         <navpoint name="Modi Path 2" pos="33900,-12900,0"/>
+         <navpoint name="Modi Path 3" pos="50270,22580,0"/>
+         <navpoint name="Nav Muspelheim 1" pos="-39230,-109790,0"/>
+         <navpoint name="Nav Muspelheim 2" pos="1270,-109240,0"/>
+         <navpoint name="Nav Muspelheim 3" pos="38990,-99810,0"/>
+         <navpoint name="Nav Muspelheim 4" pos="70610,-73090,0"/>
+         <navpoint name="Nav Muspelheim 5" pos="111310,-73170,0"/>
+         <navpoint name="Nav Muspelheim 6" pos="150610,-57810,0"/>
+         <navpoint name="Surti Alpha 1" pos="104430,-13710,0"/>
+         <navpoint name="Surti Alpha 2" pos="137010,8850,0"/>
+         <navpoint name="Surti Alpha 3" pos="176710,400,0"/>
+         <navpoint name="Surti Alpha 4" pos="129479,47900,0"/>
+         <navpoint type="hidden" name="Net-7 Muspel Beacon" pos="163150,-64800,0"/>
+         <navpoint type="hidden" name="Surti Fragment" pos="27040,-96350,0"/>
+      </sector>
+      <sector name="Aragoth Prime" id="1710" rect="-225000,195000,-225000,-150000">
+         <gate to="Muspelheim" pos="189870,4390,0"/>
+         <gate to="Varen's Girdle" pos="-3550,133000,0"/>
+         <gate to="The Valkyrie Twins" pos="-152780,-132760,0"/>
+         <planet name="Aragoth Prime" pos="0,0,0" diameter="60400"/>
+         <moon name="Arkan" pos="80110,63680,0" diameter="12120"/>
+         <moon name="Duth" pos="-178530,30840,0" diameter="12080"/>
+         <moon name="Mughwa" pos="-119640,-97220,0" diameter="18200"/>
+         <moon name="Tokee" pos="183140,-79040,0" diameter="18100"/>
+         <station name="Chernevog Station" id="17101" pos="-85250,-68910,0" diameter="0">
+            <owner>InfinitiCorp Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="34567">Olga Mantel</Weapons>
+               <Equipment level="34567">Indigo Morrison</Equipment>
+               <Tradegoods>Fessy O'Donnall</Tradegoods>
+               <Components level="3">Zak Letlin</Components>
+               <Components level="4">Elena Brown</Components>
+               <Components level="5">James Woods</Components>
+               <Components level="6">Nathan Keith</Components>
+            </vendors>
+            <npcs>
+               <npc>Harvey Krum</npc>
+            </npcs>
+         </station>
+         <navpoint name="Aragoth Resource Field 1" pos="37660,16730,0"/>
+         <navpoint name="Aragoth Resource Field 2" pos="-38570,1240,0"/>
+         <navpoint name="Duth Field" pos="-171800,45100,0"/>
+         <navpoint name="Duth Navway" pos="-157910,81490,0"/>
+         <navpoint name="Mughwa Field" pos="-106680,-95640,0"/>
+         <navpoint name="Nav Aragoth Prime 1" pos="-30250,103000,0"/>
+         <navpoint name="Nav Aragoth Prime 2" pos="-50560,61140,0"/>
+         <navpoint name="Nav Aragoth Prime 3" pos="-66980,15810,0"/>
+         <navpoint name="Nav Aragoth Prime 4" pos="-75730,-32400,0"/>
+         <navpoint name="Nav Aragoth Prime 5" pos="-125040,-76110,0"/>
+         <navpoint name="Nav Aragoth Prime 6" pos="-138290,-119110,0"/>
+         <navpoint name="Nav Aragoth Prime 7" pos="-98160,-105680,0"/>
+         <navpoint name="Nav Aragoth Prime 8" pos="-43870,-64819,0"/>
+         <navpoint name="Nav Aragoth Prime 9" pos="-5170,-48160,0"/>
+         <navpoint name="Nav Aragoth Prime 10" pos="33510,-23790,0"/>
+         <navpoint name="Nav Aragoth Prime 11" pos="70090,3980,0"/>
+         <navpoint name="Nav Aragoth Prime 12" pos="106650,34620,0"/>
+         <navpoint name="Nav Aragoth Prime 13" pos="144810,9360,0"/>
+         <navpoint name="Nav Aragoth Prime 14" pos="116370,86960,0"/>
+         <navpoint name="Nav Aragoth Prime 15" pos="80310,109350,0"/>
+         <navpoint name="Nav Aragoth Prime 16" pos="35150,116330,0"/>
+         <navpoint name="Old Disabled Pirate Gate" pos="-161530,120360,0"/>
+         <navpoint name="Old Resource Field 1" pos="-140460,116860,0"/>
+         <navpoint name="Old Resource Field 2" pos="146230,64069,0"/>
+         <navpoint name="Old Resource Path" pos="-44740,123200,0"/>
+         <navpoint name="Old Resource Path 1" pos="-82850,122900,0"/>
+         <navpoint name="Old Resource Path 2" pos="-118110,122900,0"/>
+         <navpoint name="Satellite Communication Node 1" pos="-158150,53880,0"/>
+         <navpoint name="Satellite Communication Node 2" pos="72900,57140,0"/>
+         <navpoint name="Tokee Field" pos="174470,-72310,0"/>
+         <navpoint name="Tokee Navway" pos="179920,-39800,0"/>
+         <navpoint type="hidden" name="Kuei Station" pos="-216320,186880,-2580"/>
+         <navpoint type="hidden" name="Red Dragon Carrier T'ien Lung" pos="-188680,159620,0"/>
+      </sector>
+      <sector name="The Valkyrie Twins" id="1705" rect="-504300,500000,-504300,-301040">
+         <gate to="Aragoth Prime" pos="70320,-45120,0"/>
+         <gate to="Fenris" pos="135380,23720,0"/>
+         <asteroid name="Guth" pos="96230,33750,1000" diameter="16120"/>
+         <asteroid name="Gunn" pos="25690,-24250,-1000" diameter="13250"/>
+         <station name="Aragoth Station" id="17051" pos="38930,37750,10" diameter="12000">
+            <owner>Sharim Traders</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="567">Quia Gensh</Weapons>
+               <Equipment level="567">Jenra Mos</Equipment>
+               <Tradegoods>Sara Madison</Tradegoods>
+               <Components level="5">Mil Shahs</Components>
+               <Components level="6">Ibuka Terao</Components>
+               <Components level="7">Nakada Hatsue</Components>
+            </vendors>
+            <npcs>
+               <npc>Meredith Lot</npc>
+            </npcs>
+         </station>
+         <navpoint name="Field of Danger" pos="-143330,-36770,0"/>
+         <navpoint name="Nav Valkyrie 1" pos="90020,-25150,0"/>
+         <navpoint name="Nav Valkyrie 2" pos="108280,-11920,0"/>
+         <navpoint name="Nav Valkyrie 3" pos="121580,3640,0"/>
+         <navpoint name="Nav Valkyrie 4" pos="97940,8630,0"/>
+         <navpoint name="Nav Valkyrie 5" pos="76350,14440,0"/>
+         <navpoint name="Nav Valkyrie 6" pos="57450,21700,0"/>
+         <navpoint name="Path of Fire I" pos="20870,19160,-500"/>
+         <navpoint name="Path of Fire II" pos="-1590,7560,-1000"/>
+         <navpoint name="Path of Fire III" pos="-25510,-4390,-1500"/>
+         <navpoint name="Path of Fire IV" pos="-45800,-13820,-2000"/>
+         <navpoint name="Path of Fire V" pos="-67910,-21060,-2500"/>
+         <navpoint name="Path of Fire VI" pos="-91820,-28990,-3000"/>
+         <navpoint name="Path of Fire VII" pos="-117190,-35740,-3500"/>
+         <navpoint name="Remote Mine Path 1" pos="-10150,41550,0"/>
+         <navpoint name="Remote Mine Path 2" pos="-34000,47000,0"/>
+         <navpoint name="Remote Mine Path 3" pos="-57650,52970,0"/>
+         <navpoint name="Remote Mine Path 4" pos="-81300,56320,0"/>
+         <navpoint name="Remote Minefield" pos="-101130,56790,0"/>
+         <navpoint type="hidden" name="Aragoth Probe 1" pos="-129650,-29740,0"/>
+         <navpoint type="hidden" name="Aragoth Probe 2" pos="-93040,36720,-460"/>
+         <navpoint type="hidden" name="Aragoth Probe 3" pos="-100870,13210,0"/>
+         <navpoint type="hidden" name="Aragoth Probe 4" pos="-115470,-11820,0"/>
+         <navpoint type="special" name="Hagoth's Weft" pos="79490,45290,0"/>
+      </sector>
+      <sector name="Varen's Girdle" id="1715" rect="-110,255110,-110,5170">
+         <gate to="Aragoth Prime" pos="28600,50650,0"/>
+         <gate to="Fenris" pos="273880,133810,0"/>
+         <navpoint name="Andaren's Tomb" pos="90340,183380,-2040"/>
+         <navpoint name="Lattice 1" pos="181280,179590,0"/>
+         <navpoint name="Lattice 2" pos="222030,183480,0"/>
+         <navpoint name="Lattice 3" pos="270900,201780,0"/>
+         <navpoint name="Lattice 4" pos="316910,187320,0"/>
+         <navpoint name="Nav Nithogg Trail 1" pos="82210,69530,0"/>
+         <navpoint name="Nav Nithogg Trail 2" pos="103510,88350,0"/>
+         <navpoint name="Nav Nithogg Trail 3" pos="109730,116180,0"/>
+         <navpoint name="Nav Nithogg Trail 4" pos="136760,135590,0"/>
+         <navpoint name="Nav Nithogg Trail 5" pos="160220,113610,0"/>
+         <navpoint name="Nav Nithogg Trail 6" pos="169110,91430,0"/>
+         <navpoint name="Nav Nithogg Trail 7" pos="176330,70080,0"/>
+         <navpoint name="Nav Ratatosk Trail 1" pos="233180,47050,0"/>
+         <navpoint name="Nav Ratatosk Trail 2" pos="221200,28340,0"/>
+         <navpoint name="Nav Ratatosk Trail 3" pos="202940,15340,0"/>
+         <navpoint name="Nav Ratatosk Trail 4" pos="180280,12940,0"/>
+         <navpoint name="Nav Ratatosk Trail 5" pos="158920,23410,0"/>
+         <navpoint name="Nav Varen's Girdle 1" pos="67300,46470,0"/>
+         <navpoint name="Nav Varen's Girdle 2" pos="111650,53040,0"/>
+         <navpoint name="Nav Varen's Girdle 3" pos="151500,44380,0"/>
+         <navpoint name="Nav Varen's Girdle 4" pos="195320,55300,0"/>
+         <navpoint name="Nav Varen's Girdle 5" pos="235950,69940,0"/>
+         <navpoint name="Nav Varen's Girdle 6" pos="266030,98770,0"/>
+         <navpoint name="Osterae Seeding 1" pos="277230,71720,0"/>
+         <navpoint name="Osterae Seeding 2" pos="269940,43500,0"/>
+         <navpoint type="hidden" name="Osterae Harvest" pos="314460,36530,0"/>
+         <navpoint type="hidden" name="Spacial Rift VG-01" pos="72290,157380,0"/>
+         <navpoint type="hidden" name="Spacial Rift VG-02" pos="129690,179500,0"/>
+         <navpoint type="hidden" name="Spacial Rift VG-03" pos="118180,192580,0"/>
+         <navpoint type="hidden" name="Spacial Rift VG-04" pos="66200,193070,0"/>
+         <navpoint type="hidden" name="Spacial Rift VG-05" pos="107560,158550,0"/>
+         <navpoint type="hidden" name="Triple Lattice" pos="326750,214140,0"/>
+      </sector>
+      <sector name="Fenris" id="1730" rect="-148500,160000,-148500,-136740">
+         <gate to="Valkyrie Twins" pos="-92680,85090,0"/>
+         <gate to="Varen's Girdle" pos="80300,-80740,0"/>
+         <planet name="Fenris" pos="96220,99820,430" diameter="60300"/>
+         <moon name="Fenris Prime" pos="-99120,-99850,0" diameter="36300"/>
+         <station name="Fenris Prime Observatory" id="17301" pos="-80810,-70300,550" diameter="0">
+            <owner>Sha'ha'dam Explorers</owner>
+            <terminals>
+               <terminal>Analyze</terminal>
+               <terminal>Manufacturing</terminal>
+               <terminal>Refining</terminal>
+               <terminal>Jobs</terminal>
+               <terminal>Intergalactic Net</terminal>
+            </terminals>
+            <vendors>
+               <Weapons level="45">Maiki Vo</Weapons>
+               <Equipment level="45">Piq Ki</Equipment>
+               <Tradegoods>Jienai She'dem</Tradegoods>
+               <Components level="4">Shisa Oli</Components>
+               <Components level="5">Sjeh Hram</Components>
+            </vendors>
+            <npcs>
+               <npc>Liam O'Faolain</npc>
+            </npcs>
+         </station>
+         <navpoint name="Akara's Tear" pos="128389,-112370,0"/>
+         <navpoint name="Derelict Nav Point" pos="139280,119060,0"/>
+         <navpoint name="Gleipnir" pos="42670,42970,0"/>
+         <navpoint name="Nav Fenris 1" pos="38050,-98500,0"/>
+         <navpoint name="Nav Fenris 2" pos="-10010,-99080,0"/>
+         <navpoint name="Nav Fenris 3" pos="-38140,-65390,0"/>
+         <navpoint name="Nav Fenris 4" pos="-91610,-10740,0"/>
+         <navpoint name="Nav Fenris 5" pos="-119590,46540,0"/>
+         <navpoint name="Nav Fenris 6" pos="-126920,85510,0"/>
+         <navpoint name="Nav Fenris 7" pos="-127800,125360,0"/>
+         <navpoint name="Nav Fenris 8" pos="-75740,145440,0"/>
+         <navpoint name="Nav Fenris 9" pos="-23630,145440,0"/>
+         <navpoint name="Nav Fenris 10" pos="31020,144700,0"/>
+         <navpoint name="Nav Fenris 11" pos="88890,147190,0"/>
+         <navpoint name="Observer Relay 1" pos="98490,9270,0"/>
+         <navpoint name="Observer Relay 2" pos="64459,-24730,0"/>
+         <navpoint name="Observer Relay 3" pos="21610,-25490,0"/>
+         <navpoint name="Observer Relay 4" pos="-24470,-25220,0"/>
+         <navpoint name="Observer Relay 5" pos="-25380,20520,0"/>
+         <navpoint name="Observer Relay 6" pos="-25260,66140,0"/>
+         <navpoint name="Observer Relay 7" pos="8970,98600,880"/>
+      </sector>
+   </system>
+</universe>

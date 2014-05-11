@@ -1,0 +1,11 @@
+; sector_1705.txt
+;
+[SECTOR-1705]
+name=Valkyrie Twins
+system=Aragoth
+sector=Valkyrie Twins
+greetings=We have entered Valkyrie Twins Sector (Aragoth System).
+
+[STATION-17051]
+station=Aragoth Station
+dock=Aragoth Station: You are cleared for docking.

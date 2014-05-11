@@ -1,0 +1,8 @@
+; sector_45201.txt
+;
+[STATION-45201]
+name=Orsini Mining Platform
+system=Beta Hydri
+sector=Carpenter
+greetings=Now docking at Orsini Mining Platform.
+launch=Orsini Mining Platform: You are cleared for departure.

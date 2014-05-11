@@ -1,0 +1,7 @@
+; sector_1735.txt
+;
+[SECTOR-1735]
+name=Odin Rex
+system=Aragoth
+sector=Odin Rex
+greetings=We have entered Odin Rex Sector (Aragoth System).

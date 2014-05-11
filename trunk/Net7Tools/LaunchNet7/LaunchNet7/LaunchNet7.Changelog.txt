@@ -1,0 +1,29 @@
+LaunchNet7 - Changelog
+----------------------
+
+Version 1.1.6
+FIX: Fixed a problem with the self-update meachnism.
+FIX: Removed change from 1.1.3 because Sockettest is no longer supported by the server.
+NEW: Added changelog display in patch-window.
+
+Version 1.1.3
+NEW: Added a new single player start option to the server list for running SP via SocketTest.
+
+Version 1.1.2
+
+Version 1.1.1
+FIX: Changing hostname manually now enable extended settings and allow correct server check based on the authentication port seetings.
+
+Version 1.1.0
+FIX: Problems with timeouts, offline-webservers or unreachable update check locations fixed.
+FIX: Problem after browsing a different client location fixed.
+FIX: Some minor problems.
+NEW: Statusbar displaying errors and warnings on update-checks. Details on click available.
+NEW: Update can be restartet by menu.
+NEW: Current and/or server version displayed in the lower right corner.
+NEW: Changes to the UI. Renamed labels, new elements.
+NEW: Changed/optimized config-file.
+NEW: Patch message/website display instead of background enabled (currently not used)
+
+Version 1.0.0
+First Release

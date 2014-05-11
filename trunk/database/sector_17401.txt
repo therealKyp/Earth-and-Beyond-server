@@ -1,0 +1,8 @@
+; sector_17401.txt
+;
+[STATION-17401]
+name=Arx Ymir
+system=Aragoth
+sector=Jotunheim
+greetings=Now arriving at Arx Ymir.
+launch=This is Arx Ymir Station Control... you are cleared for departure.

@@ -1,0 +1,11 @@
+; sector_1440.txt
+;
+[SECTOR-1440]
+name=der Todesengel
+system=Alpha Centauri
+sector=der Todesengel
+greetings=We have entered der Todesengel Sector (Alpha Centauri System).
+
+[STATION-14401]
+station= Grand Ole Homestead
+dock= Grand Ole Homestead CONTROL: Docking clearance granted.

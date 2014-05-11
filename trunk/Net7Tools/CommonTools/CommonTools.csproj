@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97016D61-FB82-4D92-B9FF-07247D1BA46E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommonTools</RootNamespace>
+    <AssemblyName>CommonTools</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.2.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\release\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\CodeValue.cs" />
+    <Compile Include="Database\ColName.cs" />
+    <Compile Include="Database\ColumnData.cs" />
+    <Compile Include="Database\DataType.cs" />
+    <Compile Include="Database\DB.cs" />
+    <Compile Include="Enumeration.cs" />
+    <Compile Include="Gui\DlgEditXml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgEditXml.Designer.cs">
+      <DependentUpon>DlgEditXml.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\DlgSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgSearch.Designer.cs">
+      <DependentUpon>DlgSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\DlgSearchCriteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgSearchCriteria.designer.cs">
+      <DependentUpon>DlgSearchCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ListViewColumnSorter.cs" />
+    <Compile Include="Gui\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\net7.cs" />
+    <Compile Include="Gui\SearchCriteria.cs" />
+    <Compile Include="Gui\TableButtonHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Xml\Xml.cs" />
+    <Compile Include="Xml\XmlAttributes.cs" />
+    <Compile Include="Xml\XmlTags.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Gui\DlgEditXml.resx">
+      <DependentUpon>DlgEditXml.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\DlgSearch.resx">
+      <DependentUpon>DlgSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\DlgSearchCriteria.resx">
+      <DependentUpon>DlgSearchCriteria.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MySql.Data.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

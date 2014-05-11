@@ -1,0 +1,360 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FDAF8A2-B1A6-4392-9D7A-E29F0528B10F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>N7</RootNamespace>
+    <AssemblyName>Net7 Sector Editor</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>EB.ICO</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LaMarvin.Windows.Forms.ColorPicker, Version=1.1.81.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonTools\Libs\release\LaMarvin.Windows.Forms.ColorPicker.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.2.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonTools\Libs\release\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SandDock, Version=3.0.3.1, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonTools\Libs\release\SandDock.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UMD.HCIL.Piccolo, Version=1.0.2165.24847, Culture=neutral" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EntryPoint.cs" />
+    <Compile Include="GUI\AboutBox2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AboutBox2.Designer.cs">
+      <DependentUpon>AboutBox2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BaseAssets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BaseAssets.designer.cs">
+      <DependentUpon>BaseAssets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Destination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Destination.Designer.cs">
+      <DependentUpon>Destination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmContrast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HarvestableResTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HarvestableResTypes.Designer.cs">
+      <DependentUpon>HarvestableResTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MobGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MobGroup.Designer.cs">
+      <DependentUpon>MobGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewSectorObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewSectorObject.Designer.cs">
+      <DependentUpon>NewSectorObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewFrm.Designer.cs">
+      <DependentUpon>NewFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewSector.Designer.cs">
+      <DependentUpon>NewSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewSectorObjectType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewSectorObjectType.Designer.cs">
+      <DependentUpon>NewSectorObjectType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NewSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NewSystem.Designer.cs">
+      <DependentUpon>NewSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\OptionsGui.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\OptionsGui.designer.cs">
+      <DependentUpon>OptionsGui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SoundEffects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SoundEffects.Designer.cs">
+      <DependentUpon>SoundEffects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Props\BaseProps.cs" />
+    <Compile Include="Props\HarvestableProps.cs" />
+    <Compile Include="Props\MobProps.cs" />
+    <Compile Include="Props\PlanetProps.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Sql\BaseAssetSQL.cs" />
+    <Compile Include="Sql\FactionSql.cs" />
+    <Compile Include="Sql\MobsSQL.cs" />
+    <Compile Include="Utilities\AdobeColors.cs" />
+    <Compile Include="Utilities\PropertiesGridUtils.cs" />
+    <Compile Include="Props\SectorProps.cs" />
+    <Compile Include="Props\StarbaseProps.cs" />
+    <Compile Include="Props\StargateProps.cs" />
+    <Compile Include="Props\SystemProps.cs" />
+    <Compile Include="Sprites\DecorationSprite.cs" />
+    <Compile Include="Sprites\HarvestableSprite.cs" />
+    <Compile Include="Sprites\MobSprite.cs" />
+    <Compile Include="Sprites\PlanetSprite.cs" />
+    <Compile Include="Sprites\SectorBoundsSprite.cs" />
+    <Compile Include="Sprites\StarbaseSprite.cs" />
+    <Compile Include="Sprites\StargateSprite.cs" />
+    <Compile Include="Sprites\SectorSprite.cs" />
+    <Compile Include="Sql\SectorObjectsSql.cs" />
+    <Compile Include="SystemWindow.cs" />
+    <Compile Include="TreeWindow.cs" />
+    <Compile Include="SectorWindow.cs" />
+    <Compile Include="Sql\Database.cs" />
+    <Compile Include="Utilities\Helpers.cs" />
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\mainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\mainFrm.Designer.cs">
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\AboutBox2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\BaseAssets.resx">
+      <DependentUpon>BaseAssets.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Destination.resx">
+      <DependentUpon>Destination.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmContrast.resx">
+      <DependentUpon>frmContrast.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\HarvestableResTypes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HarvestableResTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MobGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MobGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewSectorObject.resx">
+      <DependentUpon>NewSectorObject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewSector.resx">
+      <DependentUpon>NewSector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewSectorObjectType.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewSectorObjectType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NewSystem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\mainFrm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\OptionsGui.resx">
+      <DependentUpon>OptionsGui.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SoundEffects.resx">
+      <DependentUpon>SoundEffects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sql\SectorsSql.cs" />
+    <Compile Include="Sql\SystemsSql.cs" />
+    <Compile Include="Utilities\MouseWheelZoomController.cs" />
+    <Compile Include="Utilities\QuaternionCalc.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EB.ICO" />
+    <Content Include="Images\list-add.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\planet.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\hiddenGate.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\nuetralMob.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\friendlyMob.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\hostileMob.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\planetLandable.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\process-stop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\space1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\standardNav.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\hiddenNav.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\classSpecificNav.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\standardGate.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\FactionSpecificGate.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\classSpecificGate.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\resource.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\resourceField.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\stations.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\view-fullscreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="app.config" />
+    <None Include="Resources\EB.ICO" />
+    <Content Include="lib\UMD.HCIL.Piccolo.dll" />
+    <Content Include="lib\UMD.HCIL.PiccoloDirect3D.dll" />
+    <Content Include="lib\UMD.HCIL.PiccoloX.dll" />
+    <Content Include="MySql.Data.dll" />
+    <Content Include="Resources\TortoiseConflict.ico" />
+    <Content Include="Resources\TortoiseDeleted.ico" />
+    <Content Include="Resources\TortoiseLocked.ico" />
+    <Content Include="UMD.HCIL.Piccolo.dll" />
+    <Content Include="UMD.HCIL.PiccoloDirect3D.dll" />
+    <Content Include="UMD.HCIL.PiccoloX.dll" />
+    <None Include="Resources\wb_arrow.png" />
+    <None Include="Resources\media-floppy-smaller.png" />
+    <None Include="Resources\document-new.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

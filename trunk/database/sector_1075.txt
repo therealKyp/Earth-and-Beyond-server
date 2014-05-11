@@ -1,0 +1,7 @@
+; sector_1075.txt
+;
+[SECTOR-1075]
+name=Akeron's Gate
+system=Sol
+sector=Akeron's Gate
+greetings=We have entered Akeron's Gate Sector (Sol System).

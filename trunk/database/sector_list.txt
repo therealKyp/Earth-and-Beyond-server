@@ -1,0 +1,127 @@
+; sector_list.txt
+;
+; Fields:
+;    SectorID
+;    Sector Name or Station Name
+;    System Name
+;    Sector Name (for stations only)
+;    Comment
+;
+; Beginner Training Areas
+973,Earth,Sol,,Terran Beginner Tutorial Area
+974,Mars,Sol,,Progen Beginner Tutorial Area
+977,Jupiter,Sol,,Jenquai Defender Beginner Tutorial Area
+978,Jupiter,Sol,,Jenquai Explorer Beginner Tutorial Area
+;
+; Sectors
+;
+1015,Luna,Sol
+1020,High Earth,Sol
+1030,Mars Beta,Sol
+1036,Mars Alpha,Sol
+1052,Io,Sol
+1055,Europa,Sol
+1060,Earth,Sol
+1065,Mars,Sol
+1070,Jupiter,Sol
+1071,Saturn,Sol
+;1073,Neptune,Sol
+1075,Akeron's Gate,Sol
+1076,Asteroid Belt Alpha,Sol
+1077,Asteroid Belt Beta,Sol
+1079,Asteroid Belt Gamma,Sol
+1115,Aganju,61 Cygni
+1425,Zweihander,Alpha Centauri
+1430,Witberg,Alpha Centauri
+1440,der Todesengel,Alpha Centauri
+1493,Jagerstadt (Planet Zweihander),Alpha Centauri
+1505,Antares Frontier,Antares
+1705,The Valkyrie Twins,Aragoth
+1710,Aragoth Prime,Aragoth
+1715,Varen's Gridle,Aragoth
+1720,Odin's Belt,Aragoth
+1725,Muspelheim,Aragoth
+1730,Fenris,Aragoth
+1735,Odin Rex,Aragoth
+1740,Jotunheim,Aragoth
+1745,Ragnarok,Aragoth
+1750,Freya,Aragoth
+1755,Nifleheim Cloud,Aragoth
+1910,Kailaasa,Capella
+1915,Kitara's Veil,Capella
+1920,Yokan,Capella
+1925,Dahin,Capella
+1930,Dahin Mining Interest (Planet Dahin),Capella
+1935,Vishao's Cove,Capella
+2105,Deneb,Deneb
+2130,Roc,Deneb
+2210,Endriago,Gallina
+2215,Lagarto,Gallina
+2290,GETCo Ruins (Risco Moon),Gallina
+2295,Porvenir Mons Area (Planet Endriago),Gallina
+2505,Mondara Maelstrom,Mondara Shear
+3515,Primus,Vega
+3530,Tarsis,Vega
+3595,Praetorium Mons Area (Planet Primus),Vega
+3605,Blackbeard's Wake,Smuggler's Run
+3705,Ardus,Aquitaine
+4015,New Edinburgh,Tau Ceti
+4025,Inverness,Tau Ceti
+4030,Arduinne,Tau Ceti
+4093,Inverness Planet,Tau Ceti
+4095,Arduinne Gas Cloud,Tau Ceti
+4115,Xipe Totec,Sirius
+4120,Swooping Eagle,Sirius
+4195,Yasuragi Area (Planet Swooping Eagle),Sirius
+4205,Mazzaroth Maelstrom,Mazzaroth Shear
+4505,Glory's Orbit,Beta Hydri
+4510,Slayton,Beta Hydri
+4515,Glenn,Beta Hydri
+4520,Carpenter,Beta Hydri
+4525,Shepard,Beta Hydri
+4530,Grissom,Beta Hydri
+4535,Cooper,Beta Hydri
+4540,Sword,Beta Hydri
+4545,Shield,Beta Hydri
+4550,Spear,Beta Hydri
+4595,Grissom Meteorological Site,(Grissom Planet),Beta Hydri
+;
+; Stations
+;
+10151,Luna Station,Sol,Luna
+10201,Loki Station,Sol,High Earth
+10301,Arx Prima,Sol,Mars Beta
+10361,Arx Forgus,Sol,Mars Alpha
+10521,Nishino Research Facility,Sol,Io
+10551,Ashanti Maru,Sol,Europa
+10601,Earth Station,Sol,Earth
+10651,Arx Magister,Sol,Mars
+10701,Jove's Fury,Sol,Jupiter
+10711,Net-7 SOL,Sol,Saturn
+10761,ECS Dauntless,Sol,Asteroid Belt Alpha
+10791,Detention Center Onorom,Sol,Asteroid Belt Gamma
+11151,Kinshasa-Mbali,61 Cygni,Aganju
+14251,Earthcorps High Command,Alpha Centauri,Zweihander
+14401,Grand Ole Homestead,Alpha Centauri,der Todesengel
+14931,Jagerstadt City,Alpha Centauri,Planet Zweihander
+15051,Antares 1 [Under Construction],Antares,Antares Frontier
+17051,Aragoth Station,Aragoth,The Valkyrie Twins
+17101,Chernevog Station,Aragoth,Aragoth Prime
+17301,Fenris Prime Observatory,Aragoth,Fenris
+17401,Arx Ymir,Aragoth,Jotunheim
+17451,Trader's Fort,Aragoth,Ragnarok
+19101,Paren Station,Capella,Kailaasa
+19301,Tokai Saikutsu,Capella,Dahin Mining Interest (Planet Dahin)
+22101,Arx Spartoi,Gallina,Endriago
+22951,Ponvenir Mons,Gallina,Porvenir Mons Area (Planet Endriago)
+35301,Arx Tiberius,Vega,Tarsis
+35951,1C4615H,Vega,Praetorium Mons Area (Planet Primus)
+36051,Queen Anne's Revenge,Smuggler's Run,Blackbeard's Wake
+40151,Somerled Station,Tau Ceti,New Edinburgh
+40931,Inverness Down,Tau Ceti,Inverness Planet
+41151,Prasad Station,Sirius,Xipe Totec
+41951,Master Cha`han`s Dojo,Sirius,Yasuragi Area (Planet Swooping Eagle)
+41952,Yasuragi,Sirius,Yasuragi Area (Planet Swooping Eagle)
+45051,Mercury Station,Beta Hydri,Glory's Orbit
+45151,Friendship 7 Recreation Port,Beta Hydri,Glenn
+45201,Orsini Mining Platform,Beta Hydri,Carpenter

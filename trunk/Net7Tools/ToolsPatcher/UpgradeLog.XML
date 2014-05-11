@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EnBPatcher">
+</Property><Property Name="Solution File" Value="C:\net7\ToolsPatcher\EnBPatcher.sln">
+</Property><Property Name="User Options File" Value="C:\net7\ToolsPatcher\EnBPatcher.suo">
+</Property><Property Name="Date" Value="Tuesday, September 02, 2008">
+</Property><Property Name="Time" Value="9:37 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="EnBPatcher.sln" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\EnBPatcher.sln">
+</Event><Event ErrorLevel="0" Project="" Source="EnBPatcher.suo" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\EnBPatcher.suo">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="EnBPatcher.csproj" Description="Project file successfully backed up as C:\net7\ToolsPatcher\Backup\EnBPatcher.csproj">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="EnBPatcher.csproj.user" Description="Project user file successfully backed up as C:\net7\ToolsPatcher\Backup\EnBPatcher.csproj.user">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="crc32.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\crc32.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Form1.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Form1.Designer.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Program.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Properties\Settings.settings" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="LaunchNet7.ico" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\LaunchNet7.ico">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Form1.resx" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="Properties\Resources.resx" Description="File successfully backed up as C:\net7\ToolsPatcher\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="EnBPatcher.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EnBPatcher" Source="EnBPatcher.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EnBPatcher.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EnBPatcher.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EnBPatcher" Source="EnBPatcher.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

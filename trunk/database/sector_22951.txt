@@ -1,0 +1,8 @@
+; sector_22951.txt
+;
+[STATION-22951]
+name=Ponvenir Mons
+system=Gallina
+sector=Porvenir Mons Area (Planet Endriago)
+greetings=Now docking at Ponvenir Mons.
+launch=Ponvenir Mons: You are cleared for departure.

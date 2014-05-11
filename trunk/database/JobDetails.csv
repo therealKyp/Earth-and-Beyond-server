@@ -1,0 +1,15 @@
+"# This table contains the various randomly selected job details.",,,
+,,,
+"<JobID>","<Category>","<Type/Title>","<Description>"
+1,0,"Cargo Cleanup","It seems that some spacers jettisoned [{SpawnItem}] near {ToNavPoint} in {ToSector}. Travel there, pick it up and deliver it to {FromStation} in {FromSector}"
+2,0,"Cargo Recovery and Delivery","Recover some [{TechItem}] from {MobName} located at {ToNavPoint} in {ToSector}. Return it to {ToPerson} at {ToStation} in the same sector when you are done."
+3,0,"Pest Control","So annoying! Destroy {number} {ToMob} in {ToSector} and report back to {ToPerson} {ToStation} when you are done. Go now! Go!"
+4,0,"Wanted!","{ToBoss} is a menace to society and needs to be eliminated. Go to {ToNavPoint} in {ToSector} and eliminate them. Report to {ToPerson} at {ToStation} when you are done to collect your reward."
+5,1,"Cargo Pickup And Delivery","Pickup [{TradeItem}] at {SomeStation} in {SomeSector} and deliver it to {SomeOtherStation} in {SomeOtherSector} "
+6,1,"Chauffeur","Pickup [{Passenger}] at {ToStation} in {ToSector} and return them here to {FromPerson} at {FromStation} in {FromSector}"
+7,1,"Supplies Needed!","Hi there, my name is {ToPerson}. I'm in desperate need of {Number} [{TechItem}] and will pay handsomely if you can bring them to me at {ToStation} in {ToName}."
+8,1,"Buy Low, Sell High!","No time to talk! Bring me {number} {TradeItem} from {FromStation} in {FromSector} and deliver it to {ToPerson} at {ToStation} in {ToSector}. There's money to be made!"
+9,2,"Animal Migration Tagging","Fly to {ToNavpoint} in {ToSector} and tag {Number} {ToMobs} with a tagging gun so we can track their migration patterns. And don't kill them!"
+10,2,"Survey Mission","Fly within 500 meters of {ToNavPoint} in {ToName} and download its tracking data by scanning it."
+11,2,"Item Acquisition","Acquire a [{SpawnItem}] by any means possible and deliver it to {ToPerson} at {ToStation} in {ToSector}"
+12,2,"Enemy Research","We need to learn more about the {MobName}. Bring {Number} {MobBits} to {ToPerson} at {ToStation} in {ToSector} for analysis."

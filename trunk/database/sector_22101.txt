@@ -1,0 +1,8 @@
+; sector_22101.txt
+;
+[STATION-22101]
+name=Arx Spartoi
+system=Gallina
+sector=Endriago
+greetings=Now docking at Arx Spartoi.
+launch=Arx Spartoi: You are cleared for departure.

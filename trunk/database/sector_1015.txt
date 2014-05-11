@@ -1,0 +1,11 @@
+; sector_1015.txt
+;
+[SECTOR-1015]
+name=Luna
+system=Sol
+sector=Luna
+greetings=We have entered Luna Sector (Sol System).
+
+[STATION-10151]
+station=Luna Station
+dock=LUNA STATION CONTROL: Landing clearance granted.

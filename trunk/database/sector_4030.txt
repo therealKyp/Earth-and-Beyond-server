@@ -1,0 +1,9 @@
+; sector_4030.txt
+;
+[SECTOR-4030]
+name=Arduinne
+system=Tau Ceti
+sector=Arduinne
+greetings=We have entered Arduinne Sector (Tau Ceti System).
+
+

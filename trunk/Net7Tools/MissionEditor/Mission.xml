@@ -1,0 +1,232 @@
+<Mission ID="1" time="0">
+	<Name>Grail water Mission</Name>
+	<Summary>Find the 7 hidden grail waters</Summary>
+	<Condition ID="6">2</Condition>
+	<Condition ID="1">5</Condition>
+	<Stage ID="0">
+		<Completion ID="1">341</Completion>
+		<Completion ID="3">1</Completion>
+		<Tree Node="1">
+			<Text>/happy1 Hi @name!, could you please find /point some grail water for me?</Text>
+			<Branch Node="2">No Way!</Branch>
+			<Branch Node="3">Sure!</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/crazy Ah, Never mind then /gender2</Text>
+			<Flags>2</Flags>
+		</Tree>
+		<Tree Node="3">
+			<Text>/celebrate Yay! I heard reports there's /bow one near the Advanced Combat Training Nav in Luna sector.</Text>
+			<Branch Node="4">more</Branch>
+		</Tree>
+		<Tree Node="4">
+			<Text>/give Oh, before I forget here is a Grail affinity device, it'll help you /point extract the grail waters from the asteroids, and also will allow you to detect Grail water bearing asteroids from a much larger distance.</Text>
+			<Flags Data="1">5</Flags>
+		</Tree>
+		<Reward ID="6">5081</Reward>
+	</Stage>
+	<Stage ID="1">
+		<Description>Search for Grail water near Advanced Combat Training, Luna Sector, Sol</Description>
+		<Completion ID="5">1015</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="2">
+		<Description>Return the grail water to Tienbau (Net7 SOL, Saturn, Sol)</Description>
+		<Completion ID="2" Count="1">3009</Completion>
+		<Completion ID="1">341</Completion>
+		<Tree Node="1">
+			<Text>/happy1 Wow @name, you have the grail water!</Text>
+			<Branch Node="2">Continue.</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/bow Will you give it to me and find more?</Text>
+			<Branch Node="4">Sure, where are the next grails?</Branch>
+			<Branch Node="3">I have had enough of this! I'll not run your fool errands.</Branch>
+		</Tree>
+		<Tree Node="3">
+			<Text>/noway Bah! You had your chance and you blew it, damn @race.</Text>
+			<Flags>3</Flags>
+		</Tree>
+		<Tree Node="4">
+			<Text>/point Thankyou! The next waters are in Io Sector, near the Tempest Fringe and in Europa, near The Hunting Grounds.</Text>
+			<Flags Data="3">5</Flags>
+		</Tree>
+		<Reward ID="1">1000</Reward>
+		<Reward ID="2">500</Reward>
+		<Reward ID="4">500</Reward>
+		<Reward ID="5" Flags="2">1000</Reward>
+	</Stage>
+	<Stage ID="3">
+		<Description>Search for Grail water near Tempest Fringe, Io Sector, Sol</Description>
+		<Completion ID="5">1052</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="4">
+		<Description>Search for Grail water near The Hunting Grounds, Europa Sector, Sol</Description>
+		<Completion ID="5">1055</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="5">
+		<Description>Return the grail waters to Tienbau (Net7 SOL, Saturn, Sol)</Description>
+		<Completion ID="13" Count="2">3009</Completion>
+		<Completion ID="1">341</Completion>
+		<Tree Node="1">
+			<Text>/happy1 Wow, you found them both?</Text>
+			<Branch Node="2">Of Course!</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/bow Indeed!</Text>
+			<Branch Node="3">Do you want these then?</Branch>
+		</Tree>
+		<Tree Node="3">
+			<Text>/shrug Of course not! I already have one! Take them to Sander Pauls on Earth Station.</Text>
+			<Flags Data="6">5</Flags>
+		</Tree>
+	</Stage>
+	<Stage ID="6">
+		<Description>Take the Grail waters to Sander Pauls (Earth Station, Earth)</Description>
+		<Completion ID="2" Count="2">3009</Completion>
+		<Completion ID="1">26</Completion>
+		<Tree Node="1">
+			<Text>/gender2 Kick! Punch! Its all in the mind!</Text>
+			<Branch Node="2">What?</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/disco If you want to test me, I am sure you find, /clap the things I teach ya, are sure to beat ya ...</Text>
+			<Branch Node="3">Wha?</Branch>
+		</Tree>
+		<Tree Node="3">
+			<Text>/robot Nevertheless, you get a lesson from Teacha! /crazy</Text>
+			<Branch Node="4">Do you want these grails or what?</Branch>
+		</Tree>
+		<Tree Node="4">
+			<Text>/thumbs Yo! Thanks! Just what I needed... I think ... /drunk</Text>
+			<Branch Node="5">No Problem, just call me Grail Boy...</Branch>
+			<Branch Node="6">No worries.</Branch>
+		</Tree>
+		<Tree Node="5">
+			<Text>/bow OK Grail Boy, The next water is right here /chuckle in this asteroid belt! /celebrate Look near Toughnut Pit. I entered the locations of the next two in your log.</Text>
+			<Flags Data="7">5</Flags>
+		</Tree>
+		<Tree Node="6">
+			<Text>/happy1 The next water is right here in this asteroid belt! Look near Toughnut Pit. I entered the locations of the next two in your log.</Text>
+			<Flags Data="7">5</Flags>
+		</Tree>
+		<Reward ID="4">1000</Reward>
+		<Reward ID="2">1000</Reward>
+		<Reward ID="1">2000</Reward>
+	</Stage>
+	<Stage ID="7">
+		<Description>Search for Grail water near Toughnut Pit, Asteroid Belt Alpha</Description>
+		<Completion ID="5">1076</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="8">
+		<Description>Search for Grail water near Mining Marker 2, Asteroid Belt Beta Sector</Description>
+		<Completion ID="5">1077</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="9">
+		<Description>Search for Grail water near Asteroid JP-R15, Jupiter Sector, Sol</Description>
+		<Completion ID="5">1070</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="10">
+		<Description>Take the Grail waters to Sander Pauls (Earth Station)</Description>
+		<Completion ID="13" Count="3">3009</Completion>
+		<Completion ID="1">26</Completion>
+		<Tree Node="1">
+			<Text>/threaten Crossbeam's gone askew on treddle!</Text>
+			<Branch Node="2">What?</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/smash The crossbeam has gone askew on the treddle</Text>
+			<Branch Node="3">What does that mean?</Branch>
+		</Tree>
+		<Tree Node="3">
+			<Text>/shrug How should I know, I was told to tell you /point that. I wasn't expecting the Spanish Inquisition...</Text>
+			<Branch Node="4">Nobody expects the Spanish Inquisition!</Branch>
+			<Branch Node="5">I'm not doing this.</Branch>
+		</Tree>
+		<Tree Node="4">
+			<Text>/thumbs Yes, confound them and their vile ways, /shoot hang on, what is that?</Text>
+			<Branch Node="6">... and here are the grails</Branch>
+		</Tree>
+		<Tree Node="5">
+			<Text>/noway I guess 20th Century is a bit too retro for you? Or do you prefer a bit of Chaucer?</Text>
+			<Branch Node="6">One do I say, One do I say, moving swiftly on, here are the grails</Branch>
+		</Tree>
+		<Tree Node="6">
+			<Text>/point I don't need those, take them to Genji Ume in Jove's Fury</Text>
+			<Flags Data="11">5</Flags>
+		</Tree>
+	</Stage>
+	<Stage ID="11">
+		<Description>Take the Grail waters to Genji Ume (Jove's Fury)</Description>
+		<Completion ID="2" Count="3">3009</Completion>
+		<Completion ID="1">77</Completion>
+		<Tree Node="1">
+			<Text>/happy1 Welcome, would you like to trade ... oh hang on, I'm getting strange readings from you - could it be you have grail waters?</Text>
+			<Branch Node="2">yes.</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/gender2 Great, could I have them please?</Text>
+			<Branch Node="3">here they are...</Branch>
+		</Tree>
+		<Tree Node="3">
+			<Text>/point Thankyou @name, these will be put to very good use I can assure you.</Text>
+			<Branch Node="4">Glad to be of help</Branch>
+			<Branch Node="5">Is there some sort of reward?</Branch>
+		</Tree>
+		<Tree Node="4">
+			<Text>/happy1 Great. And there's more ...</Text>
+			<Branch Node="5">more</Branch>
+		</Tree>
+		<Tree Node="5">
+			<Text>/chuckle ok, the final water is near Mier's Perch in Asteroid Belt Gamma. Once you have it, take to Sander Pauls on Earth Station.</Text>
+			<Flags Data="12">5</Flags>
+		</Tree>
+		<Reward ID="1">1000</Reward>
+		<Reward ID="2">500</Reward>
+		<Reward ID="4">500</Reward>
+		<Reward ID="5" Flags="2">1000</Reward>
+	</Stage>
+	<Stage ID="12">
+		<Description>Search for Grail water near Mier's Perch, Asteroid Belt Gamma, Sol</Description>
+		<Completion ID="5">1079</Completion>
+		<Completion ID="8">3009</Completion>
+	</Stage>
+	<Stage ID="13">
+		<Description>Take the final Grail water to Sander Pauls (Earth Station, Earth)</Description>
+		<Completion ID="2" Count="1">3009</Completion>
+		<Completion ID="1">26</Completion>
+		<Tree Node="1">
+			<Text>/threaten It is you again, what do you want?</Text>
+			<Branch Node="2">I have this last grail water.</Branch>
+		</Tree>
+		<Tree Node="2">
+			<Text>/shrug I'm not interested, I already 'ave one, it's-a very nice!</Text>
+			<Branch Node="3">Look here my good man, I've come all this way...</Branch>
+		</Tree>
+		<Tree Node="3">
+			<Text>/mime Why am I stuck in this box?! /noway Look what you've done - ARGH!!</Text>
+			<Branch Node="4">-Sigh-, Do you want this grail water or not?</Branch>
+		</Tree>
+		<Tree Node="4">
+			<Text>/point It's ok, I think they've gone now. They only come out at night. Mostly.</Text>
+			<Branch Node="5">Good lord man!</Branch>
+		</Tree>
+		<Tree Node="5">
+			<Text>/happy1 Hey I'm just kidding you, you've done a fantastic job, /clap now Genji and I can have clean underwear (we only wash them in grail water).</Text>
+			<Branch Node="6">I'm glad I could help!</Branch>
+		</Tree>
+		<Tree Node="6">
+			<Text>/bow You're a credit to the @race... Come back later, /point and I will taunt you a second time! /chuckle</Text>
+			<Flags>6</Flags>
+		</Tree>
+		<Reward ID="1">2000</Reward>
+		<Reward ID="2">2000</Reward>
+		<Reward ID="4">2000</Reward>
+		<Reward ID="5" Flags="2">1000</Reward>
+	</Stage>
+</Mission>

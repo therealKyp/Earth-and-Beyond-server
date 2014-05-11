@@ -1,0 +1,15 @@
+; sector_4505.txt
+;
+[SECTOR-4505]
+name=Glory's Orbit
+system=Beta Hydri
+sector=Glory's Orbit
+greetings=We have entered Glory's Orbit Sector (Beta Hydri System).
+
+
+[STATION-45051]
+station= Mercury Station
+dock= Mercury Station CONTROL: Docking clearance granted.
+
+
+

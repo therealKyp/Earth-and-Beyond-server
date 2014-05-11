@@ -1,0 +1,13 @@
+; sector_4595.txt
+;
+[SECTOR-4595]
+name=Grissom Meteorological Site (Grissom Planet)
+system=Beta Hydri
+sector=Grissom Meteorological Site (Grissom Planet)
+greetings=We have entered Grissom Meteorological Site (Grissom Planet) (Beta Hydri System).
+
+
+
+
+
+

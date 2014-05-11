@@ -1,0 +1,8 @@
+To use the SQL database, download the server and tools from the following links.
+
+SERVER: http://dev.mysql.com/downloads/mysql/5.0.html
+TOOLS:  http://dev.mysql.com/downloads/gui-tools/5.0.html
+
+Install the server and then use the Administrator tool to log in, and restore the
+database from the .sql file. Then populate account data in `net7_accounts` and
+everything is good to go.

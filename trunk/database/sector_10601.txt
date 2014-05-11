@@ -1,0 +1,8 @@
+; sector_10601.txt
+;
+[STATION-10601]
+name=Earth Station
+system=Sol
+sector=Earth
+greetings=Now arriving at Earth Station... orbiting at 250 statute miles... population 620,000.
+launch=This is Earth Station Control... you are cleared for departure.

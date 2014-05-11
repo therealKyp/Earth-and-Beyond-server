@@ -1,0 +1,201 @@
+Earth & Beyond Emulator Net-7 Server FAQ
+by Jadefalcon
+
+Updated December 24, 2006
+
+
+Table of Contents
+
+1. Introduction
+2. Requirements
+3. Installing Earth & Beyond
+4. Installing the Net-7 Server
+5. Playing the game
+6. Known Issues
+7. Reporting Problems
+8. Troubleshooting
+9. Credits
+
+1. Introduction
+
+Welcome to Earth & Beyond! This FAQ will help those who are interested in play
+testing the game using the Net-7 server software. Please be advised that the
+Net-7 server is in early development. Many in-game features will not be
+available yet. Multiplayer has not been fully implemented yet and is still
+being worked on. Here are some examples of what activities you can currently
+do.
+
+Create/Delete game characters.
+
+Dock at SOL System starbases.
+
+Pilot your starship at impulse/sublight speed (no warp).
+
+2. Requirements
+
+Subject to change. For now the system requirements to run the game with Net-7
+should not need to be any greater than what was necessary when the game was
+released. However, please be advised that only Windows XP is supported in this
+release. Net-7 relies on functions and files that are only included in Windows
+XP. Perhaps in the future, support for Windows 98/ME will be added. It should 
+work if you meet the following specifications.
+
+CPU - 800+ MHz Athlon or Pentium III processor.
+RAM - 256+ MB.
+GFX - 32+ MB GeForce2 or Radeon 8500 with DirectX 8.1.
+NET - 56+ Kbps.
+
+3. Installing Earth & Beyond
+
+It is very important that the game be installed and updated correctly in
+order for the communication with the Net-7 server to function. First you will
+need the game client itself. This can be installed from either using retail
+CDs or the trial demo installer which can be obtained from this web location:
+
+http://gamefiles.blueyonder.co.uk/blueyond.../eandb_demo.exe
+
+Before moving on, you will also need to download the game update patch
+enb-up.exe. This will ensure you are running the latest version (42) of the
+client software which is required by Net-7. This can be obtained from the
+downloads section of the emulator web site or from this web location:
+
+http://www.stfcc.org/enb/files/enb-up.exe
+
+To ensure a successful install of the client and server, it is advisable that
+all background applications such as anti-virus, instant messengers etc. be shut
+down. The best way to achieve this if you are not sure how to proceed is to
+follow these instructions carefully.
+
+1. Click Start, then Run. Type msconfig into the box. click OK or hit Enter.
+2. You should now see the System Configuration Utility.
+3. Select the Services tab at the top.
+4. This is very important - check the box that says "Hide all Microsoft
+Services" at the bottom.
+5. Click the button that says Disable All.
+6. Select the Startup tab at the top and click the Disable All button.
+7. Click Apply, then OK. Reboot your computer.
+8. Once back in Windows a popup will appear saying you have changed settings.
+9. Place a check in the box that says do not show this message again.
+
+Please note that the above instructions are completely optional. I have
+decided to include this so that there are as few problems with software
+conflicts as possible.
+
+Ok, so you are ready to start the installation process. Begin by executing
+the client installer you downloaded or insert disc 1 of the retail release.
+DO NOT change the default directory that the game wants to install to. This
+is critical. Ensure that the install path that appears when asked where to
+install to is C:\Program Files\EA Games\Earth & Beyond.
+
+Once the installation process is complete, it is a good idea to run the
+Earth & Beyond Configuration which can be found in the Programs section of
+the Start menu. This will allow you to change various game settings such as
+screen resolution, texture filtering method and so on. After changing any
+options, remember to select the performance test to ensure the settings work.
+
+Now it's time to update Earth & Beyond. If you haven't already downloaded
+the update patch, I recommend downloading it directly to the root directory
+of the game client - C:\Program Files\EA Games\Earth & Beyond. Unlike other
+official game patches you may be familiar with, this patch does not
+automatically locate the directory to install to. By default it will simply
+install to whatever directory it was executed from unless the user specifies
+the install destination manually by selecting the browse option. Be sure to
+browse to the Earth & Beyond directory when asked where to install the patch
+if you downloaded it to a different location (like My Documents for example).
+
+4. Installing the Net-7 server
+
+First, you must extract the Net-7 installer from the downloaded zip archive.
+Begin the Net-7 server installation by executing the setup file you just
+extracted. Note that currently there is no way to specify where Net-7 installs
+to. It will automatically install to the root of your C: drive. Do not attempt
+to move the Net-7 folder that has been created to a different location.
+
+Next, open My Computer and browse to C:\Windows\System32\drivers\etc. Now
+right-click on the hosts file and select Open With. Choose Notepad from the
+program list. Add the following text to the end of the file (including spaces).
+
+127.0.0.1 local.net-7.org
+
+Before attempting to run Net-7, a SSL certificate must be installed. First,
+open My Computer and browse to C:\Net7\bin. Double-click on the file called
+local.net-7.org. This will initiate a series of message boxes that will
+enable you to install the certificate. In most cases it should be as easy as
+clicking the Install Certificate button and simply clicking next in the
+prompts that follow. If you are experiencing any problems, there is a very
+detailed guide with step-by-step instructions on how to install it at this
+forum page - http://forum.enb-emulator.com/index.php?showtopic=1183.
+
+5. Playing the game
+
+Great! You are now ready to begin playing Earth & Beyond. Begin by launching
+the Net-7 icon that is on your desktop. You should now be presented with the
+Terms of Service agreement along with a DOS prompt box behind it. Click the
+I Accept button to continue.
+
+Once you arrive at the login screen, you have two options for a username
+and a password. Most will want to start by using the word test as both the
+username and the password. This will allow you to start fresh with an account
+that you can use to create new characters and customize the avatar and ship
+appearances for each one to your liking.
+
+If you prefer to skip the character creation process, you can use the
+username VectoR and the password go. This will allow you to select characters
+that have already been created by the developer. Don't forget the capital R
+in VectoR as it is case-sensitive.
+
+Congratulations! You should now be arriving at the starbase. Feel free to visit
+each of the station areas. Try interacting with the various NPCs and terminals.
+Have a look in your vault. Once you are ready to depart the station,proceed to
+the docking bay and click on your ship.
+
+Once you have arrived in space, have a look around by holding Ctrl and moving
+your mouse around. Zoom in and out on your ship by holding Shift and moving
+your mouse forward and backward. Open your navigation map by pressing M or
+clicking the map icon in the lower left corner. While in the map, click the
+last icon from the right at the top twice to see the navigation labels. Try
+clicking a few navs, gates or Earth to build a warp path.
+
+After you're done admiring the view and clicking stuff, you can dock at the
+starbase again by clicking the large yellow icon representing the base at the
+edge of your screen or selecting it from the map and click the dock option that
+appears above the target window. At any time you may exit the game by hitting
+Esc and selecting Quit to Desktop.
+
+6. Known Issues
+
+INV-300 This error usually occurs when other software running on your computer
+is using the ports that the game server is trying to use. If you are using
+Skype, P2P or other internet related software, shutting them down should solve
+the problem. See section 3 for tips.
+
+INV-301 Known to be caused by an erroneous Earth & Beyond related registry
+entry. The only way to fix this problem is to uninstall the game and manually
+delete any registry entries related to Earth & Beyond, Westwood and EACom.
+
+7. Reporting Problems
+
+We are aware of most of the problems. Remember this is a work in progress. If
+you notice problems with the placement of objects in space, please mention it
+to the Data Team in the Feedback section of the forum. Do not report problems
+with the stations and NPCs at this point.
+
+8. Troubleshooting
+
+If you are having any trouble along the way, try to retrace your steps and
+reread the appropriate section of this FAQ that deals with the step you are
+stuck on. Please understand that the devs are working very hard to bring the
+game back and may not have a lot of time to help solve every issue. If you feel
+you have encountered an issue that is not related to the topics covered in
+this FAQ, please post a detailed description of the problem in the forums help
+section. I encourage all community members to do the best they can to try and
+assist anyone who is experiencing difficulties.
+
+9. Credits
+
+Thanks to RazorWing, VectoR.360, agfot, blasti99, Imp, cyranius, Zanor, Ookami,
+davidr99, techtv, zarius, Vaniq, Suricata, kxmode, Snowknight26, Imasock,
+tbohner, chronicles, Annihilator, Raptor45, CraZboy, and anyone else I've
+forgotten who has contributed to this project and the Earth & Beyond community.
+
+-Jadefalcon

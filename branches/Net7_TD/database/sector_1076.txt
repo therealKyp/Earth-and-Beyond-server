@@ -1,0 +1,11 @@
+; sector_1076.txt
+;
+[SECTOR-1076]
+name=Asteroid Belt Alpha
+system=Sol
+sector=Asteroid Belt Alpha
+greetings=We have entered Asteroid Belt Alpha (Sol System).
+
+[STATION-10761]
+station=ECS Dauntless
+dock=ECS Dauntless: You are cleared for docking.

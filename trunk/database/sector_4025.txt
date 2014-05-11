@@ -1,0 +1,9 @@
+; sector_4025.txt
+;
+[SECTOR-4025]
+name=Inverness
+system=Tau Ceti
+sector=Inverness
+greetings=We have entered Inverness Sector (Tau Ceti System).
+
+

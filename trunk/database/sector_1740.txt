@@ -1,0 +1,11 @@
+; sector_1740.txt
+;
+[SECTOR-1740]
+name=Jotunheim
+system=Aragoth
+sector=Jotunheim
+greetings=We have entered Jotunheim Sector (Aragoth System).
+
+[STATION-17401]
+station=Arx Ymir
+dock=Arx Ymir: You are cleared for docking.

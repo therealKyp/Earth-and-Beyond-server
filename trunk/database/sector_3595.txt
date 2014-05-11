@@ -1,0 +1,12 @@
+; sector_3595.txt
+;
+[SECTOR-3595]
+name=Praetorium Mons Area (Planet Primus)
+system=Vega
+sector=Praetorium Mons Area (Planet Primus)
+greetings=We have entered Praetorium Mons Area (Planet Primus) (Vega System).
+
+
+[STATION-35951]
+station= 1C4615H
+dock= 1C4615H CONTROL: Docking clearance granted.

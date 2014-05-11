@@ -1,0 +1,9 @@
+; sector_1430.txt
+;
+[SECTOR-1430]
+name=Witberg
+system=Alpha Centauri
+sector=Witberg
+greetings=We have entered Witberg Sector (Alpha Centauri System).
+
+

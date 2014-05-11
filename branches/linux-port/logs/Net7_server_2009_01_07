@@ -1,0 +1,496 @@
+07/01/09 19:35:20 Starting node check thread.
+07/01/09 19:35:20 Connecting to Authentication Server on 127.0.0.1:443
+07/01/09 19:35:20 Unable to connect to Authentication Server on port 443
+07/01/09 19:35:20 Loading Skill Levels from SQL (522)
+07/01/09 19:35:20 Loading Buff Data...07/01/09 19:35:20 Buff Data Loaded.
+07/01/09 19:35:20 Loading MOBs from SQL (1771)
+07/01/09 19:35:20 Loading Assets from SQL (2403)
+07/01/09 19:35:20 Parsing 'cbasset.xml'...07/01/09 19:35:25 Loading Stations from SQL07/01/09 19:35:26 Loaded Stations
+07/01/09 19:35:28 Loading Missions from SQL (65)
+07/01/09 19:35:28 Mission 1: Grail water Mission Find the 7 hidden grail waters
+07/01/09 19:35:28 Mission 2: Terran Beginner Mission Main Mission at 0
+07/01/09 19:35:28 Mission 3: Finer Point of Negotiation Use a Trade-Route or another profitable way until 1000 credits are archieved. Completes also 1st stage of Beginner Tutorial after speaking with Holly Flanders.
+Reward: Negotiate Skill, Shield Charging Skill, 500 Trade XP, 1000 Credits
+07/01/09 19:35:28 Mission 4: Completion test Tests every completion types
+07/01/09 19:35:28 Mission 5: Reactor Leak Find Volatile Ship and Waste Disposal Station. Completes also 2nd stage of Beginner Tutorial after speaking with Holly Flanders.
+Reward: Not Weak Model Shield X
+07/01/09 19:35:28 Mission 6: Supply Run Buy the components for a stack of Defender Missiles and sell the components to Eagon Monroe in Loki Station in Bazaar. Completes also 3rd stage of Beginner tutorial after spealing with Holly Flanders.
+Reward: Build Weapon Skill, 1000 Credits, 500 XP in Combat, Trade and Exploration
+07/01/09 19:35:28 Mission 7: Missile Training Buy components to build EarthCorps Defender Damaged Missile Launcher and Missiles. You can get all the components in Bazaar. Completes also 4th stage of Beginner Tutorial after speaking with Holly Flanders.
+Reward: Missile Weapon Skill, 500 XP in Combat and Trade
+Obtain 2 Debris from Red Dragon Pirates.
+07/01/09 19:35:28 Mission 8: Terran tutorial Tutorial with Megan
+07/01/09 19:35:28 Mission 9: Prospecting Iron Ore In this mission you will learn how to prospect ore.
+07/01/09 19:35:28 Mission 11: Jenquai Rank 3 Promotion Bonus This is the level 3 promotion bonus for Jenquai factions. This mission will not be available until systems other than Sol are opened.
+07/01/09 19:35:28 Mission 12: Jenquai Defender Beginner Mission This is the start of the beginner missions to acquire basic skills.
+07/01/09 19:35:28 Mission 14: The Tranquil Lotus In this mission you will learn how to defeat monsters, loot and sell their remains, and buy and equip new equipment for your ship.
+07/01/09 19:35:28 Mission 15: Level 30 Hull Hull Upgrade 2 for TT, TW and TE.
+Reward: Hull 2 Upgrade, 2000 Exploration XP
+07/01/09 19:35:28 Mission 16: Hull Level 1 Mission Visit Navs, kill some Mobs
+Reward: Hull 1 Upgrade, Missile Weapon Skill, 1000 Combat XP
+07/01/09 19:35:28 Mission 17: Bring Mordanite to Jenya Erelius Find Mordanite and return it to Jenya Erelius in Porvenir Mons, Endirago Planet.
+07/01/09 19:35:28 Mission 18: Hunting Haywire The last training mission for Jenquai Explorers. Complete this mission and you will receive your first hull upgrade.
+07/01/09 19:35:28 Mission 19: Shaitan Heretic The last training mission for Jenquai Defenders. You may need a group for this mission. Completing the mission results in a hull upgrade.
+07/01/09 19:35:28 Mission 20: Jenquai Advancement Mission Completing this mission will result in the level 30 hull upgrade for Jenquai
+07/01/09 19:35:28 Mission 21: Level 50 Terran Hull Upgrade Mission Executive Cailleach MacKellan wants you to visit Captain Gerard Braun in EarthCorps High Command, Zweihander Sector and Lady Isabel deWinter New Edinburg Sector.
+Reward: Hull 3 Upgrade(cost 50000 Credits), 3000 Exploration XP
+07/01/09 19:35:28 Mission 22: Hull Upgrade  level 1 Progen Warrior Find new Navigation points in the Sector.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Projectile Weapon Skill
+07/01/09 19:35:28 Mission 23: Hull level 2 Mission for Progen Hull Mission for all Progen Professions.
+Kill Kraken Cows at the Hunting Grounds in this Sector.
+Reward: Hull 2 Upgrade, 1000 Combat XP
+07/01/09 19:35:28 Mission 24: Hull level 3 Mission for Progen Hull Mission for all Progen Professions.
+Find Red Dragons in Asteroid Belt Gamma named Saam Lo Veteran Red Dragon and kill 10 of them.
+Reward: Hull 3 Upgrade, 3000 Combat XP
+07/01/09 19:35:28 Mission 25: Hull level 1 Mission for Progen Sentinel Explore some Navigation Points in this Sector.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Projectile Weapon Skill
+07/01/09 19:35:28 Mission 26: Missile Weapon JD Temp Temporary mission for JD to get missile weapon skill.
+07/01/09 19:35:28 Mission 27: Projectile Weapon JD Temp Temporary mission for Jenquai Defender to get projectile weapon skill.
+07/01/09 19:35:28 Mission 28: Projectile Weapon JE Temp Temporary mission for JE to acquire Projectile Weapon.
+07/01/09 19:35:28 Mission 29: Scan Mission JD Temp Mission for the JD to acquire Scan skill.
+07/01/09 19:35:28 Mission 30: Mission for JE to get Scan Skill Temp. A temporary mission to acquire the scan skill for JE.
+07/01/09 19:35:28 Mission 31: Help Cookoo Cookoo had to abandon his ship somewhere in Luna. Help him find its location.
+07/01/09 19:35:28 Mission 32: JS Mission JE/PS Temp Temporary mission to acquire Jumpstart
+07/01/09 19:35:28 Mission 33: Navigate Mission JE Temp A temporary mission to acquire the navigate skill.
+07/01/09 19:35:28 Mission 34: Shield Recharge TT Mission Temp Temporary mission to acquire Shield Recharge skill.
+07/01/09 19:35:28 Mission 36: Navigate Mission TT Temp Temporary Mission to acquire navigate.
+07/01/09 19:35:28 Mission 39: Missile Weapon Temp Progen Temporary mission to acquire the missile weapon skill.
+07/01/09 19:35:28 Mission 41: Scan Mission PS Temp Temporary mission to acquire Scan skill.
+07/01/09 19:35:28 Mission 43: Level 50 Jenquai Advancement Completing this mission will result in a hull upgrade for Jenquai. Available only at level 50.
+07/01/09 19:35:28 Mission 44: Hull level 1 Mission for Progen Trader Explore some Navigation Points.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Projectile Weapon Skill
+07/01/09 19:35:28 Mission 45: Hull 1 Upgrade for Terran Explorer Find some Navigation Points to be mapped.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Missile Weapon Skill
+07/01/09 19:35:28 Mission 46: Pest Extermination For your projectile training Sergeant Jones sends you to help Mister Fleer exterminate some pests.
+07/01/09 19:35:28 Mission 47: WANTED: Milk and Cookies Help Gunter Elfman retrieve the Milk and Cookies he made as a treat for Old Nick.
+07/01/09 19:35:28 Mission 48: Waste Disposal Get them startet.
+07/01/09 19:35:28 Mission 49: Equipped for the job. Time to gear up.
+07/01/09 19:35:28 Mission 50: Mining For a Cause Collect harvestables for Liam O'Faolain to help him out.
+07/01/09 19:35:28 Mission 51: Special Ingredients Some hard work for Liam O'Faolain for a treat. Collect some special ingredients to help.
+07/01/09 19:35:28 Mission 52: Finding the Goods Liam O'Faolain needs some goods... Help him get them and be amazed.
+07/01/09 19:35:28 Mission 53: Test Mission test mission to test tags
+07/01/09 19:35:28 Mission 54: First Chance with Tzu Recover lost goods for Tzu.
+07/01/09 19:35:28 Mission 55: Helping the Red Dragons Help Shou Tzu recover his device.
+07/01/09 19:35:28 Mission 56: An offer you cant refuse Privateer Negotiate Mission
+07/01/09 19:35:28 Mission 57: Cloak Mission JE Temp temporary mission to acquire cloak
+07/01/09 19:35:28 Mission 58: Cloak Mission JD Temp temporary mission to acquire cloak for JD
+07/01/09 19:35:28 Mission 59: The Cleaner Mr Proper couldnt have done it better
+07/01/09 19:35:28 Mission 60: The missing Transport 1/4 Something smells...
+07/01/09 19:35:28 Mission 61: The missing Transport 2/4 Temp
+07/01/09 19:35:28 Mission 62: The missing Transport 3/4 temp
+07/01/09 19:35:28 Mission 63: The missing Transport 4/4 Promo mission
+07/01/09 19:35:28 Mission 64: Jenquai Seeker Hull Upgrade Completing this mission will result in a hull upgrade for the Jenquai Seeker.
+07/01/09 19:35:28 Mission 65: Reclaimers Discovering the Reclaimers for Arinyl Nairda for testing.
+07/01/09 19:35:28 Mission 66: Exploring Niefleheim Cloud's Einherjar Research Platform Research needs to be done on the Einherjar Research Platform. Help Feng Yonghong to research it.
+07/01/09 19:35:28 Mission 67: Sturmers Wacky Games Round 1 Defeat Sturmers game of exploration.
+07/01/09 19:35:28 Mission 68: Sturmers Wacky Game Number 2 Sturmer has another Challenge for anyone willing. Visit his locations and win a prize.
+07/01/09 19:35:28 Mission 69: FreeSpacer Studies Help Tarnish McHollis and learn of the FreeSpacers.
+07/01/09 19:35:28 Mission 70: TT Temporary Hull Upgrade Mission Temporary mission to get level 10 hull upgrade.
+07/01/09 19:35:28 Mission 71: Temporary Hull Patch Quest TT Temporary mission to acquire hull patch
+07/01/09 19:35:28 Mission 72: Temporary Combat Trance Mission PW temporary mission to acquire combat trance
+07/01/09 19:35:28 Port: 3501, Sector: 1005 'Mercury'
+07/01/09 19:35:29 Port: 3502, Sector: 1010 'Venus'
+07/01/09 19:35:29 Port: 3503, Sector: 1015 'Luna'
+07/01/09 19:35:29 Port: 3504, Sector: 1020 'High Earth'
+07/01/09 19:35:29 Port: 3505, Sector: 1025 'Equatorial Earth'
+07/01/09 19:35:29 Port: 3506, Sector: 1030 'Mars Beta'
+07/01/09 19:35:29 Port: 3507, Sector: 1036 'Mars Alpha'
+07/01/09 19:35:30 Port: 3508, Sector: 1037 'Mars Gamma'
+07/01/09 19:35:30 Port: 3509, Sector: 1040 'Ganymede'
+07/01/09 19:35:30 Port: 3510, Sector: 1052 'Io'
+07/01/09 19:35:30 Port: 3511, Sector: 1055 'Europa'
+07/01/09 19:35:30 Port: 3512, Sector: 1060 'Earth'
+07/01/09 19:35:30 Port: 3513, Sector: 1065 'Mars'
+07/01/09 19:35:31 Port: 3514, Sector: 1069 'Nebulous'
+07/01/09 19:35:31 Port: 3515, Sector: 1070 'Jupiter'
+07/01/09 19:35:31 Port: 3516, Sector: 1071 'Saturn'
+07/01/09 19:35:31 Port: 3517, Sector: 1072 'Uranus'
+07/01/09 19:35:31 Port: 3518, Sector: 1073 'Neptune'
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Asteroid', ID:31 level 9 sector 1074
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Asteroid', ID:1701470831 level 9 sector 1074
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Gas Cloud', ID:0 level 10 sector 1074
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:35:31 --> ERROR: No ore found for Asteroid 'Gas Cloud', ID:0 level 10 sector 1074
+07/01/09 19:35:31 Port: 3519, Sector: 1074 'Pluto and Charon'
+07/01/09 19:35:32 Port: 3520, Sector: 1075 'Akerons Gate'
+07/01/09 19:35:32 Port: 3521, Sector: 1076 'Asteroid Belt Alpha'
+07/01/09 19:35:32 Port: 3522, Sector: 1077 'Asteroid Belt Beta'
+07/01/09 19:35:32 Port: 3523, Sector: 1079 'Asteroid Belt Gamma'
+07/01/09 19:35:32 Port: 3524, Sector: 1115 'Aganju'
+07/01/09 19:35:32 Port: 3525, Sector: 1120 'Ogun'
+07/01/09 19:35:33 Port: 3526, Sector: 1205 'Margesi'
+07/01/09 19:35:33 Port: 3527, Sector: 1215 'Adriel Prime'
+07/01/09 19:35:33 Port: 3528, Sector: 1290 'Loch Mar'
+07/01/09 19:35:33 Port: 3529, Sector: 1305 'Nostrand Vor'
+07/01/09 19:35:33 Port: 3530, Sector: 1310 'Altair III'
+07/01/09 19:35:34 Port: 3501, Sector: 1425 'Zweihander'
+07/01/09 19:35:34 Port: 3502, Sector: 1430 'Witberg'
+07/01/09 19:35:34 Port: 3503, Sector: 1440 'der Todesengel'
+07/01/09 19:35:34 Port: 3504, Sector: 1493 'Jagerstadt'
+07/01/09 19:35:34 Port: 3505, Sector: 1505 'Antares Frontier'
+07/01/09 19:35:34 Port: 3506, Sector: 1705 'Valkyrie Twins'
+07/01/09 19:35:34 Port: 3507, Sector: 1710 'Aragoth Prime'
+07/01/09 19:35:35 Port: 3508, Sector: 1715 'Varens Girdle'
+07/01/09 19:35:35 Port: 3509, Sector: 1720 'Odins Belt'
+07/01/09 19:35:35 Port: 3510, Sector: 1725 'Muspelheim'
+07/01/09 19:35:35 Registering sector server: port=3501, max_sectors=300
+07/01/09 19:35:35 Port: 3511, Sector: 1730 'Fenris'
+07/01/09 19:35:35 Port: 3512, Sector: 1735 'Odin Rex'
+07/01/09 19:35:35 Port: 3513, Sector: 1740 'Jotunheim'
+07/01/09 19:35:36 Port: 3514, Sector: 1745 'Ragnarok'
+07/01/09 19:35:36 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1750
+07/01/09 19:35:36 --> ERROR: No ore found for Asteroid 'Asteroid', ID:1370093104 level 9 sector 1750
+07/01/09 19:35:36 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1750
+07/01/09 19:35:36 Port: 3515, Sector: 1750 'Freya'
+07/01/09 19:35:36 Port: 3516, Sector: 1755 'Nifleheim Cloud'
+07/01/09 19:35:36 Port: 3517, Sector: 1910 'Kailassa'
+07/01/09 19:35:36 Port: 3518, Sector: 1915 'Kitara's Veil'
+07/01/09 19:35:37 Port: 3519, Sector: 1920 'Yokan'
+07/01/09 19:35:37 Port: 3520, Sector: 1925 'Dahin'
+07/01/09 19:35:37 Port: 3521, Sector: 1930 'Dahin Mining Interest'
+07/01/09 19:35:37 Port: 3522, Sector: 1935 'Vishao's Cove'
+07/01/09 19:35:37 Port: 3523, Sector: 2005 'Ishuan'
+07/01/09 19:35:37 Port: 3524, Sector: 2010 'Menorb'
+07/01/09 19:35:37 Port: 3525, Sector: 2105 'Deneb'
+07/01/09 19:35:38 Port: 3526, Sector: 2130 'Roc'
+07/01/09 19:35:38 Port: 3527, Sector: 2210 'Endriago'
+07/01/09 19:35:38 Port: 3528, Sector: 2215 'Lagarto'
+07/01/09 19:35:38 Port: 3529, Sector: 2290 'GETCo Ruins'
+07/01/09 19:35:38 Port: 3530, Sector: 2295 'Porvenir Mons Area'
+07/01/09 19:35:38 Port: 3501, Sector: 2505 'Mondara Maelstrom'
+07/01/09 19:35:39 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 10 sector 3515
+07/01/09 19:35:39 --> ERROR: No ore found for Asteroid 'Asteroid', ID:1379349080 level 9 sector 3515
+07/01/09 19:35:39 Port: 3502, Sector: 3515 'Primus'
+07/01/09 19:35:39 Port: 3503, Sector: 3530 'Tarsis'
+07/01/09 19:35:39 Port: 3504, Sector: 3595 'Praetorium Mons Area (Planet Primus)'
+07/01/09 19:35:39 Port: 3505, Sector: 3605 'Blackbeard's Wake'
+07/01/09 19:35:39 Port: 3506, Sector: 3606 'Elanas Test Sector'
+07/01/09 19:35:39 Port: 3507, Sector: 3705 'Ardus'
+07/01/09 19:35:40 Port: 3508, Sector: 4015 'New Edinburgh'
+07/01/09 19:35:40 Port: 3509, Sector: 4025 'Inverness'
+07/01/09 19:35:40 Port: 3510, Sector: 4030 'Arduinne'
+07/01/09 19:35:40 Port: 3511, Sector: 4093 'Inverness Down'
+07/01/09 19:35:40 Port: 3512, Sector: 4095 'Arduinne Gas Cloud'
+07/01/09 19:35:40 Port: 3513, Sector: 4115 'Xipe Totec'
+07/01/09 19:35:41 Port: 3514, Sector: 4120 'Swooping Eagle'
+07/01/09 19:35:41 Port: 3515, Sector: 4195 'Yasuragi Area '
+07/01/09 19:35:41 Port: 3516, Sector: 4205 'Mazzaroth Maelstrom'
+07/01/09 19:35:41 --> ERROR: No ore found for Asteroid 'Harv1', ID:12279 level 3 sector 4505
+07/01/09 19:35:41 Port: 3517, Sector: 4505 'Glorys Orbit'
+07/01/09 19:35:41 Port: 3518, Sector: 4510 'Slayton'
+07/01/09 19:35:41 Port: 3519, Sector: 4515 'Glenn'
+07/01/09 19:35:42 Port: 3520, Sector: 4516 'Glenn - Final'
+07/01/09 19:35:42 Port: 3521, Sector: 4520 'Carpenter'
+07/01/09 19:35:42 Port: 3522, Sector: 4525 'Shepard'
+07/01/09 19:35:42 --> ERROR: No ore found for Asteroid 'Asteroid', ID:1701409391 level 9 sector 4530
+07/01/09 19:35:42 --> ERROR: No ore found for Asteroid 'Asteroid', ID:1701470831 level 9 sector 4530
+07/01/09 19:35:42 --> ERROR: No ore found for Asteroid 'Crystalline Asteroid', ID:0 level 10 sector 4530
+07/01/09 19:35:42 --> ERROR: No ore found for Asteroid 'Crystalline Asteroid', ID:0 level 10 sector 4530
+07/01/09 19:35:42 --> ERROR: No ore found for Asteroid 'Gas Cloud', ID:0 level 10 sector 4530
+07/01/09 19:35:42 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 10 sector 4530
+07/01/09 19:35:42 Port: 3523, Sector: 4530 'Grissom'
+07/01/09 19:35:42 Port: 3524, Sector: 4535 'Cooper'
+07/01/09 19:35:42 Port: 3525, Sector: 4540 'Sword'
+07/01/09 19:35:43 Port: 3526, Sector: 4550 'Spear'
+07/01/09 19:35:43 Port: 3527, Sector: 4595 'Grissom Meteorological Site '
+07/01/09 19:35:43 Port: 3528, Sector: 4605 'Unknown Galaxy '
+07/01/09 19:35:43 SetupSectorServer sector_id=50000 failed
+07/01/09 19:35:43 Error loading Sector: 50000 '(null)'
+07/01/09 19:35:43 Port: 3530, Sector: 15051 'Antares 1'
+07/01/09 19:35:43 Port: 3501, Sector: 17051 'Aragoth Station'
+07/01/09 19:35:44 Port: 3502, Sector: 10761 'ECS Dauntless'
+07/01/09 19:35:44 Port: 3503, Sector: 19101 'Paren Station'
+07/01/09 19:35:44 Port: 3504, Sector: 17101 'Chernevog Station'
+07/01/09 19:35:44 Port: 3505, Sector: 10601 'Earth Station'
+07/01/09 19:35:44 Port: 3506, Sector: 10201 'Loki Station'
+07/01/09 19:35:44 Port: 3507, Sector: 10151 'Luna Station'
+07/01/09 19:35:44 Port: 3508, Sector: 10711 'Net-7 SOL'
+07/01/09 19:35:45 Port: 3509, Sector: 10701 'Joves Fury'
+07/01/09 19:35:45 Port: 3510, Sector: 10521 'Nishino Research Facility'
+07/01/09 19:35:45 Port: 3511, Sector: 10301 'Arx Prima'
+07/01/09 19:35:45 Port: 3512, Sector: 10361 'Arx Forgus'
+07/01/09 19:35:45 Port: 3513, Sector: 10651 'Arx Magister'
+07/01/09 19:35:45 Port: 3514, Sector: 17301 'Fenris Prime Observatory'
+07/01/09 19:35:45 Port: 3515, Sector: 10791 'Detention Center Onorom'
+07/01/09 19:35:46 Port: 3516, Sector: 10551 'Ashanti Maru'
+07/01/09 19:35:46 Port: 3517, Sector: 41952 'Yasuragi City'
+07/01/09 19:35:46 Port: 3518, Sector: 41951 'Master Cha'han's Dojo'
+07/01/09 19:35:46 Port: 3519, Sector: 17401 'Arx Ymir'
+07/01/09 19:35:46 Port: 3520, Sector: 14931 'Jagerstadt City'
+07/01/09 19:35:46 Port: 3521, Sector: 11151 'Kinshasa-Mbali'
+07/01/09 19:35:47 Port: 3522, Sector: 17451 'Trader's Fort'
+07/01/09 19:35:47 Port: 3523, Sector: 19301 'Tokai Saikutsu'
+07/01/09 19:35:47 Port: 3524, Sector: 14251 'EarthCorps High Command'
+07/01/09 19:35:47 Port: 3525, Sector: 14401 'Grand Ole Homestead'
+07/01/09 19:35:47 Port: 3526, Sector: 45151 'Friendship 7 Recreation Port'
+07/01/09 19:35:47 Port: 3527, Sector: 40931 'Inverness Down'
+07/01/09 19:35:47 Port: 3528, Sector: 45051 'Mercury Station'
+07/01/09 19:35:48 Port: 3529, Sector: 36051 'Queen Anne's Revenge'
+07/01/09 19:35:48 Port: 3530, Sector: 22101 'Arx Spartoi'
+07/01/09 19:35:48 Port: 3501, Sector: 35301 'Arx Tiberius'
+07/01/09 19:35:48 Port: 3502, Sector: 45201 'Orsini Mining Platform'
+07/01/09 19:35:48 Port: 3503, Sector: 22951 'Pourvenir Mons'
+07/01/09 19:35:48 Port: 3504, Sector: 41151 'Prasad Station'
+07/01/09 19:35:49 Port: 3505, Sector: 40151 'Somerled Station'
+07/01/09 19:35:49 Port: 3506, Sector: 10401 'Azmundi Maru'
+07/01/09 19:35:49 Port: 3507, Sector: 10251 'Guiana Spaceport'
+07/01/09 19:35:49 Port: 3508, Sector: 36061 'Shakti Station'
+07/01/09 19:35:49 Port: 3509, Sector: 10371 'Arx Bursa'
+07/01/09 19:35:49 Port: 3510, Sector: 10691 'Net 7 Central Command'
+07/01/09 19:35:49 Port: 3511, Sector: 35951 'Praetorium Mons'
+07/01/09 19:35:50 Port: 3512, Sector: 12150 'Adriel Mining Station'
+07/01/09 19:35:50 Port: 3513, Sector: 12051 'Margesi Shipyards'
+07/01/09 19:35:50 Port: 3514, Sector: 20051 'Ishuan Station'
+07/01/09 19:35:50 Port: 3515, Sector: 10051 'Sol Station'
+07/01/09 19:35:50 Port: 3516, Sector: 13101 'Arx Emporos '
+07/01/09 19:35:50 Port: 3517, Sector: 13102 'Eremites Outpost'
+07/01/09 19:35:50 Port: 3518, Sector: 10741 'Charon Cloister'
+07/01/09 19:49:33 Starting node check thread.
+07/01/09 19:49:33 Listener unable to bind to socket on port 127.0.0.1:443
+07/01/09 19:49:33 Connecting to Authentication Server on 127.0.0.1:443
+07/01/09 19:49:33 Unable to connect to Authentication Server on port 443
+07/01/09 19:49:33 Loading Skill Levels from SQL (522)
+07/01/09 19:49:33 Loading Buff Data...07/01/09 19:49:33 Buff Data Loaded.
+07/01/09 19:49:34 Loading MOBs from SQL (1771)
+07/01/09 19:49:35 Loading Assets from SQL (2403)
+07/01/09 19:49:35 Parsing 'cbasset.xml'...07/01/09 19:49:39 Loading Stations from SQL07/01/09 19:49:40 Loaded Stations
+07/01/09 19:49:42 Loading Missions from SQL (65)
+07/01/09 19:49:42 Mission 1: Grail water Mission Find the 7 hidden grail waters
+07/01/09 19:49:42 Mission 2: Terran Beginner Mission Main Mission at 0
+07/01/09 19:49:42 Mission 3: Finer Point of Negotiation Use a Trade-Route or another profitable way until 1000 credits are archieved. Completes also 1st stage of Beginner Tutorial after speaking with Holly Flanders.
+Reward: Negotiate Skill, Shield Charging Skill, 500 Trade XP, 1000 Credits
+07/01/09 19:49:42 Mission 4: Completion test Tests every completion types
+07/01/09 19:49:42 Mission 5: Reactor Leak Find Volatile Ship and Waste Disposal Station. Completes also 2nd stage of Beginner Tutorial after speaking with Holly Flanders.
+Reward: Not Weak Model Shield X
+07/01/09 19:49:42 Mission 6: Supply Run Buy the components for a stack of Defender Missiles and sell the components to Eagon Monroe in Loki Station in Bazaar. Completes also 3rd stage of Beginner tutorial after spealing with Holly Flanders.
+Reward: Build Weapon Skill, 1000 Credits, 500 XP in Combat, Trade and Exploration
+07/01/09 19:49:42 Mission 7: Missile Training Buy components to build EarthCorps Defender Damaged Missile Launcher and Missiles. You can get all the components in Bazaar. Completes also 4th stage of Beginner Tutorial after speaking with Holly Flanders.
+Reward: Missile Weapon Skill, 500 XP in Combat and Trade
+Obtain 2 Debris from Red Dragon Pirates.
+07/01/09 19:49:42 Mission 8: Terran tutorial Tutorial with Megan
+07/01/09 19:49:42 Mission 9: Prospecting Iron Ore In this mission you will learn how to prospect ore.
+07/01/09 19:49:42 Mission 11: Jenquai Rank 3 Promotion Bonus This is the level 3 promotion bonus for Jenquai factions. This mission will not be available until systems other than Sol are opened.
+07/01/09 19:49:42 Mission 12: Jenquai Defender Beginner Mission This is the start of the beginner missions to acquire basic skills.
+07/01/09 19:49:42 Mission 14: The Tranquil Lotus In this mission you will learn how to defeat monsters, loot and sell their remains, and buy and equip new equipment for your ship.
+07/01/09 19:49:42 Mission 15: Level 30 Hull Hull Upgrade 2 for TT, TW and TE.
+Reward: Hull 2 Upgrade, 2000 Exploration XP
+07/01/09 19:49:42 Mission 16: Hull Level 1 Mission Visit Navs, kill some Mobs
+Reward: Hull 1 Upgrade, Missile Weapon Skill, 1000 Combat XP
+07/01/09 19:49:42 Mission 17: Bring Mordanite to Jenya Erelius Find Mordanite and return it to Jenya Erelius in Porvenir Mons, Endirago Planet.
+07/01/09 19:49:42 Mission 18: Hunting Haywire The last training mission for Jenquai Explorers. Complete this mission and you will receive your first hull upgrade.
+07/01/09 19:49:42 Mission 19: Shaitan Heretic The last training mission for Jenquai Defenders. You may need a group for this mission. Completing the mission results in a hull upgrade.
+07/01/09 19:49:42 Mission 20: Jenquai Advancement Mission Completing this mission will result in the level 30 hull upgrade for Jenquai
+07/01/09 19:49:42 Mission 21: Level 50 Terran Hull Upgrade Mission Executive Cailleach MacKellan wants you to visit Captain Gerard Braun in EarthCorps High Command, Zweihander Sector and Lady Isabel deWinter New Edinburg Sector.
+Reward: Hull 3 Upgrade(cost 50000 Credits), 3000 Exploration XP
+07/01/09 19:49:42 Mission 22: Hull Upgrade  level 1 Progen Warrior Find new Navigation points in the Sector.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Projectile Weapon Skill
+07/01/09 19:49:42 Mission 23: Hull level 2 Mission for Progen Hull Mission for all Progen Professions.
+Kill Kraken Cows at the Hunting Grounds in this Sector.
+Reward: Hull 2 Upgrade, 1000 Combat XP
+07/01/09 19:49:42 Mission 24: Hull level 3 Mission for Progen Hull Mission for all Progen Professions.
+Find Red Dragons in Asteroid Belt Gamma named Saam Lo Veteran Red Dragon and kill 10 of them.
+Reward: Hull 3 Upgrade, 3000 Combat XP
+07/01/09 19:49:42 Mission 25: Hull level 1 Mission for Progen Sentinel Explore some Navigation Points in this Sector.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Projectile Weapon Skill
+07/01/09 19:49:42 Mission 26: Missile Weapon JD Temp Temporary mission for JD to get missile weapon skill.
+07/01/09 19:49:42 Mission 27: Projectile Weapon JD Temp Temporary mission for Jenquai Defender to get projectile weapon skill.
+07/01/09 19:49:42 Mission 28: Projectile Weapon JE Temp Temporary mission for JE to acquire Projectile Weapon.
+07/01/09 19:49:42 Mission 29: Scan Mission JD Temp Mission for the JD to acquire Scan skill.
+07/01/09 19:49:42 Mission 30: Mission for JE to get Scan Skill Temp. A temporary mission to acquire the scan skill for JE.
+07/01/09 19:49:42 Mission 31: Help Cookoo Cookoo had to abandon his ship somewhere in Luna. Help him find its location.
+07/01/09 19:49:42 Mission 32: JS Mission JE/PS Temp Temporary mission to acquire Jumpstart
+07/01/09 19:49:42 Mission 33: Navigate Mission JE Temp A temporary mission to acquire the navigate skill.
+07/01/09 19:49:42 Mission 34: Shield Recharge TT Mission Temp Temporary mission to acquire Shield Recharge skill.
+07/01/09 19:49:42 Mission 36: Navigate Mission TT Temp Temporary Mission to acquire navigate.
+07/01/09 19:49:42 Mission 39: Missile Weapon Temp Progen Temporary mission to acquire the missile weapon skill.
+07/01/09 19:49:42 Mission 41: Scan Mission PS Temp Temporary mission to acquire Scan skill.
+07/01/09 19:49:42 Mission 43: Level 50 Jenquai Advancement Completing this mission will result in a hull upgrade for Jenquai. Available only at level 50.
+07/01/09 19:49:42 Mission 44: Hull level 1 Mission for Progen Trader Explore some Navigation Points.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Projectile Weapon Skill
+07/01/09 19:49:42 Mission 45: Hull 1 Upgrade for Terran Explorer Find some Navigation Points to be mapped.
+Reward: Hull 1 Upgrade, 1000 Exploration XP, Missile Weapon Skill
+07/01/09 19:49:42 Mission 46: Pest Extermination For your projectile training Sergeant Jones sends you to help Mister Fleer exterminate some pests.
+07/01/09 19:49:42 Mission 47: WANTED: Milk and Cookies Help Gunter Elfman retrieve the Milk and Cookies he made as a treat for Old Nick.
+07/01/09 19:49:42 Mission 48: Waste Disposal Get them startet.
+07/01/09 19:49:42 Mission 49: Equipped for the job. Time to gear up.
+07/01/09 19:49:42 Mission 50: Mining For a Cause Collect harvestables for Liam O'Faolain to help him out.
+07/01/09 19:49:42 Mission 51: Special Ingredients Some hard work for Liam O'Faolain for a treat. Collect some special ingredients to help.
+07/01/09 19:49:42 Mission 52: Finding the Goods Liam O'Faolain needs some goods... Help him get them and be amazed.
+07/01/09 19:49:42 Mission 53: Test Mission test mission to test tags
+07/01/09 19:49:42 Mission 54: First Chance with Tzu Recover lost goods for Tzu.
+07/01/09 19:49:42 Mission 55: Helping the Red Dragons Help Shou Tzu recover his device.
+07/01/09 19:49:42 Mission 56: An offer you cant refuse Privateer Negotiate Mission
+07/01/09 19:49:42 Mission 57: Cloak Mission JE Temp temporary mission to acquire cloak
+07/01/09 19:49:42 Mission 58: Cloak Mission JD Temp temporary mission to acquire cloak for JD
+07/01/09 19:49:42 Mission 59: The Cleaner Mr Proper couldnt have done it better
+07/01/09 19:49:42 Mission 60: The missing Transport 1/4 Something smells...
+07/01/09 19:49:42 Mission 61: The missing Transport 2/4 Temp
+07/01/09 19:49:42 Mission 62: The missing Transport 3/4 temp
+07/01/09 19:49:42 Mission 63: The missing Transport 4/4 Promo mission
+07/01/09 19:49:42 Mission 64: Jenquai Seeker Hull Upgrade Completing this mission will result in a hull upgrade for the Jenquai Seeker.
+07/01/09 19:49:42 Mission 65: Reclaimers Discovering the Reclaimers for Arinyl Nairda for testing.
+07/01/09 19:49:42 Mission 66: Exploring Niefleheim Cloud's Einherjar Research Platform Research needs to be done on the Einherjar Research Platform. Help Feng Yonghong to research it.
+07/01/09 19:49:42 Mission 67: Sturmers Wacky Games Round 1 Defeat Sturmers game of exploration.
+07/01/09 19:49:42 Mission 68: Sturmers Wacky Game Number 2 Sturmer has another Challenge for anyone willing. Visit his locations and win a prize.
+07/01/09 19:49:42 Mission 69: FreeSpacer Studies Help Tarnish McHollis and learn of the FreeSpacers.
+07/01/09 19:49:42 Mission 70: TT Temporary Hull Upgrade Mission Temporary mission to get level 10 hull upgrade.
+07/01/09 19:49:42 Mission 71: Temporary Hull Patch Quest TT Temporary mission to acquire hull patch
+07/01/09 19:49:42 Mission 72: Temporary Combat Trance Mission PW temporary mission to acquire combat trance
+07/01/09 19:49:42 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1005
+07/01/09 19:49:42 Port: 3501, Sector: 1005 'Mercury'
+07/01/09 19:49:42 Port: 3502, Sector: 1010 'Venus'
+07/01/09 19:49:42 Port: 3503, Sector: 1015 'Luna'
+07/01/09 19:49:43 Port: 3504, Sector: 1020 'High Earth'
+07/01/09 19:49:43 Port: 3505, Sector: 1025 'Equatorial Earth'
+07/01/09 19:49:43 Port: 3506, Sector: 1030 'Mars Beta'
+07/01/09 19:49:43 Port: 3507, Sector: 1036 'Mars Alpha'
+07/01/09 19:49:43 Port: 3508, Sector: 1037 'Mars Gamma'
+07/01/09 19:49:43 Port: 3509, Sector: 1040 'Ganymede'
+07/01/09 19:49:44 Port: 3510, Sector: 1052 'Io'
+07/01/09 19:49:44 Port: 3511, Sector: 1055 'Europa'
+07/01/09 19:49:44 Port: 3512, Sector: 1060 'Earth'
+07/01/09 19:49:44 Port: 3513, Sector: 1065 'Mars'
+07/01/09 19:49:44 Port: 3514, Sector: 1069 'Nebulous'
+07/01/09 19:49:44 Port: 3515, Sector: 1070 'Jupiter'
+07/01/09 19:49:44 Port: 3516, Sector: 1071 'Saturn'
+07/01/09 19:49:45 Port: 3517, Sector: 1072 'Uranus'
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Crystalline Asteroid', ID:0 level 10 sector 1073
+07/01/09 19:49:45 Port: 3518, Sector: 1073 'Neptune'
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 10 sector 1074
+07/01/09 19:49:45 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1074
+07/01/09 19:49:45 Port: 3519, Sector: 1074 'Pluto and Charon'
+07/01/09 19:49:45 Port: 3520, Sector: 1075 'Akerons Gate'
+07/01/09 19:49:45 Port: 3521, Sector: 1076 'Asteroid Belt Alpha'
+07/01/09 19:49:46 Port: 3522, Sector: 1077 'Asteroid Belt Beta'
+07/01/09 19:49:46 Port: 3523, Sector: 1079 'Asteroid Belt Gamma'
+07/01/09 19:49:46 Port: 3524, Sector: 1115 'Aganju'
+07/01/09 19:49:46 Port: 3525, Sector: 1120 'Ogun'
+07/01/09 19:49:46 Port: 3526, Sector: 1205 'Margesi'
+07/01/09 19:49:46 Port: 3527, Sector: 1215 'Adriel Prime'
+07/01/09 19:49:47 Port: 3528, Sector: 1290 'Loch Mar'
+07/01/09 19:49:47 Port: 3529, Sector: 1305 'Nostrand Vor'
+07/01/09 19:49:47 Port: 3530, Sector: 1310 'Altair III'
+07/01/09 19:49:47 Port: 3501, Sector: 1425 'Zweihander'
+07/01/09 19:49:47 Port: 3502, Sector: 1430 'Witberg'
+07/01/09 19:49:47 Port: 3503, Sector: 1440 'der Todesengel'
+07/01/09 19:49:47 Port: 3504, Sector: 1493 'Jagerstadt'
+07/01/09 19:49:48 Port: 3505, Sector: 1505 'Antares Frontier'
+07/01/09 19:49:48 Port: 3506, Sector: 1705 'Valkyrie Twins'
+07/01/09 19:49:48 Port: 3507, Sector: 1710 'Aragoth Prime'
+07/01/09 19:49:48 Port: 3508, Sector: 1715 'Varens Girdle'
+07/01/09 19:49:48 Port: 3509, Sector: 1720 'Odins Belt'
+07/01/09 19:49:48 Port: 3510, Sector: 1725 'Muspelheim'
+07/01/09 19:49:49 Registering sector server: port=3501, max_sectors=300
+07/01/09 19:49:49 Port: 3511, Sector: 1730 'Fenris'
+07/01/09 19:49:49 Port: 3512, Sector: 1735 'Odin Rex'
+07/01/09 19:49:49 Port: 3513, Sector: 1740 'Jotunheim'
+07/01/09 19:49:49 Port: 3514, Sector: 1745 'Ragnarok'
+07/01/09 19:49:49 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1750
+07/01/09 19:49:49 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1750
+07/01/09 19:49:49 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 1750
+07/01/09 19:49:49 Port: 3515, Sector: 1750 'Freya'
+07/01/09 19:49:50 Port: 3516, Sector: 1755 'Nifleheim Cloud'
+07/01/09 19:49:50 Port: 3517, Sector: 1910 'Kailassa'
+07/01/09 19:49:50 Port: 3518, Sector: 1915 'Kitara's Veil'
+07/01/09 19:49:50 Port: 3519, Sector: 1920 'Yokan'
+07/01/09 19:49:50 Port: 3520, Sector: 1925 'Dahin'
+07/01/09 19:49:50 Port: 3521, Sector: 1930 'Dahin Mining Interest'
+07/01/09 19:49:50 Port: 3522, Sector: 1935 'Vishao's Cove'
+07/01/09 19:49:51 Port: 3523, Sector: 2005 'Ishuan'
+07/01/09 19:49:51 Port: 3524, Sector: 2010 'Menorb'
+07/01/09 19:49:51 Port: 3525, Sector: 2105 'Deneb'
+07/01/09 19:49:51 Port: 3526, Sector: 2130 'Roc'
+07/01/09 19:49:51 Port: 3527, Sector: 2210 'Endriago'
+07/01/09 19:49:51 Port: 3528, Sector: 2215 'Lagarto'
+07/01/09 19:49:52 Port: 3529, Sector: 2290 'GETCo Ruins'
+07/01/09 19:49:52 Port: 3530, Sector: 2295 'Porvenir Mons Area'
+07/01/09 19:49:52 Port: 3501, Sector: 2505 'Mondara Maelstrom'
+07/01/09 19:49:52 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 10 sector 3515
+07/01/09 19:49:52 Port: 3502, Sector: 3515 'Primus'
+07/01/09 19:49:52 Port: 3503, Sector: 3530 'Tarsis'
+07/01/09 19:49:52 Port: 3504, Sector: 3595 'Praetorium Mons Area (Planet Primus)'
+07/01/09 19:49:53 Port: 3505, Sector: 3605 'Blackbeard's Wake'
+07/01/09 19:49:53 Port: 3506, Sector: 3606 'Elanas Test Sector'
+07/01/09 19:49:53 Port: 3507, Sector: 3705 'Ardus'
+07/01/09 19:49:53 Port: 3508, Sector: 4015 'New Edinburgh'
+07/01/09 19:49:53 Port: 3509, Sector: 4025 'Inverness'
+07/01/09 19:49:53 Port: 3510, Sector: 4030 'Arduinne'
+07/01/09 19:49:54 Port: 3511, Sector: 4093 'Inverness Down'
+07/01/09 19:49:54 Port: 3512, Sector: 4095 'Arduinne Gas Cloud'
+07/01/09 19:49:54 Port: 3513, Sector: 4115 'Xipe Totec'
+07/01/09 19:49:54 Port: 3514, Sector: 4120 'Swooping Eagle'
+07/01/09 19:49:54 Port: 3515, Sector: 4195 'Yasuragi Area '
+07/01/09 19:49:54 Port: 3516, Sector: 4205 'Mazzaroth Maelstrom'
+07/01/09 19:49:55 --> ERROR: No ore found for Asteroid 'Harv1', ID:12279 level 3 sector 4505
+07/01/09 19:49:55 Port: 3517, Sector: 4505 'Glorys Orbit'
+07/01/09 19:49:55 Port: 3518, Sector: 4510 'Slayton'
+07/01/09 19:49:55 Port: 3519, Sector: 4515 'Glenn'
+07/01/09 19:49:55 Port: 3520, Sector: 4516 'Glenn - Final'
+07/01/09 19:49:55 Port: 3521, Sector: 4520 'Carpenter'
+07/01/09 19:49:56 Port: 3522, Sector: 4525 'Shepard'
+07/01/09 19:49:56 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 4530
+07/01/09 19:49:56 --> ERROR: No ore found for Asteroid 'Asteroid', ID:0 level 9 sector 4530
+07/01/09 19:49:56 --> ERROR: No ore found for Asteroid 'Gas Cloud', ID:-1426165584 level 10 sector 4530
+07/01/09 19:49:56 Port: 3523, Sector: 4530 'Grissom'
+07/01/09 19:49:56 Port: 3524, Sector: 4535 'Cooper'
+07/01/09 19:49:56 Port: 3525, Sector: 4540 'Sword'
+07/01/09 19:49:56 Port: 3526, Sector: 4550 'Spear'
+07/01/09 19:49:56 Port: 3527, Sector: 4595 'Grissom Meteorological Site '
+07/01/09 19:49:56 Port: 3528, Sector: 4605 'Unknown Galaxy '
+07/01/09 19:49:57 SetupSectorServer sector_id=50000 failed
+07/01/09 19:49:57 Error loading Sector: 50000 '(null)'
+07/01/09 19:49:57 Port: 3530, Sector: 15051 'Antares 1'
+07/01/09 19:49:57 Port: 3501, Sector: 17051 'Aragoth Station'
+07/01/09 19:49:57 Port: 3502, Sector: 10761 'ECS Dauntless'
+07/01/09 19:49:57 Port: 3503, Sector: 19101 'Paren Station'
+07/01/09 19:49:57 Port: 3504, Sector: 17101 'Chernevog Station'
+07/01/09 19:49:57 Port: 3505, Sector: 10601 'Earth Station'
+07/01/09 19:49:58 Port: 3506, Sector: 10201 'Loki Station'
+07/01/09 19:49:58 Port: 3507, Sector: 10151 'Luna Station'
+07/01/09 19:49:58 Port: 3508, Sector: 10711 'Net-7 SOL'
+07/01/09 19:49:58 Port: 3509, Sector: 10701 'Joves Fury'
+07/01/09 19:49:58 Port: 3510, Sector: 10521 'Nishino Research Facility'
+07/01/09 19:49:58 Port: 3511, Sector: 10301 'Arx Prima'
+07/01/09 19:49:59 Port: 3512, Sector: 10361 'Arx Forgus'
+07/01/09 19:49:59 Port: 3513, Sector: 10651 'Arx Magister'
+07/01/09 19:49:59 Port: 3514, Sector: 17301 'Fenris Prime Observatory'
+07/01/09 19:49:59 Port: 3515, Sector: 10791 'Detention Center Onorom'
+07/01/09 19:49:59 Port: 3516, Sector: 10551 'Ashanti Maru'
+07/01/09 19:49:59 Port: 3517, Sector: 41952 'Yasuragi City'
+07/01/09 19:49:59 Port: 3518, Sector: 41951 'Master Cha'han's Dojo'
+07/01/09 19:50:00 Port: 3519, Sector: 17401 'Arx Ymir'
+07/01/09 19:50:00 Port: 3520, Sector: 14931 'Jagerstadt City'
+07/01/09 19:50:00 Port: 3521, Sector: 11151 'Kinshasa-Mbali'
+07/01/09 19:50:00 Port: 3522, Sector: 17451 'Trader's Fort'
+07/01/09 19:50:00 Port: 3523, Sector: 19301 'Tokai Saikutsu'
+07/01/09 19:50:01 Port: 3524, Sector: 14251 'EarthCorps High Command'
+07/01/09 19:50:01 Port: 3525, Sector: 14401 'Grand Ole Homestead'
+07/01/09 19:50:01 Port: 3526, Sector: 45151 'Friendship 7 Recreation Port'
+07/01/09 19:50:01 Port: 3527, Sector: 40931 'Inverness Down'
+07/01/09 19:50:01 Port: 3528, Sector: 45051 'Mercury Station'
+07/01/09 19:50:01 Port: 3529, Sector: 36051 'Queen Anne's Revenge'
+07/01/09 19:50:02 Port: 3530, Sector: 22101 'Arx Spartoi'
+07/01/09 19:50:02 Port: 3501, Sector: 35301 'Arx Tiberius'
+07/01/09 19:50:02 Port: 3502, Sector: 45201 'Orsini Mining Platform'
+07/01/09 19:50:02 Port: 3503, Sector: 22951 'Pourvenir Mons'
+07/01/09 19:50:02 Port: 3504, Sector: 41151 'Prasad Station'
+07/01/09 19:50:03 Port: 3505, Sector: 40151 'Somerled Station'
+07/01/09 19:50:03 Port: 3506, Sector: 10401 'Azmundi Maru'
+07/01/09 19:50:03 Port: 3507, Sector: 10251 'Guiana Spaceport'
+07/01/09 19:50:03 Port: 3508, Sector: 36061 'Shakti Station'
+07/01/09 19:50:03 Port: 3509, Sector: 10371 'Arx Bursa'
+07/01/09 19:50:03 Port: 3510, Sector: 10691 'Net 7 Central Command'
+07/01/09 19:50:03 Port: 3511, Sector: 35951 'Praetorium Mons'
+07/01/09 19:50:04 Port: 3512, Sector: 12150 'Adriel Mining Station'
+07/01/09 19:50:04 Port: 3513, Sector: 12051 'Margesi Shipyards'
+07/01/09 19:50:04 Port: 3514, Sector: 20051 'Ishuan Station'
+07/01/09 19:50:04 Port: 3515, Sector: 10051 'Sol Station'
+07/01/09 19:50:04 Port: 3516, Sector: 13101 'Arx Emporos '
+07/01/09 19:50:04 Port: 3517, Sector: 13102 'Eremites Outpost'
+07/01/09 19:50:04 Port: 3518, Sector: 10741 'Charon Cloister'

@@ -1,0 +1,8 @@
+; sector_10151.txt
+;
+[STATION-10151]
+name=Luna Station
+system=Sol
+sector=Luna
+greetings=Now arriving at Luna Station.
+launch=This is Luna Station Control... you are cleared for departure.

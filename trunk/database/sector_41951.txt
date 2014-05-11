@@ -1,0 +1,8 @@
+; sector_41951.txt
+;
+[STATION-41951]
+name=Master Cha`han`s Dojo
+system=Sirius
+sector=Yasuragi Area (Planet Swooping Eagle)
+greetings=Now docking at Master Cha`han`s Dojo.
+launch=Master Cha`han`s Dojo: You are cleared for departure.

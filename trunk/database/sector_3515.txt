@@ -1,0 +1,9 @@
+; sector_3515.txt
+;
+[SECTOR-3515]
+name=Primus
+system=Vega
+sector=Primus
+greetings=We have entered Primus Sector (Vega System).
+
+

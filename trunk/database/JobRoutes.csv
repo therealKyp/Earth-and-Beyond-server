@@ -1,0 +1,15 @@
+"# This table picks a to and from route for jobs",,,,
+,,,,
+"<FromId>","<FromName>","<ToId>","<ToName>","<Comment>"
+1015,"Luna (Sol System)",1020,"High Earth (Sol System)","This is a test note"
+1015,"Luna (Sol System)",1030,"Mars Beta (Sol System)",
+1015,"Luna (Sol System)",1036,"Mars Alpha (Sol System)",
+1015,"Luna (Sol System)",1052,"Io (Sol System)",
+1015,"Luna (Sol System)",1060,"Earth (Sol System)",
+1015,"Luna (Sol System)",1065,"Mars (Sol System)",
+1015,"Luna (Sol System)",1070,"Jupiter (Sol System)",
+1015,"Luna (Sol System)",1071,"Saturn (Sol System)",
+1015,"Luna (Sol System)",1076,"Akeron's Gate (Sol System)",
+1015,"Luna (Sol System)",1076,"Asteroid Belt Alpha (Sol System)",
+1015,"Luna (Sol System)",1077,"Asteroid Belt Beta (Sol System)",
+1015,"Luna (Sol System)",1079,"Asteroid Belt Gamma (Sol System)",

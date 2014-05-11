@@ -1,0 +1,12 @@
+; sector_4093.txt
+;
+[SECTOR-4093]
+name=Inverness Planet
+system=Tau Ceti
+sector=Inverness Planet
+greetings=We have entered Inverness Planet Sector (Tau Ceti System).
+
+
+[STATION-40931]
+station= Inverness Down
+dock= Inverness Down CONTROL: Docking clearance granted.

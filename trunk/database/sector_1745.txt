@@ -1,0 +1,11 @@
+; sector_1745.txt
+;
+[SECTOR-1745]
+name=Ragnarok
+system=Aragoth
+sector=Ragnarok
+greetings=We have entered Ragnarok Sector (Aragoth System).
+
+[STATION-17451]
+station=Trader's Fort
+dock=Trader's Fort: You are cleared for docking.

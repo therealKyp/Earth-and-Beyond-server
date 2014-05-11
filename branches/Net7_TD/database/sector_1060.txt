@@ -1,0 +1,11 @@
+; sector_1060.txt
+;
+[SECTOR-1060]
+name=Earth
+system=Sol
+sector=Earth
+greetings=We have entered Earth Sector (Sol System).
+
+[STATION-10601]
+station=Earth Station
+dock=EARTH STATION CONTROL: Landing clearance granted.

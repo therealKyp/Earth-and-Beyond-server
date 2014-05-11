@@ -1,0 +1,9 @@
+; sector_2505.txt
+;
+[SECTOR-2505]
+name=Mondara Maelstrom
+system=Mondara Shear
+sector=Mondara Maelstrom
+greetings=We have entered Mondara Maelstrom Sector (Mondara Shear System).
+
+

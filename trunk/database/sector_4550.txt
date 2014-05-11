@@ -1,0 +1,13 @@
+; sector_4550.txt
+;
+[SECTOR-4550]
+name=Spear
+system=Beta Hydri
+sector=Spear
+greetings=We have entered Spear Arena Sector (Beta Hydri System).
+
+
+
+
+
+

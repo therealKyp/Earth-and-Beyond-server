@@ -1,0 +1,12 @@
+; sector_2210.txt
+;
+[SECTOR-2210]
+name=Endiago
+system=Gallina
+sector=Endiago
+greetings=We have entered Endiago Sector (Gallina System).
+
+
+[STATION-22101]
+station= Arx Spartoi
+dock= Arx Spartoi CONTROL: Docking clearance granted.

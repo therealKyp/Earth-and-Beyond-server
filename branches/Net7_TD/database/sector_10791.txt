@@ -1,0 +1,8 @@
+; sector_10791.txt
+;
+[STATION-10791]
+name=Detention Center Onorom
+system=Sol
+sector=Detention Center Onorom
+greetings=Now docking at Detention Center Onorom.
+launch=Detention Center Onorom: You are cleared for departure.

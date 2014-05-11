@@ -1,0 +1,198 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6549E349-1E9C-465D-8DB2-497D9F59B976}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LaunchNet7</RootNamespace>
+    <AssemblyName>LaunchNet7</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>LaunchNet7.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedSettings.Designer.cs">
+      <DependentUpon>AdvancedSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyFileInfo.cs" />
+    <Compile Include="CommandLineReader.cs" />
+    <Compile Include="Configuration\AutoUpdateTaskConfigurationElement.cs" />
+    <Compile Include="Configuration\AutoUpdateConfigurationElement.cs" />
+    <Compile Include="Configuration\AutoUpdateTaskConfigurationElementCollection.cs" />
+    <Compile Include="Configuration\LauncherConfigurationSection.cs" />
+    <Compile Include="Configuration\ServerConfigurationElement.cs" />
+    <Compile Include="Configuration\ServerConfigurationElementCollection.cs" />
+    <Compile Include="Configuration\HostConfigurationElement.cs" />
+    <Compile Include="Configuration\HostConfigurationElementCollection.cs" />
+    <Compile Include="Cryptography\Crc32.cs" />
+    <Compile Include="Cryptography\Crc32Processor.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdate.Designer.cs">
+      <DependentUpon>FormUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniUtility.cs" />
+    <Compile Include="Launcher.cs" />
+    <Compile Include="LauncherUtility.cs" />
+    <Compile Include="NetworkProtocol.cs" />
+    <Compile Include="LaunchSetting.cs" />
+    <Compile Include="Patching\AuthLoginPatcher.cs" />
+    <Compile Include="Patching\AuthPatcherInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Progress.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LauncherResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LauncherResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Updateing\UpdateCheckResult.cs" />
+    <Compile Include="Updateing\UpdateItem.cs" />
+    <Compile Include="Updateing\UpdateItemCollection.cs" />
+    <Compile Include="Updateing\Updater.cs" />
+    <Compile Include="Updateing\UpdateCheckStatus.cs" />
+    <Compile Include="Updateing\VersionCompareMode.cs" />
+    <Compile Include="WebPath.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdvancedSettings.resx">
+      <DependentUpon>AdvancedSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LauncherResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LauncherResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>LaunchNet7</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LaunchNet7.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\LaunchNet7.png" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>LaunchNet7.Properties</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setup_48x48x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LaunchNet7.Changelog.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LaunchNet7.ico" />
+    <Content Include="LaunchNet7.Version.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\NavForward.png" />
+    <None Include="Resources\NavBack.png" />
+    <None Include="Resources\Error_48x48x32.png" />
+    <None Include="Resources\Warning_16x16x32.png" />
+    <None Include="Resources\Error_16x16x32.png" />
+    <None Include="Resources\ExeUpdater.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

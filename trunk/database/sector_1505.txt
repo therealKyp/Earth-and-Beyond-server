@@ -1,0 +1,11 @@
+; sector_1505.txt
+;
+[SECTOR-1505]
+name=Antares Frontier
+system=Antares
+sector=Antares Frontier
+greetings=We have entered Antares Frontier Sector (Antares System).
+
+[STATION-14931]
+station= Antares 1 [Under Construction]
+dock= Antares 1 CONTROL: Docking clearance granted.

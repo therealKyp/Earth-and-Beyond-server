@@ -1,0 +1,8 @@
+; sector_14931.txt
+;
+[STATION-14931]
+name=Jagerstadt City
+system=Alpha Centauri
+sector=Planet Zweihander
+greetings=Now docking at Jagerstadt City.
+launch=Jagerstadt City: You are cleared for departure.

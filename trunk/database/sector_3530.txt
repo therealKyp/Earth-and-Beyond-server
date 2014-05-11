@@ -1,0 +1,12 @@
+; sector_3530.txt
+;
+[SECTOR-3530]
+name=Tarsis
+system=Vega
+sector=Tarsis
+greetings=We have entered Tarsis Sector (Vega System).
+
+
+[STATION-35301]
+station= Arx Tiberius
+dock= Arx Tiberius CONTROL: Docking clearance granted.

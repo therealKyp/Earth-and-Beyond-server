@@ -1,0 +1,8 @@
+; sector_10761.txt
+;
+[STATION-10761]
+name=ECS Dauntless
+system=Sol
+sector=ECS Dauntless
+greetings=Now docking at ECS Dauntless.
+launch=ECS Dauntless: You are cleared for departure.

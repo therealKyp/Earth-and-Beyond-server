@@ -1,0 +1,13 @@
+; sector_4510.txt
+;
+[SECTOR-4510]
+name=Slayton
+system=Beta Hydri
+sector=Slayton
+greetings=We have entered Slayton Sector (Beta Hydri System).
+
+
+
+
+
+

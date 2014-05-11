@@ -1,0 +1,15 @@
+; sector_1020.txt
+;
+[SECTOR-1020]
+name=High Earth
+system=Sol
+sector=High Earth
+greetings=You have entered High Earth Sector
+;
+; bbox=xmin,ymin,xmax,ymax
+bbox=-115000,-115000,75000,-70000
+;
+; zband=min,max
+zband=-1000,1000
+;
+station=Loki Station

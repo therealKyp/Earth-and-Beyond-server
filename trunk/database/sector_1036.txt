@@ -1,0 +1,11 @@
+; sector_1036.txt
+;
+[SECTOR-1036]
+name=Mars Alpha
+system=Sol
+sector=Mars Alpha
+greetings=We have entered Mars Alpha Sector (Sol System).
+
+[STATION-10301]
+station=Arx Forgus
+dock=ARX FORGUS STATION CONTROL: Landing clearance granted.

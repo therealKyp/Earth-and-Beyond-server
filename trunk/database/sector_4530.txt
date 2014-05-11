@@ -1,0 +1,13 @@
+; sector_4530.txt
+;
+[SECTOR-4530]
+name=Grissom
+system=Beta Hydri
+sector=Grissom
+greetings=We have entered Grissom Sector (Beta Hydri System).
+
+
+
+
+
+

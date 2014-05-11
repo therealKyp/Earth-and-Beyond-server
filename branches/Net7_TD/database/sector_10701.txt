@@ -1,0 +1,8 @@
+; sector_10701.txt
+;
+[STATION-10701]
+name=Jove's Fury
+system=Sol
+sector=Jupiter
+greetings=Now docking at Jove's Fury.
+launch=You are cleared to depart Jove's Fury.

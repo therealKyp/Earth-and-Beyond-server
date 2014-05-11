@@ -1,0 +1,28 @@
+*For defense turrent*
+1. Vaporize target, MOB only.
+2. When MOB is killed, log the MOB ID (which is unique)
+3. Projectile effect. Fired 6 rounds. (visual effect 886? / 850)Give it
+4. default constructor assumes protect players, make secondary constructor that will protect mobs or factions (RD?)
+5. 
+
+
+
+
+
+Questions for David:
+-CalculateStat returns 0 in the case that a stat has a base value of 0, so buffs like to skills like Shield Recharging would return 0.
+
+HandleWormholeRequest(sectorid) <--use this for JE wormhole skill.
+
+
+Sub-Cat IDS:
+Beams: 100
+Missile launcer: 102
+Projectile launcer: 101
+Reactor: 120
+Engine: 121
+Shield: 122
+Projectile ammo: 103
+Missile ammo: 102
+
+SKILL PRE-DELAYS <--in effect-ID for chargeup of skills

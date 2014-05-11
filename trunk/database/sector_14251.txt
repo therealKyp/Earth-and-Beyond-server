@@ -1,0 +1,8 @@
+; sector_14251.txt
+;
+[STATION-14251]
+name=Earthcorps High Command
+system=Alpha Centauri
+sector=Zweihander
+greetings=Now docking at Earthcorps High Command.
+launch=Earthcorps High Command: You are cleared for departure.

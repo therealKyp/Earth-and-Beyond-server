@@ -1,0 +1,11 @@
+; sector_1425.txt
+;
+[SECTOR-1425]
+name=Zweihander
+system=Alpha Centauri
+sector=Zweihander
+greetings=We have entered Zweihander Sector (Alpha Centauri System).
+
+[STATION-14251]
+station= Earthcorps High Command
+dock= Earthcorps High Command CONTROL: Landing clearance granted.

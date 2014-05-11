@@ -1,0 +1,11 @@
+; sector_1079.txt
+;
+[SECTOR-1079]
+name=Asteroid Belt Gamma
+system=Sol
+sector=Asteroid Belt Gamma
+greetings=We have entered Asteroid Belt Gamma (Sol System).
+
+[STATION-10791]
+station=Detention Center Onorom
+dock=Detention Center Onorom: You are cleared for docking.

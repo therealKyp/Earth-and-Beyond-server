@@ -1,0 +1,9 @@
+; sector_3705.txt
+;
+[SECTOR-3705]
+name=Ardus
+system=Aquitaine
+sector=Ardus
+greetings=We have entered Ardus Sector (Aquitaine System).
+
+

@@ -1,0 +1,8 @@
+; sector_35301.txt
+;
+[STATION-35301]
+name=Arx Tiberius
+system=Vega
+sector=Tarsis
+greetings=Now docking at Arx Tiberius.
+launch=Arx Tiberius: You are cleared for departure.

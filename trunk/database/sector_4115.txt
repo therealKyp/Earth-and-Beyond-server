@@ -1,0 +1,15 @@
+; sector_4115.txt
+;
+[SECTOR-4115]
+name=Xipe Totec
+system=Sirius
+sector=Xipe Totec
+greetings=We have entered Xipe Totec Sector (Sirius System).
+
+
+[STATION-41151]
+station= Prasad Station
+dock= Prasad Station CONTROL: Docking clearance granted.
+
+
+

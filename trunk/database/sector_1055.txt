@@ -1,0 +1,11 @@
+; sector_1055.txt
+;
+[SECTOR-1055]
+name=Europa
+system=Sol
+sector=Europa
+greetings=We have entered Europa Sector (Sol System).
+
+[STATION-10551]
+station=Ashanti Maru
+dock=You are cleared for docking at Ashanti Maru.

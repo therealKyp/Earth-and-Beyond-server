@@ -1,0 +1,8 @@
+; sector_10521.txt
+;
+[STATION-10521]
+name=Nishino Research Facility
+system=Sol
+sector=Io
+greetings=Now docking at Nishino Research Facility, training grounds of the Sha'ha'dem.
+launch=You are cleared to depart Nishino Research Facility.

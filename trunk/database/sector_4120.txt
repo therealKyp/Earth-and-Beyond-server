@@ -1,0 +1,13 @@
+; sector_4120.txt
+;
+[SECTOR-4120]
+name=Swooping Eagle
+system=Sirius
+sector=Swooping Eagle
+greetings=We have entered Swooping Eagle Sector (Sirius System).
+
+
+
+
+
+

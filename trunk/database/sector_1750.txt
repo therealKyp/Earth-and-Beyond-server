@@ -1,0 +1,7 @@
+; sector_1750.txt
+;
+[SECTOR-1750]
+name=Freya
+system=Aragoth
+sector=Freya
+greetings=We have entered Freya Sector (Aragoth System).

@@ -1,0 +1,9 @@
+; sector_2215.txt
+;
+[SECTOR-2215]
+name=Lagarto
+system=Gallina
+sector=Lagarto
+greetings=We have entered Lagarto Sector (Gallina System).
+
+

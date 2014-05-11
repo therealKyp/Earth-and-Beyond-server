@@ -1,0 +1,13 @@
+; sector_4535.txt
+;
+[SECTOR-4535]
+name=Cooper
+system=Beta Hydri
+sector=Cooper
+greetings=We have entered Cooper Sector (Beta Hydri System).
+
+
+
+
+
+

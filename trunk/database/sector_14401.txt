@@ -1,0 +1,8 @@
+; sector_14401.txt
+;
+[STATION-14401]
+name=Grand Ole Homestead
+system=Alpha Centauri
+sector=der Todesengel
+greetings=Now docking at Grand Ole Homestead.
+launch=Grand Ole Homestead: You are cleared for departure.

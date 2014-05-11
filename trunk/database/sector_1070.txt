@@ -1,0 +1,11 @@
+; sector_1070.txt
+;
+[SECTOR-1070]
+name=Jupiter
+system=Sol
+sector=Jupiter
+greetings=We have entered Jupiter Sector (Sol System).
+
+[STATION-10701]
+station=Jove's Fury
+dock=You are cleared for docking at Jove's Fury.

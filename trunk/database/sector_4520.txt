@@ -1,0 +1,15 @@
+; sector_4520.txt
+;
+[SECTOR-4520]
+name=Carpenter
+system=Beta Hydri
+sector=Carpenter
+greetings=We have entered Carpenter Sector (Beta Hydri System).
+
+
+[STATION-45201]
+station= Orsini Mining Platform
+dock= Orsini Mining Platform CONTROL: Docking clearance granted.
+
+
+

@@ -1,0 +1,8 @@
+; sector_10651.txt
+;
+[STATION-10651]
+name=Arx Magister
+system=Sol
+sector=Mars
+greetings=Now docking at Arx Magister.
+launch=You are cleared to depart Arx Magister.

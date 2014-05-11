@@ -1,0 +1,35 @@
+GM commands
+
+
+Adds a user to the server
+//adduser <username> <password> <access>
+
+Change passwords for Username
+//setpassword <username> <password>
+
+Add Skillpoints to a player
+//gmskillpoints <playername> <skillpoints>
+
+Enable all skills for a user
+//gmenableskills <playername>
+
+Add levels to a player
+//gmplayerlevel <playername> <level>
+
+Set Access Level
+//gmsetaccess <playername> <level>
+
+Get Access level
+//gmgetaccess <playername>
+
+
+
+Kick a player
+/kick <Playername> <reason>
+
+Create Credits
+/createcredits <credits>
+
+Create Item
+/createitem <item ID> <number>
+

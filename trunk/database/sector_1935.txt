@@ -1,0 +1,9 @@
+; sector_1935.txt
+;
+[SECTOR-1935]
+name=Vishao's Cove
+system=Capella
+sector=Vishao's Cove
+greetings=We have entered Vishao's Cove Sector (Capella System).
+
+

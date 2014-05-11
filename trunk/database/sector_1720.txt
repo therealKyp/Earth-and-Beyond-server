@@ -1,0 +1,7 @@
+; sector_1720.txt
+;
+[SECTOR-1720]
+name=Odin's Belt
+system=Aragoth
+sector=Odin's Belt
+greetings=We have entered Odin's Belt Sector (Aragoth System).

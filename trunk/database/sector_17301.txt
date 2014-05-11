@@ -1,0 +1,8 @@
+; sector_17301.txt
+;
+[STATION-17301]
+name=Fenris Prime Observatory
+system=Aragoth
+sector=Fenris
+greetings=Now arriving at Fenris Prime Observatory.
+launch=This is Fenris Prime Observatory Control... you are cleared for departure.

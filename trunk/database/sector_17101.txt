@@ -1,0 +1,8 @@
+; sector_17101.txt
+;
+[STATION-17101]
+name=Chernevog Station
+system=Aragoth
+sector=Aragoth Prime
+greetings=Now arriving at Chernevog Station.
+launch=This is Chernevog Station Control... you are cleared for departure.

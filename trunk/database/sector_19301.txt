@@ -1,0 +1,8 @@
+; sector_19301.txt
+;
+[STATION-19301]
+name=Tokai Saikutsu
+system=Capella
+sector=Dahin Mining Interest (Planet Dahin)
+greetings=Now docking at Tokai Saikutsu.
+launch=Tokai Saikutsu: You are cleared for departure.

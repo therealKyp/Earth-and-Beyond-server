@@ -1,0 +1,8 @@
+; sector_41151.txt
+;
+[STATION-41151]
+name=Prasad Station
+system=Sirius
+sector=Xipe Totec
+greetings=Now docking at Prasad Station.
+launch=Prasad Station: You are cleared for departure.

@@ -1,0 +1,20 @@
+; sector_4195.txt
+;
+[SECTOR-4195]
+name=Yasuragi Area (Planet Swooping Eagle)
+system=Sirius
+sector=Yasuragi Area (Planet Swooping Eagle)
+greetings=We have entered Yasuragi Area (Planet Swooping Eagle) (Sirius System).
+
+
+[STATION-41951]
+station= Master Cha`han`s Dojo
+dock= Master Cha`han`s Dojo CONTROL: Docking clearance granted.
+
+
+[STATION-41952]
+station= Yasuragi
+dock= Yasuragi CONTROL: Docking clearance granted.
+
+
+

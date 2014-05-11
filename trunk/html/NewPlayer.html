@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<title>Net-7 Account Registration</title>
+<link rel="StyleSheet" href="login.css" type="text/css">
+</head>
+<body>
+<div>
+  <div id="login2">
+    <div style="background-color: white;">
+      <form name="login" method="post" action="NewPlayer.cgi">
+        <div id="loginimg">Net-7 Account Registration</div>
+        <table>
+          <tr>
+            <td><img src="net7.gif" border="0" alt="Net7 logo" />
+            </td>
+            <td>
+            <table width="100%">
+              <tr>
+                <td>Net-7 Username:</td>
+                <td><input class="inormal" id="log1" type="text" name="username" maxlength="20"></td>
+              </tr>
+              <tr>
+                <td>Net-7 Password:</td>
+                <td>
+                <input class="inormal" id="log2" class="formitem" type="password" name="password" maxlength="20" value>
+                </td>
+              </tr>
+              <tr>
+                <td>Forum Username:</td>
+                <td>
+                <input class="inormal" id="log3" class="text" name="forumname" value>
+                </td>
+              </tr>
+              <tr>
+                <td>Email address:</td>
+                <td>
+                <input class="inormal" id="log3" class="text" name="email" value>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">
+                <input type="submit" name="CreateAccount" value="Create Account" class="fr_button">
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        <table><tr><td>
+        <div align="left" color="white">
+        NOTICE: You must have an account on www.enb-emulator.com in order to register.
+        A valid email address is required in order to complete the registration process.
+        </div>
+        </td></tr></table>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+<script language="JavaScript" type="text/javascript">
+    if (top.length != self.length)
+    {var isskin;
+      isskin = parent.document.getElementById("foldermenu");
+      if(isskin) top.location.href = self.location.href;}
+    document.login.username.focus();
+</script>
+</html>

@@ -1,0 +1,12 @@
+; sector_3605.txt
+;
+[SECTOR-3605]
+name=Blackbeard's Wake
+system=Smuggler's Run
+sector=Blackbeard's Wake
+greetings=We have entered Blackbeard's Wake Sector (Smuggler's Run System).
+
+
+[STATION-36051]
+station= Queen Anne's Revenge
+dock= Queen Anne's Revenge CONTROL: Docking clearance granted.

@@ -1,0 +1,8 @@
+; sector_35951.txt
+;
+[STATION-35951]
+name=1C4615H
+system=Vega
+sector=Praetorium Mons Area (Planet Primus)
+greetings=Now docking at 1C4615H.
+launch=1C4615H: You are cleared for departure.

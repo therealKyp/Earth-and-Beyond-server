@@ -1,0 +1,321 @@
+<Skill Category="Combat" ID="1" Name="Beam Weapon" Type="Passive">
+     <Warrior Max="8" Quest="0" LvlType="SW" LearnLvl="0"></Warrior>
+     <Sentinel Max="8" Quest="0" LvlType="SW" LearnLvl="0"></Sentinel>
+     <Privateer Max="8" Quest="0" LvlType="SW" LearnLvl="0"></Privateer>
+     <Defender Max="9" Quest="0" LvlType="PW" LearnLvl="0"></Defender>
+     <Explorer Max="9" Quest="0" LvlType="PW" LearnLvl="0"></Explorer>
+     <Seeker Max="9" Quest="0" LvlType="PW" LearnLvl="0"></Seeker>
+     <Enforcer Max="8" Quest="0" LvlType="SW" LearnLvl="0"></Enforcer>
+     <Scout Max="8" Quest="0" LvlType="SW" LearnLvl="0"></Scout>
+     <Tradesman Max="8" Quest="0" LvlType="SW" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Combat" ID="40" Name="Projectile Weapon" Type="Passive">
+     <Warrior Max="9" Quest="1" LvlType="PW" LearnLvl="0"></Warrior>
+     <Sentinel Max="9" Quest="1" LvlType="PW" LearnLvl="0"></Sentinel>
+     <Privateer Max="9" Quest="1" LvlType="PW" LearnLvl="0"></Privateer>
+     <Defender Max="8" Quest="1" LvlType="SW" LearnLvl="11"></Defender>
+     <Explorer Max="8" Quest="1" LvlType="SW" LearnLvl="25"></Explorer>
+     <Enforcer Max="8" Quest="1" LvlType="SW" LearnLvl="0"></Enforcer>
+     <Seeker Max="8" Quest="1" LvlType="SW" LearnLvl="0"></Seeker>
+</Skill>
+
+<Skill Category="Combat" ID="34" Name="Missile Weapon" Type="Passive">
+     <Warrior Max="8" Quest="1" LvlType="SW" LearnLvl="0"></Warrior>
+     <Sentinel Max="8" Quest="1" LvlType="SW" LearnLvl="0"></Sentinel>
+     <Privateer Max="8" Quest="1" LvlType="SW" LearnLvl="0"></Privateer>
+     <Defender Max="8" Quest="1" LvlType="SW" LearnLvl="20"></Defender>
+     <Enforcer Max="9" Quest="1" LvlType="PW" LearnLvl="0"></Enforcer>
+     <Scout Max="9" Quest="1" LvlType="PW" LearnLvl="0"></Scout>
+     <Tradesman Max="9" Quest="1" LvlType="PW" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Total" ID="20" Name="Engine Tech" Type="Passive">
+     <Warrior Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Warrior>
+     <Sentinel Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Sentinel>
+     <Privateer Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Privateer>
+     <Defender Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Defender>
+     <Explorer Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Explorer>
+     <Seeker Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Seeker>
+     <Enforcer Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Enforcer>
+     <Scout Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Scout>
+     <Tradesman Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Total" ID="55" Name="Shield Tech" Type="Passive">
+     <Warrior Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Warrior>
+     <Sentinel Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Sentinel>
+     <Privateer Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Privateer>
+     <Defender Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Defender>
+     <Explorer Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Explorer>
+     <Seeker Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Seeker>
+     <Enforcer Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Enforcer>
+     <Scout Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Scout>
+     <Tradesman Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Total" ID="45" Name="Reactor Tech" Type="Passive">
+     <Warrior Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Warrior>
+     <Sentinel Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Sentinel>
+     <Privateer Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Privateer>
+     <Defender Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Defender>
+     <Explorer Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Explorer>
+     <Seeker Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Seeker>
+     <Enforcer Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Enforcer>
+     <Scout Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Scout>
+     <Tradesman Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Total" ID="18" Name="Device Tech" Type="Passive">
+     <Warrior Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Warrior>
+     <Sentinel Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Sentinel>
+     <Privateer Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Privateer>
+     <Defender Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Defender>
+     <Explorer Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Explorer>
+     <Seeker Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Seeker>
+     <Enforcer Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Enforcer>
+     <Scout Max="9" Quest="0" LvlType="PT" LearnLvl="0"></Scout>
+     <Tradesman Max="8" Quest="0" LvlType="ST" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="10" Name="Build Weapons" Type="Passive">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="10"></Warrior>
+     <Privateer Max="7" Quest="1" LvlType="NON" LearnLvl="10"></Privateer>
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="25"></Defender>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Enforcer Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Enforcer>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="5" Name="Build Devices" Type="Passive">
+     <Sentinel Max="7" Quest="1" LvlType="NON" LearnLvl="10"></Sentinel>
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="30"></Defender>
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Explorer>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Scout Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Scout>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="9" Name="Build Shields" Type="Passive">
+     <Sentinel Max="7" Quest="1" LvlType="NON" LearnLvl="35"></Sentinel>
+     <Privateer Max="7" Quest="1" LvlType="NON" LearnLvl="35"></Privateer>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="6" Name="Build Engines" Type="Passive">
+     <Enforcer Max="7" Quest="1" LvlType="NON" LearnLvl="45"></Enforcer>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Scout Max="7" Quest="1" LvlType="NON" LearnLvl="45"></Scout>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="35"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="8" Name="Build Reactors" Type="Passive">
+     <Privateer Max="7" Quest="1" LvlType="NON" LearnLvl="35"></Privateer>
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="40"></Explorer>
+</Skill>
+
+<Skill Category="Trade" ID="4" Name="Build Components" Type="Passive">
+     <Privateer Max="7" Quest="1" LvlType="NON" LearnLvl="40"></Privateer>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="10"></Tradesman>
+</Skill>
+
+<Skill Category="Combat" ID="26" Name="Hacking" Type="Activated">
+     <Enforcer Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Enforcer>
+     <Scout Max="5" Quest="1" LvlType="NON" LearnLvl="0"></Scout>
+</Skill>
+
+<Skill Category="Explore" ID="35" Name="Navigate" Type="Passive">
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="15"></Explorer>
+     <Scout Max="7" Quest="1" LvlType="NON" LearnLvl="15"></Scout>
+     <Tradesman Max="5" Quest="1" LvlType="NON" LearnLvl="40"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="2" Name="Befriend" Type="Activated">
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="11"></Tradesman>
+</Skill>
+
+<Skill Category="Combat" ID="52" Name="Shield Inversion" Type="Activated">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Warrior>
+     <Privateer Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Privateer>
+</Skill>
+
+<Skill Category="Combat" ID="13" Name="Combat Trance" Type="Passive">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="10"></Warrior>
+</Skill>
+
+<Skill Category="Combat" ID="25" Name="Gravity Link" Type="Activated">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Warrior>
+     <Sentinel Max="5" Quest="1" LvlType="NON" LearnLvl="0"></Sentinel>
+</Skill>
+
+<Skill Category="Explore" ID="33" Name="Menace" Type="Activated">
+     <Sentinel Max="7" Quest="1" LvlType="NON" LearnLvl="15"></Sentinel>
+     <Privateer Max="5" Quest="1" LvlType="NON" LearnLvl="15"></Privateer>
+</Skill>
+
+<Skill Category="Combat" ID="42" Name="Psionic Shield" Type="Activated">
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Defender>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+</Skill>
+
+<Skill Category="Explore" ID="12" Name="Cloak" Type="Activated">
+     <Defender Max="5" Quest="1" LvlType="NON" LearnLvl="10"></Defender>
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="8"></Explorer>
+     <Seeker Max="5" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+</Skill>
+
+<Skill Category="Explore" ID="24" Name="Fold Space" Type="Activated">
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Defender>
+     <Explorer Max="5" Quest="1" LvlType="NON" LearnLvl="8"></Explorer>
+</Skill>
+
+<Skill Category="Combat" ID="17" Name="Damage Control" Type="Passive">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="9"></Warrior>
+     <Enforcer Max="5" Quest="1" LvlType="NON" LearnLvl="25"></Enforcer>
+</Skill>
+
+<Skill Category="Explore" ID="22" Name="Enrage" Type="Activated">
+     <Warrior Max="5" Quest="1" LvlType="NON" LearnLvl="35"></Warrior>
+     <Enforcer Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Enforcer>
+</Skill>
+
+<Skill Category="Combat" ID="16" Name="Critical Targeting" Type="Passive">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="10"></Warrior>
+     <Sentinel Max="5" Quest="1" LvlType="NON" LearnLvl="45"></Sentinel>
+     <Privateer Max="5" Quest="1" LvlType="NON" LearnLvl="45"></Privateer>
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Defender>
+     <Enforcer Max="5" Quest="1" LvlType="NON" LearnLvl="20"></Enforcer>
+</Skill>
+
+<Skill Category="Trade" ID="47" Name="Repair Equipment" Type="Activated">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Warrior>
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Defender>
+     <Enforcer Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Enforcer>
+</Skill>
+
+<Skill Category="Combat" ID="46" Name="Recharge Shields" Type="Activated">
+     <Privateer Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Privateer>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Trade" ID="36" Name="Negotiate" Type="Passive">
+     <Privateer Max="5" Quest="1" LvlType="NON" LearnLvl="0"></Privateer>
+     <Seeker Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Enforcer Max="5" Quest="1" LvlType="NON" LearnLvl="25"></Enforcer>
+     <Scout Max="5" Quest="1" LvlType="NON" LearnLvl="25"></Scout>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Tradesman>
+</Skill>
+
+<Skill Category="Explore" ID="31" Name="Jumpstart" Type="Activated">
+     <Sentinel Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Sentinel>
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Explorer>
+     <Scout Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Scout>
+</Skill>
+
+<Skill Category="Explore" ID="41" Name="Prospect" Type="Passive">
+     <Sentinel Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Sentinel>
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Explorer>
+     <Scout Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Scout>
+</Skill>
+
+<Skill Category="Explore" ID="49" Name="Scan" Type="Passive">
+     <Sentinel Max="5" Quest="1" LvlType="NON" LearnLvl="40"></Sentinel>
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="40"></Defender>
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="35"></Explorer>
+     <Seeker Max="5" Quest="1" LvlType="NON" LearnLvl="0"></Seeker>
+     <Scout Max="5" Quest="1" LvlType="NON" LearnLvl="35"></Scout>
+</Skill>
+
+<Skill Category="Combat" ID="44" Name="Rally" Type="Activated">
+     <Enforcer Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Enforcer>
+</Skill>
+
+<Skill Category="Combat" ID="27" Name="Hull Patch" Type="Activated">
+     <Scout Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Scout>
+     <Tradesman Max="7" Quest="1" LvlType="NON" LearnLvl="20"></Tradesman>
+</Skill>
+
+<Skill Category="Combat" ID="50" Name="Self Destruct" Type="Activated">
+     <Warrior Max="7" Quest="1" LvlType="NON" LearnLvl="40"></Warrior>
+</Skill>
+
+<Skill Category="Combat" ID="37" Name="Power Down" Type="Activated">
+     <Sentinel Max="7" Quest="1" LvlType="NON" LearnLvl="6"></Sentinel>
+</Skill>
+
+<Skill Category="Combat" ID="56" Name="Summon" Type="Activated">
+     <Defender Max="7" Quest="1" LvlType="NON" LearnLvl="0"></Defender>
+</Skill>
+
+<Skill Category="Explore" ID="15" Name="Create Wormhole" Type="Activated">
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="15"></Explorer>
+</Skill>
+
+<Skill Category="Explore" ID="23" Name="Environment Shield" Type="Activated">
+     <Explorer Max="7" Quest="1" LvlType="NON" LearnLvl="45"></Explorer>
+</Skill>
+
+<Skill Category="Combat" ID="19" Name="Energy Leech" Type="Activated">
+     <Defender Max="7" Quest="0" LvlType="NON" LearnLvl="45"></Defender>
+</Skill>
+
+<Skill Category="Explore" ID="53" Name="Shield Leech" Type="Activated">
+     <Explorer Max="7" Quest="0" LvlType="NON" LearnLvl="45"></Explorer>
+</Skill>
+
+<Skill Category="Combat" ID="54" Name="Shield Sap" Type="Activated">
+     <Warrior Max="7" Quest="0" LvlType="NON" LearnLvl="45"></Warrior>
+</Skill>
+
+<Skill Category="Combat" ID="3" Name="Biorepression" Type="Activated">
+     <Enforcer Max="7" Quest="0" LvlType="NON" LearnLvl="45"></Enforcer>
+</Skill>
+
+<Skill Category="Combat" ID="51" Name="Shield Charging" Type="Activated">
+     <Tradesman Max="7" Quest="0" LvlType="NON" LearnLvl="45"></Tradesman>
+</Skill>
+
+<Skill Category="Explore" ID="48" Name="Repulsor Field" Type="Activated">
+     <Sentinel Max="7" Quest="0" LvlType="NON" LearnLvl="45"></Sentinel>
+</Skill>
+
+<Skill Category="Combat" ID="43" Name="Quantum Flux" Type="Activated">
+</Skill>
+
+<Skill Category="Explore" ID="32" Name="Maelstrom Resonance" Type="Activated">
+</Skill>
+
+<Skill Category="Total" ID="11" Name="Call Forward" Type="Passive">
+     <Sentinel Max="1" Quest="1" LvlType="NON" LearnLvl="135"></Sentinel>
+</Skill>
+
+<Skill Category="Total" ID="14" Name="Compulsory Contemplation" Type="Activated">
+     <Explorer Max="1" Quest="1" LvlType="NON" LearnLvl="135"></Explorer>
+</Skill>
+
+<Skill Category="Total" ID="28" Name="Item Tech" Type="Passive">
+</Skill>
+
+<Skill Category="Total" ID="7" Name="Build Items" Type="Passive">
+</Skill>
+
+<Skill Category="Total" ID="39" Name="Progen Lore" Type="Passive">
+</Skill>
+
+<Skill Category="Total" ID="30" Name="Jenquai Lore" Type="Passive">
+</Skill>
+
+<Skill Category="Explore" ID="38" Name="Progen Culture" Type="Passive">
+</Skill>
+
+<Skill Category="Explore" ID="29" Name="Jenquai Culture" Type="Passive">
+</Skill>
+
+<Skill Category="Explore" ID="57" Name="Terran Culture" Type="Passive">
+</Skill>
+
+<Skill Category="Total" ID="21" Name="Engineering" Type="Passive">
+</Skill>
+

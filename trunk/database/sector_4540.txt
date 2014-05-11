@@ -1,0 +1,13 @@
+; sector_4540.txt
+;
+[SECTOR-4540]
+name=Sword
+system=Beta Hydri
+sector=Swordr
+greetings=We have entered Sword Arena Sector (Beta Hydri System).
+
+
+
+
+
+

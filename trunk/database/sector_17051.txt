@@ -1,0 +1,8 @@
+; sector_17051.txt
+;
+[STATION-17051]
+name=Aragoth Station
+system=Aragoth
+sector=Valkyrie Twins
+greetings=Now arriving at Aragoth Station.
+launch=This is Aragoth Station Control... you are cleared for departure.

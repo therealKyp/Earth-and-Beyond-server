@@ -1,0 +1,11 @@
+; sector_1710.txt
+;
+[SECTOR-1710]
+name=Aragoth Prime
+system=Aragoth
+sector=Aragoth Prime
+greetings=We have entered Aragoth Prime Sector (Aragoth System).
+
+[STATION-17101]
+station=Chernevog Station
+dock=Chernevog Station: You are cleared for docking.

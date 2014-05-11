@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Confg>
+  <Host>net-7.org</Host>
+  <Port>3307</Port>
+  <User>admin</User>
+  <Pass>123456123456</Pass>
+</Confg>

@@ -1,0 +1,9 @@
+; sector_1920.txt
+;
+[SECTOR-1920]
+name=Yokan
+system=Capella
+sector=Yokan
+greetings=We have entered Yokan Sector (Capella System).
+
+

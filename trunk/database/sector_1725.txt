@@ -1,0 +1,7 @@
+; sector_1725.txt
+;
+[SECTOR-1725]
+name=Muspelheim
+system=Aragoth
+sector=Muspelheim
+greetings=We have entered Muspelheim Sector (Aragoth System).

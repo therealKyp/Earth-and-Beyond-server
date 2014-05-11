@@ -1,0 +1,15 @@
+; sector_4515.txt
+;
+[SECTOR-4515]
+name=Glenn
+system=Beta Hydri
+sector=Glenn
+greetings=We have entered Glenn Sector (Beta Hydri System).
+
+
+[STATION-45151]
+station= Friendship 7 Recreation Port
+dock= Friendship 7 Recreation Port CONTROL: Docking clearance granted.
+
+
+

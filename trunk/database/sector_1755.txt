@@ -1,0 +1,7 @@
+; sector_1755.txt
+;
+[SECTOR-1755]
+name=Nifleheim Cloud
+system=Aragoth
+sector=Nifleheim Cloud
+greetings=We have entered Nifleheim Cloud Sector (Aragoth System).

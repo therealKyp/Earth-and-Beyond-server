@@ -1,0 +1,12 @@
+; sector_2295.txt
+;
+[SECTOR-2295]
+name=Porvenir Mons Area (Planet Endriago)
+system=Gallina
+sector=Porvenir Mons Area (Planet Endriago)
+greetings=We have entered Porvenir Mons Area (Planet Endriago) (Gallina System).
+
+
+[STATION-22951]
+station= Ponvenir Mons
+dock= Ponvenir Mons CONTROL: Docking clearance granted.

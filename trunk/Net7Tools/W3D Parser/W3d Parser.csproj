@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC7F67DB-B5F6-49A1-AC96-5F954F5B9AE3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>W3DParser</RootNamespace>
+    <AssemblyName>W3D Parser</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chunk.cs" />
+    <Compile Include="ChunkMap.cs" />
+    <Compile Include="Chunks\ChunkTemplate.cs" />
+    <Compile Include="Chunks\AggregateChunk.cs" />
+    <Compile Include="Chunks\AggregateHeaderChunk.cs" />
+    <Compile Include="Chunks\AggregateInfoChunk.cs" />
+    <Compile Include="Chunks\AggregateClassInfoChunk.cs" />
+    <Compile Include="Chunks\AabTreeChunk.cs" />
+    <Compile Include="Chunks\AabTreeHeaderChunk.cs" />
+    <Compile Include="Chunks\AabTreePolyIndicesChunk.cs" />
+    <Compile Include="Chunks\AabTreeNodesChunk.cs" />
+    <Compile Include="Chunks\AnimationChunk.cs" />
+    <Compile Include="Chunks\AnimationHeaderChunk.cs" />
+    <Compile Include="Chunks\AnimationChannelChunk.cs" />
+    <Compile Include="Chunks\BitChannelChunk.cs" />
+    <Compile Include="Chunks\CompressedAnimationChunk.cs" />
+    <Compile Include="Chunks\CompressedAnimationHeaderChunk.cs" />
+    <Compile Include="Chunks\CompressedAnimationChannelChunk.cs" />
+    <Compile Include="Chunks\CompressedBitChannelChunk.cs" />
+    <Compile Include="Chunks\CollectionChunk.cs" />
+    <Compile Include="Chunks\CollectionHeaderChunk.cs" />
+    <Compile Include="Chunks\CollectionObjectNameChunk.cs" />
+    <Compile Include="Chunks\BoxChunk.cs" />
+    <Compile Include="Chunks\DeformDataChunk.cs" />
+    <Compile Include="Chunks\DeformKeyframeChunk.cs" />
+    <Compile Include="Chunks\DeformSetChunk.cs" />
+    <Compile Include="Chunks\DeformChunk.cs" />
+    <Compile Include="Chunks\DazzleNameChunk.cs" />
+    <Compile Include="Chunks\DazzleTypeNameChunk.cs" />
+    <Compile Include="Chunks\DazzleChunk.cs" />
+    <Compile Include="Chunks\HLodProxyArrayChunk.cs" />
+    <Compile Include="Chunks\PlaceholderChunk.cs" />
+    <Compile Include="Chunks\TransformNodeChunk.cs" />
+    <Compile Include="Chunks\MeshUserTextChunk.cs" />
+    <Compile Include="Chunks\PrelitVertexChunk.cs" />
+    <Compile Include="Chunks\PrelitLightMultiPassChunk.cs" />
+    <Compile Include="Chunks\PrelitLightMultiTextureChunk.cs" />
+    <Compile Include="Chunks\PrelitUnlitChunk.cs" />
+    <Compile Include="Chunks\HLodAggregateArrayChunk.cs" />
+    <Compile Include="Chunks\NodeChunk.cs" />
+    <Compile Include="Chunks\HModelAuxDataChunk.cs" />
+    <Compile Include="Chunks\HModelHeaderChunk.cs" />
+    <Compile Include="Chunks\HModelChunk.cs" />
+    <Compile Include="Chunks\EmitterBlurTimeKeyFramesChunk.cs" />
+    <Compile Include="Chunks\EmitterFrameKeyFramesChunk.cs" />
+    <Compile Include="Chunks\EmitterRotationKeyFramesChunk.cs" />
+    <Compile Include="Chunks\EmitterLinePropertiesChunk.cs" />
+    <Compile Include="Chunks\EmitterPropsChunk.cs" />
+    <Compile Include="Chunks\EmitterInfo2Chunk.cs" />
+    <Compile Include="Chunks\EmitterInfoChunk.cs" />
+    <Compile Include="Chunks\EmitterUserDataChunk.cs" />
+    <Compile Include="Chunks\EmitterHeaderChunk.cs" />
+    <Compile Include="Chunks\EmitterChunk.cs" />
+    <Compile Include="Chunks\DcgChunk.cs" />
+    <Compile Include="Chunks\TextureReplacerChunk.cs" />
+    <Compile Include="Chunks\TextureInfoChunk.cs" />
+    <Compile Include="Chunks\StageTexCoordsChunk.cs" />
+    <Compile Include="Chunks\TextureIdsChunk.cs" />
+    <Compile Include="Chunks\TextureStageChunk.cs" />
+    <Compile Include="Chunks\VertexMapperArgs1Chunk.cs" />
+    <Compile Include="Chunks\VertexMapperArgs0Chunk.cs" />
+    <Compile Include="Chunks\TextureNameChunk.cs" />
+    <Compile Include="Chunks\TextureChunk.cs" />
+    <Compile Include="Chunks\TexturesChunk.cs" />
+    <Compile Include="Chunks\VertexInfluencesChunk.cs" />
+    <Compile Include="Chunks\VertexMaterialInfoChunk.cs" />
+    <Compile Include="Chunks\ShaderIdsChunk.cs" />
+    <Compile Include="Chunks\VertexMaterialIdsChunk.cs" />
+    <Compile Include="Chunks\VertexMaterialNameChunk.cs" />
+    <Compile Include="Chunks\ShadersChunk.cs" />
+    <Compile Include="Chunks\MaterialPassChunk.cs" />
+    <Compile Include="Chunks\VertexMaterialChunk.cs" />
+    <Compile Include="Chunks\VertexMaterialsChunk.cs" />
+    <Compile Include="Chunks\MaterialInfoChunk.cs" />
+    <Compile Include="Chunks\VertexShadeIndicesChunk.cs" />
+    <Compile Include="Chunks\TrianglesChunk.cs" />
+    <Compile Include="Chunks\VertexNormalsChunk.cs" />
+    <Compile Include="Chunks\VerticesChunk.cs" />
+    <Compile Include="Chunks\HlodSubObjectChunk.cs" />
+    <Compile Include="Chunks\RootChunk.cs" />
+    <Compile Include="Chunks\HlodSubObjectArrayHeaderChunk.cs" />
+    <Compile Include="Chunks\HlodLodArrayChunk.cs" />
+    <Compile Include="Chunks\PivotFixupsChunk.cs" />
+    <Compile Include="Chunks\PivotsChunk.cs" />
+    <Compile Include="Chunks\HierarchyChunk.cs" />
+    <Compile Include="Chunks\HierarchyHeaderChunk.cs" />
+    <Compile Include="Chunks\HlodChunk.cs" />
+    <Compile Include="Chunks\HlodHeaderChunk.cs" />
+    <Compile Include="Chunks\MeshChunk.cs" />
+    <Compile Include="Chunks\MeshHeader3Chunk.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Utilities\AdobeColors.cs" />
+    <Compile Include="Utilities\Vector3.cs" />
+    <Compile Include="w3d.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

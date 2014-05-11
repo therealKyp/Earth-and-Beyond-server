@@ -1,0 +1,8 @@
+; sector_45151.txt
+;
+[STATION-45151]
+name=Friendship 7 Recreation Port
+system=Beta Hydri
+sector=Glenn
+greetings=Now docking at Friendship 7 Recreation Port.
+launch=Friendship 7 Recreation Port: You are cleared for departure.

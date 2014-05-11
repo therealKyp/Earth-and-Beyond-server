@@ -1,0 +1,9 @@
+; sector_2130.txt
+;
+[SECTOR-2130]
+name=Roc
+system=Deneb
+sector=Roc
+greetings=We have entered Roc Sector (Deneb System).
+
+

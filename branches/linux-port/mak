@@ -1,0 +1,27 @@
+TARGET = Net7
+
+BASE := $(wildcard *.*)
+SRCS := $(filter %.cpp,$(BASE))
+OBJS := $(patsubst %.cpp,%.o,$(filter %.cpp,$(SRCS)))
+LIBS = -pthread -lssl -lcrypto -ldl -lcryptopp -lmysqlclient
+
+CPPFLAGS = -g -I/usr/local/ssl/include -DUSE_OPENSSL -O2 -march=athlon64
+LDFLAGS = -L../libs -L/usr/lib64 -L/usr/lib64/mysql
+
+CC = g++ $(CPPFLAGS)
+LD = g++ $(LDFLAGS)
+
+all: $($OBJS) $(TARGET)
+
+xmlparser:
+	$(CC) xmlParser/xmlParser_.cpp -c -o xmlParser/xmlParser.o
+
+.cpp.o:
+	$(CC) -c $< -o $@
+
+$(TARGET): $(OBJS)
+	$(LD) $(OBJS) xmlParser/xmlParser.o -o $@ $(LIBS)
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+

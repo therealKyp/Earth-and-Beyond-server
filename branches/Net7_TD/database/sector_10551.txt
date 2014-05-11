@@ -1,0 +1,8 @@
+; sector_10551.txt
+;
+[STATION-10551]
+name=Ashanti Maru
+system=Sol
+sector=Europa
+greetings=Now docking at Ashanti Maru.
+launch=You are cleared to depart Ashanti Maru.

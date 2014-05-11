@@ -1,0 +1,9 @@
+09/01/09 08:39:24 Starting node check thread.
+09/01/09 08:39:24 Listener unable to bind to socket on port 127.0.0.1:443
+09/01/09 08:39:24 Connecting to Authentication Server on 127.0.0.1:443
+09/01/09 08:39:24 Unable to connect to Authentication Server on port 443
+09/01/09 08:39:24 Loading Skill Levels from SQL (522)
+09/01/09 08:39:24 Loading Buff Data...09/01/09 08:39:24 Buff Data Loaded.
+09/01/09 08:39:24 Loading MOBs from SQL (1771)
+09/01/09 08:39:24 Loading Assets from SQL (2403)
+09/01/09 08:39:24 Parsing 'cbasset.xml'...

@@ -1,0 +1,8 @@
+; sector_11151.txt
+;
+[STATION-11151]
+name=Kinshasa-Mbali
+system=61 Cygni
+sector=Aganju
+greetings=Now docking at Kinshasa-Mbali.
+launch=Kinshasa-Mbali: You are cleared for departure.

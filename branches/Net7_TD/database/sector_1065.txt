@@ -1,0 +1,11 @@
+; sector_1065.txt
+;
+[SECTOR-1065]
+name=Mars
+system=Sol
+sector=Mars
+greetings=We have entered Mars Sector (Sol System).
+
+[STATION-10651]
+station=Arx Magister
+dock=You are cleared for docking at Arx Magister.

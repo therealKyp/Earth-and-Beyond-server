@@ -1,0 +1,219 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D3AA27C-831D-4F83-805D-3BD3F43B0B81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MissionEditor</RootNamespace>
+    <AssemblyName>MissionEditor</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.2.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonTools\Libs\release\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\CodeDescSearch.cs" />
+    <Compile Include="Database\Database.cs" />
+    <Compile Include="Database\DataConfiguration.cs" />
+    <Compile Include="Gui\DlgCompletions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgCompletions.Designer.cs">
+      <DependentUpon>DlgCompletions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\DlgReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgReport.Designer.cs">
+      <DependentUpon>DlgReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\DlgRewards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgRewards.Designer.cs">
+      <DependentUpon>DlgRewards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\DlgConditions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgConditions.Designer.cs">
+      <DependentUpon>DlgConditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\DlgStages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\DlgStages.Designer.cs">
+      <DependentUpon>DlgStages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FrmMission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FrmMission.Designer.cs">
+      <DependentUpon>FrmMission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TabMission.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TabMission.Designer.cs">
+      <DependentUpon>TabMission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TabStages.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TabStages.Designer.cs">
+      <DependentUpon>TabStages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nodes\Completion.cs" />
+    <Compile Include="Nodes\Condition.cs" />
+    <Compile Include="Nodes\Reward.cs" />
+    <Compile Include="Nodes\Mission.cs" />
+    <Compile Include="Nodes\Stage.cs" />
+    <Compile Include="Nodes\TalkTree.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gui\DlgCompletions.resx">
+      <DependentUpon>DlgCompletions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\DlgReport.resx">
+      <DependentUpon>DlgReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\DlgRewards.resx">
+      <DependentUpon>DlgRewards.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\DlgConditions.resx">
+      <DependentUpon>DlgConditions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\DlgStages.resx">
+      <DependentUpon>DlgStages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FrmMission.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TabMission.resx">
+      <DependentUpon>TabMission.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TabStages.resx">
+      <DependentUpon>TabStages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Replies.cs" />
+    <Compile Include="TalkNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mission.xml" />
+    <Content Include="MySql.Data.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonTools\CommonTools.csproj">
+      <Project>{97016D61-FB82-4D92-B9FF-07247D1BA46E}</Project>
+      <Name>CommonTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TalkTreeEditor\TalkTreeEditor\TalkTreeEditor.csproj">
+      <Project>{0DE96869-3E59-4C5E-A81E-B5DCFCD08F4A}</Project>
+      <Name>TalkTreeEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

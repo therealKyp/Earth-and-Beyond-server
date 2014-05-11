@@ -1,0 +1,7 @@
+; sector_1077.txt
+;
+[SECTOR-1077]
+name=Asteroid Belt Beta
+system=Sol
+sector=Asteroid Belt Beta
+greetings=We have entered Asteroid Belt Beta (Sol System).

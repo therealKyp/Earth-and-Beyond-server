@@ -1,0 +1,8 @@
+; sector_15051.txt
+;
+[STATION-15051]
+name=Antares 1
+system=[Under Construction],Antares
+sector=Antares Frontier
+greetings=Now docking at Antares 1.
+launch=Antares 1: You are cleared for departure.

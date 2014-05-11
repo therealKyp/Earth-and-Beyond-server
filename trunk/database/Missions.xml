@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Missions>
+	<Mission ID="1" forfeitable="1" time="0">
+		<Name>Grail water Mission</Name>
+		<Summary>Find the 7 hidden grail waters</Summary>
+		<Stages>
+			<Stage time="0" ID="0" Type="3" SectorID="10601">
+				<Description>Speak with Julie Bristol (Earth Station, Earth, Sol)</Description>
+				<NPC ID="3">Julie Bristol</NPC>
+				<Tree Node="1">
+					<Text>/happy1 Could you please fetch some grail water for me?</Text>
+					<Branch Node="2">No Way!</Branch>
+					<Branch Node="3">Sure!</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/crazy Ah, Never mind then</Text>
+					<NextStage>-2</NextStage>
+				</Tree>
+				<Tree Node="3">
+					<Text>/bow Yay! I heard reports the first one is near the Advanced Combat Training Nav in Luna sector.</Text>
+					<Branch Node="4">Continue.</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/give Oh, before I forget here is a Grail affinity device, it'll help you extract the grail waters from the asteroids, and also will allow you to detect Grail water bearing asteroids from a much larger distance.</Text>
+					<NextStage>1</NextStage>
+				</Tree>
+				<Rewards>
+					<Item>4031</Item>
+				</Rewards>
+			</Stage>
+			<Stage time="0" ID="1" Type="7" SectorID="1015">
+				<Description>Search for Grail water near Advanced Combat Training, Luna Sector, Sol</Description>
+				<Location>Nav Advanced Combat Training</Location>
+				<Object>Mysterious Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="2" Type="2" SectorID="10601">
+				<Description>Return the grail water to Julie Bristol (Earth Station, Earth, Sol)</Description>
+				<NPC ID="3">Julie Bristol</NPC>
+				<Item>4030</Item>
+				<Tree Node="1">
+					<Text>/happy1 You have the grail water!</Text>
+					<Branch Node="2">Continue.</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/bow Will you give it to me and find more?</Text>
+					<Branch Node="4">Sure, where are the next grails?</Branch>
+					<Branch Node="3">I have had enough of this! I'll not run your fool errands.</Branch>
+				</Tree>
+				<Tree Node="3">
+					<Text>/shrug Bah! You had your chance and you blew it.</Text>
+					<NextStage>-3</NextStage>
+				</Tree>
+				<Tree Node="4">
+					<Text>/gender2 Thankyou! The next waters are in Io Sector, near the Tempest Fringe and in Europa, near The Hunting Grounds.</Text>
+					<NextStage>3</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>1000 Credits, 100 Trade and Explore experience.</Description>
+					<Credits>1000</Credits>
+					<Experience Type="Trade">100</Experience>
+					<Experience Type="Explore">100</Experience>
+					<Faction Name="0">100</Faction>
+				</Rewards>
+			</Stage>
+			<Stage time="0" ID="3" Type="7" SectorID="1052">
+				<Description>Search for Grail water near Tempest Fringe, Io Sector, Sol</Description>
+				<Location>Tempest Fringe</Location>
+				<Object>Bizarre Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="4" Type="7" SectorID="1055">
+				<Description>Search for Grail water near The Hunting Grounds, Europa Sector, Sol</Description>
+				<Location>The Hunting Grounds</Location>
+				<Object>Odd Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="5" Type="1" SectorID="10601">
+				<Description>Return the grail waters to Julie Bristol (Earth Station, Earth, Sol)</Description>
+				<NPC ID="3">Julie Bristol</NPC>
+				<Tree Node="1">
+					<Text>/happy1 Wow, you found them both?</Text>
+					<Branch Node="2">Of Course!</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/bow Indeed!</Text>
+					<Branch Node="3">Do you want these then?</Branch>
+				</Tree>
+				<Tree Node="3">
+					<Text>/shrug Of course not! I already have one! Take them to Sander Pauls on ECS Dauntless.</Text>
+					<NextStage>6</NextStage>
+				</Tree>
+			</Stage>
+			<Stage time="0" ID="6" Type="2" SectorID="10761">
+				<Description>Take the Grail waters to Sander Pauls (ECS Dauntless, Asteroid Belt Alpha)</Description>
+				<NPC ID="2">Sander Pauls</NPC>
+				<Item Stack="2">4030</Item>
+				<Tree Node="1">
+					<Text>/gender2 Kick! Punch! Its all in the mind!</Text>
+					<Branch Node="2">What?</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/disco If you want to test me, I am sure you find, the things I teach ya, are sure to beat ya ...</Text>
+					<Branch Node="3">Wha?</Branch>
+				</Tree>
+				<Tree Node="3">
+					<Text>/robot Nevertheless, you get a lesson from Teacha!</Text>
+					<Branch Node="4">Do you want these grails or what?</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/thumbs Yo! Thanks! Just what I needed...</Text> 
+					<Branch Node="5">No Problem, just call me Grail Boy...</Branch>
+					<Branch Node="6">No worries.</Branch>
+				</Tree>
+				<Tree Node="5">
+					<Text>/bow OK Grail Boy, The next water is right here in this asteroid belt! Look near Toughnut Pit. I entered the locations of the next two in your log.</Text>
+					<NextStage>7</NextStage>
+				</Tree>
+				<Tree Node="6">
+					<Text>/happy1 The next water is right here in this asteroid belt! Look near Toughnut Pit. I entered the locations of the next two in your log.</Text>
+					<NextStage>7</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>2000 Credits, 500 Trade and Explore experience.</Description>
+					<Credits>2000</Credits>
+					<Experience Type="Trade">500</Experience>
+					<Experience Type="Explore">500</Experience>
+					<Faction Name="0">500</Faction>
+				</Rewards>
+			</Stage>
+			<Stage time="0" ID="7" Type="7" SectorID="1076">
+				<Description>Search for Grail water near Toughnut Pit, Asteroid Belt Alpha</Description>
+				<Location>Toughnut Pit</Location>
+				<Object>Disturbing Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="8" Type="7" SectorID="1077">
+				<Description>Search for Grail water near Mining Marker 2, Asteroid Belt Beta Sector</Description>
+				<Location>Mining Marker 2</Location>
+				<Object>Tenacious Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="9" Type="7" SectorID="1070">
+				<Description>Search for Grail water near Asteroid JP-R15, Jupiter Sector, Sol</Description>
+				<Location>Asteroid JP-R15</Location>
+				<Object>Weird Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="10" Type="1" SectorID="10761">
+				<Description>Take the Grail waters back to Sander Pauls (ECS Dauntless, Asteroid Belt Alpha)</Description>
+				<NPC ID="2">Sander Pauls</NPC>
+				<Tree Node="1">
+					<Text>/threaten I am the knight who says 'NI!'!</Text>
+					<Branch Node="2">Oh no, look do you want these grails?</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/shoot I require that you take these grails to ... Julie Bristol at Detention Centre Onorom!</Text>
+					<Branch Node="3">Huh? What's she doing there?</Branch>
+				</Tree>
+				<Tree Node="3">
+					<Text>/point You dare question a knight of Ni? My brothers will be here shortly and we will say 'Ni' again to you ...</Text>
+					<Branch Node="4">OK, OK, I'm going.</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/smash Now begone!</Text>
+					<NextStage>11</NextStage>
+				</Tree>
+			</Stage>
+			<Stage time="0" ID="11" Type="2" SectorID="10791">
+				<Description>Take the Grail waters to Julie Bristol (Detention Centre Onorom)</Description>
+				<NPC ID="3">Julie Bristol</NPC>
+				<Item Stack="3">4030</Item>
+				<Tree Node="1">
+					<Text>/bored Good grief it's dull here, I hope you've got something good for me...</Text>
+					<Branch Node="2">These grail waters, you want them?</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/gender1 Wow! Yeah, those are like, totally amazing.</Text>
+					<Branch Node="3">Glad I could help.</Branch>
+					<Branch Node="4">Nice. Do you come here often?</Branch>
+				</Tree>
+				<Tree Node="3">
+					<Text>/bow You bet!</Text>
+					<Branch Node="5">What now?</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/gender2 Hey! Are you flirting with me? Say how about you come back here when I have some time off and we can go someplace...</Text> 
+					<Branch Node="5">Sure thing Julie, anything else you need?</Branch>
+				</Tree>
+				<Tree Node="5">
+					<Text>/bow Only one last grail, it's right here in Asteroid belt Gamma! Look between Mier's Perch and Marin34</Text>
+					<Branch Node="6">Where do I take this grail water?</Branch>
+				</Tree>
+				<Tree Node="6">
+					<Text>/point You have to take it to Sander Pauls in ECS Dauntless.</Text>
+					<NextStage>12</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>4000 Credits, 500 Trade and Explore experience.</Description>
+					<Credits>5000</Credits>
+					<Experience Type="Trade">5000</Experience>
+					<Experience Type="Explore">5000</Experience>
+					<Faction Name="0">500</Faction>
+				</Rewards>
+			</Stage>
+			<Stage time="0" ID="12" Type="7" SectorID="1079">
+				<Description>Search for Grail water near Mier's Perch, Asteroid Belt Gamma, Sol</Description>
+				<Location>Mier's Perch</Location>
+				<Object>Sinister Hydrocarbon Deposit</Object>
+				<Item>4030</Item>
+			</Stage>
+			<Stage time="0" ID="13" Type="2" SectorID="10761">
+				<Description>Take the final Grail water to Sander Pauls (ECS Dauntless, Asteroid Belt Alpha)</Description>
+				<NPC ID="2">Sander Pauls</NPC>
+				<Item Stack="1">4030</Item>
+				<Tree Node="1">
+					<Text>/threaten It is you again, what do you want?</Text>
+					<Branch Node="2">I have this last grail water.</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/shrug I'm not interested, I already 'ave one, it's-a very nice!</Text>
+					<Branch Node="3">Look here my good man, I've come all this way...</Branch>
+				</Tree>
+				<Tree Node="3">
+					<Text>/mime I'm stuck in this box!! Look!! ARGH!!</Text>
+					<Branch Node="4">-Sigh-, Do you want this grail water or not?</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/point Look at you, how you've been running about knees bent doing our bidding, you son of a silly person! I'll take your grail water, but don't think you're doing me any favours-a!</Text> 
+					<Branch Node="5">Good lord man!</Branch>
+				</Tree>
+				<Tree Node="5">
+					<Text>/happy1 Hey I'm just kidding you, you've done a fantastic job, now Julie and I can have clean underwear (we only wash them in grail water), and Julie's sis can feed her cat, which only drinks grail water.</Text> 
+					<Branch Node="6">I'm glad I could help!</Branch>
+				</Tree>
+				<Tree Node="6">
+					<Text>/bow You're a credit to your species, which ever one it is... Come back later, and I will taunt you a second time!</Text>
+					<NextStage>-3</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>5000 Credits, 5000 Trade and Explore experience.</Description>
+					<Credits>5000</Credits>
+					<Experience Type="Trade">5000</Experience>
+					<Experience Type="Explore">5000</Experience>
+					<Faction Name="0">500</Faction>
+				</Rewards>
+			</Stage>
+		</Stages>
+	</Mission>
+	<Mission ID="2" forfeitable="1" time="0" Overall="10">
+		<Name>Merediths Gaze Dilemma</Name>
+		<Summary>Upgrade mission 1</Summary>
+		<Stages>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Speak with Meredith Lot (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/point Hey! You're ready for your next hull upgrade, would you like to upgrade?</Text>
+					<Branch Node="2">No Way!</Branch>
+					<Branch Node="3">Sure!</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/crazy Ah, Never mind then...</Text>
+					<NextStage>-2</NextStage>
+				</Tree>
+				<Tree Node="3">
+					<Text>/bow First would you please bring me 3 Angry Blue Gaze weapons.</Text>
+					<Branch Node="4">Continue.</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/happy1 Once I have those, I will assign your new hull to be upgraded.</Text>
+					<NextStage>1</NextStage>
+				</Tree>
+			<Stage time="0" Type="2" SectorID="10701">
+				<Description>Bring 3 Angry Blue Gaze to Meredith Lot for Hull upgrade (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Item Stack="3">2061</Item>
+				<Tree Node="1">
+					<Text>/bow Thankyou, just what I needed! I hope the new hull strength helps you.</Text>
+					<NextStage>-3</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>1000 Credits, 100 Trade and Explore experience.</Description>
+					<Experience Type="Explore">100</Experience>
+					<Faction Name="0">100</Faction>
+					<HullUpgrade>1</HullUpgrade>
+				</Rewards>
+			</Stage>
+		</Stages>
+	</Mission>
+	<Mission ID="3" forfeitable="1" time="0" Overall="30">
+		<Name>Merediths puzzle</Name>
+		<Summary>Upgrade mission 3</Summary>
+		<Stages>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Speak with Meredith Lot (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/point Hey! You're ready for your next hull upgrade, would you like to upgrade?</Text>
+					<Branch Node="2">No Way!</Branch>
+					<Branch Node="3">Sure!</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/crazy Ah, Never mind then...</Text>
+					<NextStage>-2</NextStage>
+				</Tree>
+				<Tree Node="3">
+					<Text>/bow First would you please bring me a Black Dragonplate Shield.</Text>
+					<Branch Node="4">Continue.</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/happy1 Once I have those, I will assign your new hull to be upgraded.</Text>
+					<NextStage>1</NextStage>
+				</Tree>
+			<Stage time="0" Type="2" SectorID="10701">
+				<Description>Bring Black Dragonplate shield to Meredith Lot for Hull upgrade (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Item Stack="1">2979</Item>
+				<Tree Node="1">
+					<Text>/bow Thankyou, just what I needed! I hope the new hull upgrade helps you.</Text>
+					<NextStage>-3</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>1000 Credits, 100 Trade and Explore experience.</Description>
+					<Experience Type="Explore">1000</Experience>
+					<Faction Name="0">100</Faction>
+					<HullUpgrade>2</HullUpgrade>
+				</Rewards>
+			</Stage>
+		</Stages>
+	</Mission>
+	<Mission ID="4" forfeitable="1" time="0" Overall="50">
+		<Name>Scan wreckages Mission</Name>
+		<Summary>Scan the wreckages around Joves City</Summary>
+		<Stages>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Speak with Meredith Lot (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/point You! Just the person, I see you've achieved the requirements for a new hull, would you like to upgrade your hull?</Text>
+					<Branch Node="2">No Way!</Branch>
+					<Branch Node="3">Sure!</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/crazy Ah, Never mind then...</Text>
+					<NextStage>-2</NextStage>
+				</Tree>
+				<Tree Node="3">
+					<Text>/bow First I require all 8 wreckages around Joves City Ruins to be scanned for zeta particles.</Text>
+					<Branch Node="4">Continue.</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/happy1 Once you've scanned all 8 ruins report back to me and I will assign your new hull to be upgraded.</Text>
+					<NextStage>1</NextStage>
+				</Tree>
+			</Stage>
+			<Stage time="0" Type="10" SectorID="1070">
+				<Description>Scan the 8 ship wreckages around Joves City, Jupiter, Sol</Description>
+				<Object>Remains of the Serus Maru</Object>
+				<Object>Wreckage of the Pax Acerbus</Object>
+				<Object>Wreckage of the Pax Crudelis</Object>
+				<Object>Remains of the Icotus Maru</Object>
+				<Object>Wreckage of the Pax Barbarus</Object>
+				<Object>Remains of the Remalis Maru</Object>
+				<Object>Wreckage of the Pax Atrox</Object>
+				<Object>Remains of the Pentine Maru</Object>
+			</Stage>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Return to Meredith Lot for Hull upgrade (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/bow Well done, your research assistance has been invaluable, you should find your new hull in order after you leave the station.</Text>
+					<NextStage>-3</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>1000 Credits, 100 Trade and Explore experience.</Description>
+					<Credits>1000</Credits>
+					<Experience Type="Trade">100</Experience>
+					<Experience Type="Explore">100</Experience>
+					<Faction Name="0">100</Faction>
+					<HullUpgrade>3</HullUpgrade>
+				</Rewards>
+			</Stage>
+		</Stages>
+	</Mission>
+	<Mission ID="5" forfeitable="1" time="0" Overall="75">
+		<Name>Find and scan hidden RD base</Name>
+		<Summary>Red Dragons in Jupiter Sector</Summary>
+		<Stages>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Speak with Meredith Lot (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/point Hi! Just the person, I've heard reports of interesting activity in this sector and I need someone to investigate. Are you interested?</Text>
+					<Branch Node="2">No Way!</Branch>
+					<Branch Node="3">Sure!</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/gender2 Never mind then</Text>
+					<NextStage>-2</NextStage>
+				</Tree>
+				<Tree Node="3">
+					<Text>/happy1 OK, the strange reports detail that none other than the Red Dragons have set up a base here in Jupiter sector...</Text>
+					<Branch Node="4">Continue.</Branch>
+				</Tree>
+				<Tree Node="4">
+					<Text>/point I need you to go and scan the RD base. Once you have scanned it can you return here at once and show me the data.</Text>
+					<NextStage>1</NextStage>
+				</Tree>
+			</Stage>
+			<Stage time="0" Type="10" SectorID="1070">
+				<Description>Scan the Red Dragon Outpost, Jupiter, Sol</Description>
+				<Object>Red Dragon Outpost</Object>
+			</Stage>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Return to Meredith Lot with scan info (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/bow Thankyou. Very interesting. The Dragons influence is increasing, and they are getting too powerful here. We may need to cull them a little. Can you find and destroy 2 Red Dragon Patrol fighters, then you should be ready for your hull upgrade.</Text>
+					<Branch Node="2">Continue.</Branch>
+				</Tree>
+				<Tree Node="2">
+					<Text>/point Also, grouping to fight the Patrol is OK, but the person doing the mission must finish off the fighter. Do not bother reporting this as a bug because it's not implemented yet.</Text>
+					<NextStage>3</NextStage>
+				</Tree>
+			</Stage>
+			<Stage time="0" Type="4" SectorID="1070">
+				<Description>Find and destroy 2 Red Dragon Patrol fighters in the sector (Jupiter, Sol)</Description>
+				<Object>Red Dragon Patrol</Object>
+				<Object>Red Dragon Patrol</Object>
+			</Stage>
+			<Stage time="0" Type="1" SectorID="10701">
+				<Description>Return to Meredith Lot for Hull upgrade (Joves Fury, Jupiter, Sol)</Description>
+				<NPC ID="214">Meredith Lot</NPC>
+				<Tree Node="1">
+					<Text>/bow Well done, your efforts should ensure that the sector stays in it's rightful hands, you should find your new hull in order after you leave the station.</Text>
+					<NextStage>-3</NextStage>
+				</Tree>
+				<Rewards>
+					<Description>1000 Credits, 5000 Explore experience.</Description>
+					<Credits>1000</Credits>
+					<Experience Type="Explore">5000</Experience>
+					<Faction Name="0">100</Faction>
+					<HullUpgrade>4</HullUpgrade>
+				</Rewards>
+			</Stage>
+		</Stages>
+	</Mission>
+</Missions>

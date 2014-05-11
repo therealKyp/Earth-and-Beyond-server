@@ -1,0 +1,8 @@
+; sector_41952.txt
+;
+[STATION-41952]
+name=Yasuragi
+system=Sirius
+sector=Yasuragi Area (Planet Swooping Eagle)
+greetings=Now docking at Yasuragi.
+launch=Yasuragi: You are cleared for departure.

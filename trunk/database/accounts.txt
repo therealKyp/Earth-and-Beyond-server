@@ -1,0 +1,24 @@
+; accounts.txt
+;
+; NEVER delete any records.
+; Add new records to the end.
+;
+; Fields:
+;    username
+;    password
+;    account type:
+;		X = -1    Banned
+;		U = 0     User
+;		$ = 10    Donator
+;		    20    Helper (Offical)
+;		B = 30    Beta Tester
+;		    50    Server GM
+;		    60    Deputy GM   (Accross Server GM)
+;		    70    Head GM     (All server Full GM)
+;		D   80    Developer
+;		A   100   Administrator
+;    forum username
+;    email address
+;
+admin,admin,100,adminuser,-
+test,test,30,testuser,-

@@ -1,0 +1,9 @@
+; sector_1915.txt
+;
+[SECTOR-1915]
+name=Kitara's Veil
+system=Capella
+sector=Kitara's Veil
+greetings=We have entered Kitara's Veil Sector (Capella System).
+
+

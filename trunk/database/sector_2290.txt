@@ -1,0 +1,9 @@
+; sector_2290.txt
+;
+[SECTOR-2290]
+name=GETCo Ruins (Risco Moon)
+system=Gallina
+sector=GETCo Ruins (Risco Moons)
+greetings=We have entered GETCo Ruins (Risco Moon) (Gallina System).
+
+

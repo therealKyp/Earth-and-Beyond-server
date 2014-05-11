@@ -1,0 +1,995 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Net7 Item Editor</name>
+    </assembly>
+    <members>
+        <member name="F:Net7_Tools.Gui.frmManufacturing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Gui.frmManufacturing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Net7_Tools.Gui.frmManufacturing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Net7_Tools.Gui.frmCatSubcatChange.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Gui.frmCatSubcatChange.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Net7_Tools.Gui.frmCatSubcatChange.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Database.IRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.IRecordManager.enableField(Net7_Tools.Database.DataBinding,System.Data.DataRow,System.Boolean)">
+            <summary>
+              <para>
+                Enable the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been enabled.</para>
+                <para>False: the field has not been enabled, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.IRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.IRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.IRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemAmmoRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemAmmoRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemAmmoRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemAmmoRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="T:Net7_Tools.Editors.TableEditor">
+            <summary>
+            Handles a single table at a time rather than a group of tables
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Editor.IEditor.activate">
+            <summary>
+              <para>Activate this editor</para>
+              <para>Tasks include displaying the proper TabPage and displaying the "first" record</para>
+            </summary>
+            <returns>The id of the "main" table.</returns>
+        </member>
+        <member name="M:Net7_Tools.Editor.IEditor.getPrimaryId">
+            <summary>
+            Retrieve the id of the primary table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net7_Tools.Editor.IEditor.addTableHandler(System.Windows.Forms.TabPage,Net7_Tools.Database.TableIO)">
+            <summary>
+              <para>Add a "page" to the editor.  Each page is composed of a TabPage,
+                    a TableIO, and a IRecordManager</para>
+              <para>The first "page" is considered the "main" page, linked with the
+                    search actions as well as containing the id to be used in the
+                    other pages.</para>
+            </summary>
+            <param name="tabPage">The TabPage to add.</param>
+            <param name="tableIO">The TableIO to add.</param>
+        </member>
+        <member name="M:Net7_Tools.Editor.IEditor.getRecordSelectCriteria(System.String)">
+            <summary>
+              <para>Create the appropriate select criteria to perform a search within the DataSet.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+            <example>String selectCommand = "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Editor.IEditor.selectRecord(System.String)">
+            <summary>
+              <para>Select the record corresponding to the specified id.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+        </member>
+        <member name="M:Net7_Tools.Editor.IEditor.getIdFromSearchDialog(System.String)">
+            <summary>
+              <para>Use the search dialog to retrieve an id.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+            <returns>
+                <para>The newly selected id</para>
+            </returns>
+            <remarks>Use the currentId to position the cursor, the initial selection.</remarks>
+        </member>
+        <member name="M:Net7_Tools.Editors.TableEditor.activate">
+            <summary>
+              <para>Activate this editor</para>
+              <para>Tasks include displaying the proper TabPage and displaying the "first" record</para>
+            </summary>
+            <returns>The id of the "main" table.</returns>
+        </member>
+        <member name="M:Net7_Tools.Editors.TableEditor.getPrimaryId">
+            <summary>
+            Retrieve the id of the primary table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net7_Tools.Editors.TableEditor.getRecordSelectCriteria(System.String)">
+            <summary>
+              <para>Create the appropriate select criteria to perform a search within the DataSet.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+            <example>String selectCommand = "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Editors.TableEditor.selectRecord(System.String)">
+            <summary>
+              <para>Select the record corresponding to the specified id.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+        </member>
+        <member name="M:Net7_Tools.Editors.TableEditor.getIdFromSearchDialog(System.String)">
+            <summary>
+              <para>Use the search dialog to retrieve an id.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+            <returns>
+                <para>The newly selected id</para>
+            </returns>
+            <remarks>Use the currentId to position the cursor, the initial selection.</remarks>
+        </member>
+        <member name="M:Net7_Tools.Utility.ParseParen(System.String)">
+            <summary>
+            Retrieve the ID within parenthesis from a string formatted as "(123) Description"
+            </summary>
+            <param name="Src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemEngineRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemEngineRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemEngineRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemEngineRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="F:Net7_Tools.Gui.FrmItemValidationReport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Gui.FrmItemValidationReport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Net7_Tools.Gui.FrmItemValidationReport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Gui.FrmItemValidationReport.CopyListViewToClipboard(System.Windows.Forms.ListView)">
+            <summary>
+            
+            </summary>
+            <remarks>http://dotnetref.blogspot.com/2007/06/copy-listview-to-clipboard.html</remarks>
+        </member>
+        <member name="T:Net7_Tools.Database.DataValidation">
+            <summary>Validate a data field</summary>
+            <remarks>
+                Some validations cannt be added within TableIO's addValidation()
+                such as those that need to query the data of another field or
+                those that need to access a "current" state, such as whether the
+                field is enabled or not or whether the record is in add or edit
+                mode.  In those cases the data validation needs to be performed
+                within IRecordManager's validField().
+            </remarks>
+        </member>
+        <member name="T:Net7_Tools.Database.DataValidation.Result">
+            <summary>Result of validations</summary>
+            <returns>If there's a validation error then the explaination is contained within the message</returns>
+            <remarks>
+                When m_message contains null then there isn't a validation error.  It's only
+                when m_message contains a message that there is an error.
+            </remarks>
+        </member>
+        <member name="F:Net7_Tools.FrmItemTree.m_selectedItemId">
+            <value>The ID of the selected item.</value>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.#ctor">
+            <summary>
+              <para>Constructor</para>
+              <para>Automatically call loadData() to initialize the contents of the tree.</para>
+            </summary>
+            <remarks>This form is shown/hidden rather than created/destroyed
+            in order to retain lists of data.  This is faster than querying
+            on demand but takes more memory and increases the chances of working
+            with stale data.</remarks>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.OnShown(System.EventArgs)">
+            <summary>
+              <para>Collapse the tree nodes and (if it exists) select
+                    the item ID.</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.loadData">
+            <summary>
+              <para>Retrieve the item information from the database and
+                    display it within the tree, ordered by category, 
+                    sub category, and item name.</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.selectItemId(System.String)">
+            <summary>
+              <para>Select the specified item ID if it exists within the tree.</para>
+            </summary>
+            <param name="selectedItemId">The item ID to select.</param>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.setSelectedItemId(System.String)">
+            <summary>
+              <para>Set the selected item ID.</para>
+            </summary>
+            <remarks>This will be used when the form is shown, to
+            select the item (if it exists) within the tree.</remarks>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.getSelectedItemId">
+            <summary>
+              <para>Retrieve the selected item ID.</para>
+            </summary>
+            <returns>The selected item ID</returns>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.btnOk_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>Close the form and update the selected item ID</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>Close the form.</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.CopyListViewToClipboard(System.Windows.Forms.ListView)">
+            <summary>
+            
+            </summary>
+            <remarks>http://dotnetref.blogspot.com/2007/06/copy-listview-to-clipboard.html</remarks>
+        </member>
+        <member name="F:Net7_Tools.FrmItemTree.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Net7_Tools.FrmItemTree.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Net7_Tools.Database.DataBinding">
+            <summary>
+              <para>Associate a control (text, combobox, checkbox) with a database
+                    field enumeration (see the contents of Database\net7_db.cs).
+                    This is used to automate the transfer of data between the control
+                    and the database.</para>
+            </summary>
+        </member>
+        <member name="T:Net7_Tools.IGui">
+            <summary>
+              <para>Callbacks to the main form</para>
+            </summary>
+        </member>
+        <member name="F:Net7_Tools.frmItems.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Net7_Tools.frmItems.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.setTabPages(System.Windows.Forms.TabPage[])">
+            <summary>
+              <para>Set the tab pages to display</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.initializeItems">
+            <summary>
+              <para>Initialize the item page</para>
+            </summary>
+            <remarks>There's a lot of cross-reference among the classes</remarks>
+        </member>
+        <member name="M:Net7_Tools.frmItems.setGuiEnabled(System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+              <para>Enable various GUI items based on the state of the add, delete, and saveCancel parameters</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.setEditor(System.Object,System.EventArgs)">
+            <summary>
+              <para>Callback from the menu to activate a particular editor</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.setEditor(Net7_Tools.frmItems.EditorType,System.Boolean)">
+            <summary>
+              <para>Activate the specified editor</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.getCurrentEditor">
+            <summary>
+              <para>Retrieve the current editor</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.btnNew_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>The _new_ action was triggered by the GUI</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.btnDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>The _delete_ action was triggered by the GUI</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>The _save_ action was triggered by the GUI</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>The _cancel_ action was triggered by the GUI</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.txtSearch_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+              <para>A key was pressed within the search field.  Only
+                    the &lt;enter> key is responded to.</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.frmItems.btnSearch_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>The search button was pressed, display the appropriate search dialog.</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemManufacturingRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemManufacturingRecordManager.enableField(Net7_Tools.Database.DataBinding,System.Data.DataRow,System.Boolean)">
+            <summary>
+            Callback from TableIO
+            </summary>
+            <param name="dataBinding"></param>
+            <param name="dataRow"></param>
+            <param name="enabled"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemManufacturingRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemManufacturingRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemManufacturingRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Database.TableIO.bind(System.Windows.Forms.Control,System.Enum,System.String,System.Boolean)">
+            <summary>
+              <para>Associate a control/widget with a database field.</para>
+              <para>This list is used to automate the display, validation, and update of data.</para>
+            </summary>
+            <returns>The data binding instance created for the control and field association</returns>
+            <param name="control">The control/widget on the form</param>
+            <param name="enumeration">The field within the database</param>
+            <param name="controlName">The name of the control/widget, to be displayed within validation errors</param>
+            <param name="autoEditMode">Whether changes within that field trigger a state change to edit mode</param>
+            <remarks>The returned DataBinding can be used to specify data validations</remarks>
+        </member>
+        <member name="M:Net7_Tools.Database.TableIO.valueChanged(System.Object,System.EventArgs)">
+            <summary>
+              <para>
+                A generic event handler to detect a change in a field
+                and trigger a state change
+              </para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Database.TableIO.recordSearch(System.String)">
+            <summary>
+              <para>Select a record based on the specified select criteria.</para>
+            </summary>
+            <example>String selectCommand = "id = " + currentId;</example>
+        </member>
+        <member name="T:Net7_Tools.Database.TableIO.State">
+            <summary>The possible data states</summary>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemProjectileRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemProjectileRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemProjectileRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemProjectileRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Widgets.FieldSearchDescription.field_Leave(System.Object,System.EventArgs)">
+            <summary>
+              <para>Left the field, update the description if valid</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Widgets.FieldSearchDescription.search_Click(System.Object,System.EventArgs)">
+            <summary>
+              <para>The search button was clicked, display the search dialog, set the field and description.</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemRecordManager.getLevels">
+            <summary>
+              <para>Initialize the possible item levels</para>
+            </summary>
+            <returns>The list of possible item levels</returns>
+            <remarks>The array is indexed from 0 to 8 but the item levels range from 1 to 9</remarks>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemBeamRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemBeamRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemBeamRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemBeamRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Search.FrmAsset.selectItemId(System.String)">
+            <summary>
+              <para>Select the specified item ID if it exists within the tree.</para>
+            </summary>
+            <param name="selectedItemId">The item ID to select.</param>
+        </member>
+        <member name="M:Net7_Tools.Search.FrmAsset.setSelectedItemId(System.String)">
+            <summary>
+              <para>Set the selected item ID.</para>
+            </summary>
+            <remarks>This will be used when the form is shown, to
+            select the item (if it exists) within the tree.</remarks>
+        </member>
+        <member name="M:Net7_Tools.Search.FrmAsset.getSelectedItemId">
+            <summary>
+              <para>Retrieve the selected item ID.</para>
+            </summary>
+            <returns>The selected item ID</returns>
+        </member>
+        <member name="M:Net7_Tools.Search.FrmAsset.resizeImage(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <remarks>Source from:  http://blog.paranoidferret.com/?p=11</remarks>
+        </member>
+        <member name="F:Net7_Tools.Search.FrmAsset.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Search.FrmAsset.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Net7_Tools.Search.FrmAsset.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.getRecordSelectCriteria(System.String)">
+            <summary>
+              <para>Create the appropriate select criteria to perform a search within the DataSet.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+            <example>String selectCommand = "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.#ctor(Net7_Tools.Search.ISearchDialog)">
+            <summary>
+              <para>Constructor</para>
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.getPrimaryId">
+            <summary>
+            Retrieve the id of the primary table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.activate">
+            <summary>
+              <para>Activate this editor</para>
+              <para>Tasks include displaying the proper TabPage and displaying the "first" record</para>
+            </summary>
+            <returns>The DataRow of the "main" table.</returns>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.addTableHandler(System.Windows.Forms.TabPage,Net7_Tools.Database.TableIO)">
+            <summary>
+              <para>Add a "page" to the editor.  Each page is composed of a TabPage,
+                    a TableIO, and a IRecordManager</para>
+              <para>The first "page" is considered the "main" page, linked with the
+                    search actions as well as containing the id to be used in the
+                    other pages.</para>
+            </summary>
+            <param name="tabPage">The TabPage to add.</param>
+            <param name="tableIO">The TableIO to add.</param>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.selectRecord(System.String)">
+            <summary>
+              <para>Select the record corresponding to the specified id.</para>
+            </summary>
+            <param name="selectId">The id to select</param>
+        </member>
+        <member name="M:Net7_Tools.Editor.ItemEditor.getIdFromSearchDialog(System.String)">
+            <summary>
+              <para>Use the search dialog to retrieve an id.</para>
+            </summary>
+            <param name="currentId">The currently selected id</param>
+            <returns>
+                <para>The newly selected id</para>
+            </returns>
+            <remarks>Use the currentId to position the cursor, the initial selection.</remarks>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemDeviceRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemDeviceRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemDeviceRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemDeviceRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemReactorRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemReactorRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemReactorRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemReactorRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemShieldRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemShieldRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemShieldRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemShieldRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+        <member name="T:Net7_Tools.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Net7_Tools.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Net7_Tools.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Net7_Tools.ListViewColumnSorter">
+            <summary>
+            This class is an implementation of the 'IComparer' interface.
+            http://support.microsoft.com/kb/319401
+            </summary>
+        </member>
+        <member name="F:Net7_Tools.ListViewColumnSorter.ColumnToSort">
+            <summary>
+            Specifies the column to be sorted
+            </summary>
+        </member>
+        <member name="F:Net7_Tools.ListViewColumnSorter.OrderOfSort">
+            <summary>
+            Specifies the order in which to sort (i.e. 'Ascending').
+            </summary>
+        </member>
+        <member name="F:Net7_Tools.ListViewColumnSorter.ObjectCompare">
+            <summary>
+            Case insensitive comparer object
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.ListViewColumnSorter.#ctor">
+            <summary>
+            Class constructor.  Initializes various elements
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.ListViewColumnSorter.Compare(System.Object,System.Object)">
+            <summary>
+            This method is inherited from the IComparer interface.  It compares the two objects passed using a case insensitive comparison.
+            </summary>
+            <param name="x">First object to be compared</param>
+            <param name="y">Second object to be compared</param>
+            <returns>The result of the comparison. "0" if equal, negative if 'x' is less than 'y' and positive if 'x' is greater than 'y'</returns>
+        </member>
+        <member name="P:Net7_Tools.ListViewColumnSorter.SortColumn">
+            <summary>
+            Gets or sets the number of the column to which to apply the sorting operation (Defaults to '0').
+            </summary>
+        </member>
+        <member name="P:Net7_Tools.ListViewColumnSorter.Order">
+            <summary>
+            Gets or sets the order of sorting to apply (for example, 'Ascending' or 'Descending').
+            </summary>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemMissileRecordManager.displayField(Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Display the value within the appropriate DataRow column into
+                the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the field has been displayed.</para>
+                <para>False: the field has not been displayed, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemMissileRecordManager.validField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Validate the display the value of the field contained within DataBinding</para>
+            </summary>
+            <returns>
+                <para>The data validation result.</para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemMissileRecordManager.updateField(System.Boolean,Net7_Tools.Database.DataBinding,System.Data.DataRow)">
+            <summary>
+              <para>
+                Update the value within the appropriate DataRow column from
+                the contents of the field within DataBinding</para>
+            </summary>
+            <returns>
+                <para>True: the data has been updated.</para>
+                <para>False: the data has not been updated, use the default code </para>
+            </returns>
+        </member>
+        <member name="M:Net7_Tools.Database.ItemMissileRecordManager.selectDataRowFromId(System.String)">
+            <summary>
+              <para>
+                Compose a select criteria on the specified id.  This criteria
+                will be used to locate the relevant DataRow within the DataSet.
+            </para>
+            </summary>
+            <returns>
+                <para>The appropriate select critera.</para>
+            </returns>
+            <example>return "id = " + currentId;</example>
+        </member>
+    </members>
+</doc>

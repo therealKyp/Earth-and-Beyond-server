@@ -1,0 +1,11 @@
+; sector_1030.txt
+;
+[SECTOR-1030]
+name=Mars Beta
+system=Sol
+sector=Mars Beta
+greetings=We have entered Mars Beta Sector (Sol System).
+
+[STATION-10301]
+station=Arx Prima
+dock=ARX PRIMA STATION CONTROL: Landing clearance granted.

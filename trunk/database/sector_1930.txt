@@ -1,0 +1,12 @@
+; sector_1930.txt
+;
+[SECTOR-1930]
+name=Dahin Mining Interest (Planet Dahin)
+system=Capella
+sector=Dahin Mining Interest (Planet Dahin)
+greetings=We have entered Dahin Mining Interest (Planet Dahin) (apella System).
+
+
+[STATION-19301]
+station= Tokai Saikutsu
+dock= Tokai Saikutsu CONTROL: Docking clearance granted.

@@ -1,0 +1,11 @@
+; sector_1052.txt
+;
+[SECTOR-1052]
+name=Io
+system=Sol
+sector=Io
+greetings=We have entered Io Sector (Sol System).
+
+[STATION-10521]
+station=Nishino Research Facility
+dock=You are cleared for docking at Nishino Research Facility.
